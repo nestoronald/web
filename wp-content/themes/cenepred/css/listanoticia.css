@@ -1,0 +1,93 @@
+
+figure img {
+	width: 100%;
+	height: auto;
+}
+
+/* Grids
+-------------------------------------------------------------- */
+.grid:after {
+	clear: both;
+	content: '';
+	display: table;
+}
+/* Main Content
+-------------------------------------------------------------- */
+
+.mainn {
+    background: #fff;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: 	border-box;
+    box-sizing: 		border-box;
+    padding: 40px;
+}
+
+.mainn-content {
+	float: left;
+	margin-bottom: 0px;
+	width: 105%;
+	margin: auto;
+	margin: -45px 0px;
+}
+
+
+.mainn-content p {
+    margin-bottom: 1em;   
+}
+
+/* Date Navigation for Custom Post Types */
+
+.siten-location h1 {
+	color: #5db2c8;
+    font-size: 20px;
+    /** font-weight: bold; **/
+    margin-bottom: 2px;
+}
+
+
+/* Notas de Prensa */
+.archive-prensa {
+	background: #f1f1f1;
+	-webkit-border-radius: 	6px;
+	-moz-border-radius: 	6px;
+	border-radius: 			6px;
+	margin-bottom: 5px;
+	padding: 10px;
+}
+
+.archive-prensa figure {
+	float: left;
+	width: 23%;
+}
+
+.archive-prensa .nota-details {
+	margin-left: 26%;
+}
+
+.archive-prensa .nota-title {
+	font-size: 13px; /* size titulo */
+	font-weight: bold;
+	margin-bottom: 0.25em;
+}
+
+.archive-prensa a:link,
+.archive-prensa a:visited {
+	color: #666;
+}
+
+.archive-prensa a:hover {
+	text-decoration: underline;
+}
+
+.nota-excerpt {
+	color: #999;
+	line-height: 1.3em;
+	font-size: 12px; /* size detalle */ 
+}
+
+.archive-prensa .entry-meta {
+	color: #999;
+/*	font-size: 0.75em; */
+	font-size: 11px; /* size fecha */ 
+	margin-bottom: 0.75em;
+}

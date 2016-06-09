@@ -1,0 +1,514 @@
+<?php
+/**
+ * Template Name: Homepage
+ *
+ * @package WordPress
+ * @subpackage BlakzrFramework
+ * @since BlakzrFramework 0.1
+ */
+get_header( 'home' ); 
+//  echo '<br>Este:'.dirname( __FILE__ );
+?>
+<link rel="stylesheet" type="text/css" media="all" href="<?php echo get_template_directory_uri();?>/css/direcciones.css">
+<link rel="stylesheet" type="text/css" media="all" href="<?php echo get_template_directory_uri();?>/css/noticias.css">
+<link rel="stylesheet" type="text/css" media="all" href="<?php echo get_template_directory_uri();?>/css/interestecnico.css">
+<link rel="stylesheet" type="text/css" media="all" href="<?php echo get_template_directory_uri();?>/css/tab.css">
+<link rel="stylesheet" type="text/css" media="all" href="<?php echo get_template_directory_uri();?>/css/listanoticia.css">
+ <style type="text/css"> 
+  
+#itselink1 {
+position: relative;
+top: -62px;
+left: 10px;
+width: 100%;
+color: white;
+font: bold 11px Helvetica;
+/*padding: 10px;*/
+cursor:pointer; cursor: hand;
+}   
+
+#itselink2 {
+position: relative;
+top: -58px;
+left: 10px;
+width: 100%;
+color: white;
+font: bold 11px Helvetica;
+/*padding: 10px;*/
+cursor:pointer; cursor: hand;
+}   
+
+#itselink3 {
+position: relative;
+top: -53px;
+left: 10px;
+width: 100%;
+color: white;
+font: bold 11px Helvetica;
+/*padding: 10px;*/
+cursor:pointer; cursor: hand;
+}   
+</style>   
+	<div class="main wrap">
+        
+       <div class="group" style="margin-bottom: 40px;">
+	       <div class="main-content2">
+	           <div class="slide-informes">
+                  <?php if(is_active_sidebar('widget-video-slider')){
+                               dynamic_sidebar('widget-video-slider');
+                         } else{ ?>
+	                 <div class="slider-info flexslider">
+	                    <ul class="slides">
+	                        <?php
+							$home_slider = get_option( 'blakzr_slide_homepage_slider' );
+		
+							foreach ( $home_slider as $slide ) :
+		
+								if ( is_numeric( $slide['url'] ) ) :
+									$the_image = wp_get_attachment_image_src( $slide['url'], 'slide' );
+								else:
+									$the_image = array();
+								endif;
+								   
+								$imagen = $the_image[0]; // echo '<br>'.$imagen;
+								  
+							?>    
+							<li>  
+							   <figure> 
+                               <? //********** temporal **************    							     
+								  $link = $slide['link'];                                                   // echo '<br>'.$slide['link'];
+						//		  $link = str_replace('cenepred.gob.pe', 'localhost/web_cenepred', $link);  // echo '<br>'.$link;
+						//		  $imagen = str_replace('http://localhost/', '../../../../../', $imagen);   // echo '<br>'.$imagen;
+						//        $link = str_replace('cenepred.gob.pe', 'aulavirtual.cenepred.gob.pe:8085/intranet/web_cenepred', $link); // echo '<br>'.$link;
+					  	//	      $imagen = str_replace('http://aulavirtual.cenepred.gob.pe:8085/intranet/', '../../../../../', $imagen);  // echo '<br>'.$imagen;
+					  			  //**********************************
+								  //********** produccion **************
+								  
+							      //$imagen = str_replace('http://cenepred.gob.pe/', '../../../../../', $imagen);  // echo '<br>'.$imagen;
+								  								  
+								  //**********************************
+								  //-- extension --
+								  $counti = strlen($imagen);              // echo '<br>c  : '.$counti;
+								  $extension=substr($imagen,$counti-3,3); // echo '<br>ext: '.$extension;
+								  
+								  $ancho=1300; //1300
+                                  $alto=600;   //600
+                                  $direc='wp-content/themes/cenepred/inc/redimensionar.php?imagen='.trim($imagen).'&ancho='.$ancho.'&alto='.$alto.'&ext='.$extension;
+                                  
+                                  //****
+                                  $direc=$imagen;
+                                  //****
+                                  
+							   ?>   
+							  	<a href="<?php echo $link; ?>">
+								  <img src="<?php echo $direc; ?>" alt="<?php echo $slide['title']; ?>">
+								  	<figcaption>
+							          <h4><?php echo $slide['title']; ?></h4>
+										<?php if ( !empty( $slide['description'] ) ) : ?>
+										<p><?php echo $slide['description']; ?></p>
+										<?php endif; ?>
+									</figcaption>
+								</a>
+							   </figure>
+							</li>
+							<?php
+							endforeach;
+							?>
+	                    </ul>
+	                 </div>
+<?php }?>         
+	            </div>
+	        </div>
+	        
+	        <?php // get_sidebar(); ?>
+	            
+        </div>
+                
+                
+<!-- START BLOQUE2: SECTOR DIRECCIONES -->
+                
+<?php if ( has_nav_menu( 'dir' ) ) : ?>                    
+<?php // wp_nav_menu( array( 'theme_location' => 'dir', 'container' => 'div', 'menu_class' => 'direc', 'depth' => 0, 'walker' => new Description_Walker ) ); ?>
+<?php endif; 
+//echo 'URI:'.get_template_directory_uri();
+?>               		    
+<table border="0" style="width:100%;">         
+<tr>
+<td colspan="2">  
+  <aside class="main-sidebar2">
+    <section class="sidebar-publicaciones">
+      <div class="tit-seccion">Direcciones de L&iacute;nea</div>        
+    </section>
+  </aside>
+</td> 
+<tr>
+<tr>
+ <td align="center"> 
+  <div class="ex2">
+  
+  <section id="entidades2">  
+    <div class="menu-destacados-homepage-container">
+     <ul id="menu-destacados-homepage" class="destacados2 group">
+      <li>
+        <a target="_blank" href="<? echo site_url( '/' );?>comunicados/direccion-de-gestion-de-procesos/" onclick="">
+        <img alt="" src="<?php echo get_template_directory_uri();?>/images/logo/dgp.png" width="150"
+        onmouseover="this.src='<?php echo get_template_directory_uri();?>/images/logo/dgpover.png'"
+        onmouseout="this.src='<?php echo get_template_directory_uri();?>/images/logo/dgp.png'">
+        <p><span class="nav-desc" style="font-size:15px">Direcci&oacute;n de Gesti&oacute;n de Procesos - DGP</span></p>
+        </a> 
+      </li>
+      <li>
+          <a href="<? echo site_url( '/' );?>direccion-de-fortalecimiento-y-asistencia-tecnica/">
+           <img alt="" src="<?php echo get_template_directory_uri();?>/images/logo/difat.png" width="150"
+        onmouseover="this.src='<?php echo get_template_directory_uri();?>/images/logo/difatover.png'"
+        onmouseout="this.src='<?php echo get_template_directory_uri();?>/images/logo/difat.png'">
+           <p></p>
+           <p><span class="nav-desc" style="font-size:15px">Direcci&oacute;n de Fortalecimiento y Asistencia T&eacute;cnica - DIFAT</span></p>
+          </a> 
+      </li>
+      <li>
+         <a href="<? echo site_url( '/' );?>direccion-de-monitoreo-seguimiento-y-evaluacion/">
+            <img alt="" src="<?php echo get_template_directory_uri();?>/images/logo/dimse.png" width="150"
+        onmouseover="this.src='<?php echo get_template_directory_uri();?>/images/logo/dimseover.png'"
+        onmouseout="this.src='<?php echo get_template_directory_uri();?>/images/logo/dimse.png'">
+         <p></p>
+         <p><span class="nav-desc" style="font-size:15px">Direcci&oacute;n de Monitoreo, Seguimiento y Evaluaci&oacute;n - DIMSE</span>
+         </p>
+         </a> 
+      </li>
+      
+     </ul>
+    </div>        
+  </section>
+  
+  </div>
+  </td>
+</tr>  
+</table>
+       
+<!-- END BLOQUE2: SECTOR DIRECCIONES -->      
+<!-- START BLOQUE3: SECTOR TEMAS DE INTERES TECNICO -->  
+
+<table border="0" style="width:100%;">
+  <tr>
+   <td colspan="2">
+      <aside class="main-sidebar3">
+        <section class="sidebar-publicaciones">
+           <div class="tit-seccion">Destacados CENEPRED</div>        
+        </section>
+      </aside>     
+   </td>
+  </tr>
+  
+  <tr>     
+    <td align="center"> 
+<div class="ex3">
+
+<section id="entidades3">  
+ <div>
+    <table border="0" style="width:100%">
+      <tr><td colspan="6" style="height:10px">&nbsp;</td></tr>
+      <tr>
+        <td style="width:90px;">&nbsp;</td>
+        <td><a href="<? echo site_url( '/' );?>sistema-sigrid/" onclick="">
+          <img alt="" src="<?php echo get_template_directory_uri();?>/images/logo/t_sigrid.png"
+           onmouseover="this.src='<?php echo get_template_directory_uri();?>/images/logo/t_sigridover.png'"
+           onmouseout="this.src='<?php echo get_template_directory_uri();?>/images/logo/t_sigrid.png'">
+           <p></p>        
+          </a> 
+        </td>
+        <td style="width:90px;">&nbsp;</td>
+        <td><a href="<? echo site_url( '/' );?>coordinacionyarticulacion/">
+            <img alt="" src="<?php echo get_template_directory_uri();?>/images/logo/t_coordinacion.png"            
+           onmouseover="this.src='<?php echo get_template_directory_uri();?>/images/logo/t_coordinacionover.png'"
+           onmouseout="this.src='<?php echo get_template_directory_uri();?>/images/logo/t_coordinacion.png'">
+         <p></p>         
+         </a> 
+         </td>
+         <td style="width:90px;">&nbsp;</td>
+        <td><a href="<? echo site_url( '/' );?>itse/">
+           <img alt="" src="<?php echo get_template_directory_uri();?>/images/logo/t_itse.png"            
+           onmouseover="this.src='<?php echo get_template_directory_uri();?>/images/logo/t_itseover.png'"
+           onmouseout="this.src='<?php echo get_template_directory_uri();?>/images/logo/t_itse.png'"><p></p> <!-- usemap="#MapItse" -->                 
+        </a>
+      
+      <div id="itselink1"><span><u><a onmouseover="javascript:this.style.color='#CCC';" onmouseout="javascript:this.style.color='#FFF';" target="_blank" 
+      href="http://cenepred.gob.pe/comunicados-itse/" style="color: #FFF">Comunicados</a></u><span></div>     
+      <div id="itselink2"><span><u><a onmouseover="javascript:this.style.color='#CCC';" onmouseout="javascript:this.style.color='#FFF';"  
+      target="_blank" href="http://sigrid.cenepred.gob.pe/ritsev2/" style="color: #FFF">RITSE</a></u><span></div>
+      <div id="itselink3"><span><u><a onmouseover="javascript:this.style.color='#CCC';" onmouseout="javascript:this.style.color='#FFF';"
+      target="_blank" href="http://sigrid.cenepred.gob.pe/ritsev2/busqueda.php" style="color: #FFF">B&uacute;squeda de Inspectores</a></u><span></div>   
+        
+      </td>
+      </tr>
+      <tr><td colspan="6" style="height:20px">&nbsp;</td></tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td><a href="<? echo site_url( '/' );?>escenarios-de-riesgos/">
+           <img alt="" src="<?php echo get_template_directory_uri();?>/images/logo/t_escenarios.png"            
+           onmouseover="this.src='<?php echo get_template_directory_uri();?>/images/logo/t_escenariosover.png'"
+           onmouseout="this.src='<?php echo get_template_directory_uri();?>/images/logo/t_escenarios.png'">
+         <p></p>        
+        </a> </td>
+        <td>&nbsp;</td>
+        <td> <a href="<? echo site_url( '/' );?>oficina-de-cooperacion-y-relaciones-internacionales/">
+            <img alt="" src="<?php echo get_template_directory_uri();?>/images/logo/t_ocri.png"            
+           onmouseover="this.src='<?php echo get_template_directory_uri();?>/images/logo/t_ocriover.png'"
+           onmouseout="this.src='<?php echo get_template_directory_uri();?>/images/logo/t_ocri.png'">
+         <p></p>         
+         </a> </td>
+         <td>&nbsp;</td>
+        <td><a href="<? echo site_url( '/' );?>eventos/"> <!-- notas-de-prensa/  -->
+           <img alt="" src="<?php echo get_template_directory_uri();?>/images/logo/t_curso.png"            
+           onmouseover="this.src='<?php echo get_template_directory_uri();?>/images/logo/t_cursoover.png'"
+           onmouseout="this.src='<?php echo get_template_directory_uri();?>/images/logo/t_curso.png'"> <!-- usemap="#MapPrensa" -->
+           <p></p>           
+        </a> </td>
+      </tr>
+      <tr><td colspan="6" style="height:30px">&nbsp;</td></tr>
+    </table>
+ 
+</div>        
+</section>
+
+<map name="MapItse" id="MapItse">
+  <area shape="rect" coords="0,85,100,45" href="<?php echo site_url( '/' );?>comunicados-itse" />
+  <area shape="rect" coords="0,100,100,40" target="_blank" href="http://sigrid.cenepred.gob.pe/ritsev2" />
+  <area shape="rect" coords="0,110,100,40" target="_blank" href="http://sigrid.cenepred.gob.pe/ritsev2/busqueda.php" />  
+</map>
+
+<map name="MapPrensa" id="MapPrensa">
+  <area shape="rect" coords="0,70,120,45" href="<?php echo site_url( '/' );?>eventos" />
+</map>
+
+</div>
+<? //echo '<br> di: '.get_template_directory_uri(); ?>
+   </td>
+  </tr>
+</table>   
+        
+<!-- END BLOQUE3: SECTOR TEMAS DE INTERES TECNICO -->  
+        
+  <!--      
+<?php if ( has_nav_menu( 'destacados' ) ) : ?>  
+        <section id="entidades">
+            <div class="tit-seccion">Destacados CENEPRED</div>
+            <?php wp_nav_menu( array( 'theme_location' => 'destacados', 'container' => 'div', 'menu_class' => 'destacados group', 'depth' => 0, 'walker' => new Description_Walker_destacados ) ); ?>
+        </section>
+<?php endif; ?>
+-->  
+      
+<!-- START BLOQUE4: SECTOR NOTICIAS && INTERES VIDEO   style="vertical-align:top"-->       
+<table border="0" width="100%">
+<tr>
+   <td>
+      <aside class="main-sidebar5">
+        <section class="sidebar-publicaciones">
+           <div class="tit-seccion">Noticias</div>        
+        </section>
+      </aside>     
+   </td>
+   <td style="width:5%">&nbsp;</td>
+   <td valign="top">
+    <aside class="main-sidebar4">
+     <section class="sidebar-publicaciones">  
+        <div class="tit-seccion">Videos Institucionales</div>
+          <p><span class="nav-desc"></span></p>
+      </section>      
+    </aside>    
+   </td>
+   <td style="width:40px">&nbsp;</td>
+</tr>
+<tr>
+ <td valign="top" width="60%" style="vertical-align:top">   
+  
+  <div class="mainn wrap grid">
+
+		<div class="mainn-content col-8-12">
+		
+		<!--	<nav class="breadcrumbs">
+				<?php
+				// Code to display breadcrumbs from the plugin 'Breadcrumbs NavXT'
+				if ( function_exists( 'bcn_display' ) ) :
+				//	bcn_display(); // echo 'AA';
+				endif;
+				?>
+			</nav> 
+        -->
+		
+		<!--	<div class="site-location">
+				<h1 class="location-title">
+				  <a href="<? echo site_url( '/' );?>notas-de-prensa/">	
+				  <?php // _e('Notas de Prensa', 'blakzr'); ?>
+                  Noticias
+                  </a>
+				</h1>
+			</div> -->
+        	
+			<?php
+				
+				$args = array(
+					'type'				=> 'yearly',
+					'format'			=> 'html', 
+					'before'			=> '',
+					'after'				=> '',
+					'show_post_count'	=> false,
+					'echo'				=> 1,
+					'order'				=> 'DESC',
+					'post_type'			=> 'notas_prensa'
+				);
+				
+			?>
+			
+			<ul class="date-navigation group" data-url="<?php echo get_template_directory_uri(); ?>" data-type="prensa">
+				<?php wp_get_archives( $args ); ?>
+                <input type="hidden" id="short_noticia" name="short_noticia" value="1" /> <!-- Mostrar solo 5 noticias ver js/code.js -->
+			</ul>
+            
+            <?php 
+			  $args = array(
+			        'posts_per_page' 	=> 6,
+         			'order'				=> 'DESC',
+		        	'orderby'	 		=> 'date',
+         			'post_type' 		=> 'notas_prensa',
+		         	'post_status' 		=> 'publish',
+        			'year'  			=> '2016'
+		            );
+				
+		       // echo '<br>HOLA'.$_GET['year'];
+		
+		       $show_posts = new WP_Query( $args ); 
+			?>
+			
+			<div class="archive-updater"> 
+				<?php if ( $show_posts->have_posts() ) :   //echo 'h:'.$show_posts->have_posts(); ?>
+
+					<?php /* Start the Loop */ ?>
+					<?php while ( $show_posts->have_posts() ) : $show_posts->the_post(); ?>
+	
+						<?php
+						$format = get_post_format();
+						if ( false === $format )
+							$format = 'standard';
+						?>
+	
+						<?php get_template_part( 'content', 'nota' ); ?>
+	
+					<?php endwhile; ?>
+	
+					<?php blakzr_content_nav( 'nav-below' ); ?>
+	
+				<?php else : ?>
+	
+				<article id="post-0" class="post no-results not-found">
+					<h1 class="entry-title"><?php _e( 'No se encontro nada', 'blakzr' ); ?></h1>
+					
+					<div class="entry-content">
+						<p><?php _e( 'Disculpas, pero no se han encontrado resultados para el archivo solicitado. Puede que la busqueda le ayudara a encontrar una entrada relacionada.', 'blakzr' ); ?></p>
+						<?php get_search_form(); ?>
+					</div><!-- .entry-content -->
+				</article><!-- #post-0 -->
+	
+				<?php endif; ?>
+			</div>
+			
+			<nav id="nav-below" class="page-navigation group">        
+              <div class="nav-previous"><a href="<? echo site_url( '/' );?>notas-de-prensa/" ><span class="meta-nav">>></span> <span>Ver m&aacute;s noticias</span></a></div>
+            </nav>
+            
+		</div><!-- .main-content -->
+    
+ </td>
+ <td style="width:5%">&nbsp;</td>
+ <td valign="top">
+      
+           <table>
+           <tr><td>
+           
+           <iframe width="395" height="270" src="https://www.youtube.com/embed/zb7PVZt4FR4" frameborder="0" allowfullscreen></iframe>
+           
+           </td>
+           </tr>
+           <tr>
+           <td><div style="margin: auto; margin: -40px 0px;">
+              <?php get_sidebar(); ?>  
+              </div>
+           </td>
+           </tr>
+           </table>    
+   
+   </td>
+ <td style="width:40px">&nbsp;</td>
+</tr>
+</table>     
+<!-- END BLOQUE4: SECTOR NOTICIAS && INTERES VIDEO -->          
+        
+
+<?php  get_footer(); ?>
+
+
+
+<!--
+
+<section id="entidades">
+            <div class="tit-seccion">Destacados CENEPRED</div>
+            <div class="menu-destacados-homepage-container">
+            	<ul id="menu-destacados-homepage" class="destacados group">
+            		<li id="menu-item-212" class="menu-item menu-item-type-custom menu-item-object-custom">
+				<a target="_self" href="http://cenepred.gob.pe/sistema-sigrid/">
+            				<h3>SIGRID</h3>
+            			</a>
+            			<p><span class="nav-desc">Sistema de información para la gestión del riesgo de desastres.</span></p>
+
+<!-- <span class="nav-desc">Video <a href="https://www.youtube.com/watch?v=zb7PVZt4FR4"><img src="http://cenepred.gob.pe/wp-content/uploads/2014/05/sigrid-video-imagen-2.png"></a></span>
+
+            		</li>
+            		<li id="menu-item-213" class="menu-item menu-item-type-post_type menu-item-object-page">
+            			<a href="http://cenepred.gob.pe/coordinacionyarticulacion/">
+            				<h3>Coordinación y Articulación</h3>
+            			</a>
+            			<p></p>
+            		</li>
+            		<li id="menu-item-219" class="menu-item menu-item-type-custom menu-item-object-custom">
+            			<a href="http://cenepred.gob.pe/itse/">
+            				<h3>ITSE</h3>
+            			</a>
+            			
+				<p><span class="nav-desc">Inspecciones Técnicas de Seguridad en Edificaciones</span></p>
+
+				<p></p>
+				<p style="margin-bottom: 15px;"></p>
+				<p><span class="nav-desc">- <a href="http://cenepred.gob.pe/comunicados-itse">Comunicados</a> 
+                <p></p>
+				<p><span class="nav-desc">- <a href=" http://app.cenepred.gob.pe/ritsev2">RITSE</a> 
+                <img src="/wp-content/uploads/2014/09/nnuevo.gif">
+				<p></p>
+				<p><span class="nav-desc">- <a href=" http://app.cenepred.gob.pe/ritsev2/busqueda.php">Búsqueda de Inspectores</a> 
+                <img src="/wp-content/uploads/2014/09/nnuevo.gif">
+				<p></p>
+				</li>
+                
+            		<li id="menu-item-215" class="menu-item menu-item-type-custom menu-item-object-custom">
+            			<a href="http://cenepred.gob.pe/escenarios-de-riesgos">
+            				<h3>Escenarios de Riesgos</h3>
+            			</a>
+            			<p></p>
+            		</li>
+                    
+            		<li id="menu-item-216" class="menu-item menu-item-type-post_type menu-item-object-page">
+            			<a href="http://cenepred.gob.pe/oficina-de-cooperacion-y-relaciones-internacionales/">
+            			<h3>Cooperación y Relaciones Internacionales</h3>
+            			</a>
+            			<p><span class="nav-desc"></span></p>
+            		</li>
+                    
+            		<li id="menu-item-217" class="menu-item menu-item-type-custom menu-item-object-custom">
+            			<a href="http://cenepred.gob.pe/notas-de-prensa/">
+            				<h3>Prensa</h3>
+            			</a>
+            			<p><span class="nav-desc">Noticias, boletines, galería y <a href="http://cenepred.gob.pe/eventos/">agenda de eventos</a>.</span></p>   
+                	</li>
+                    
+          	</ul>
+      </div>
+</section>

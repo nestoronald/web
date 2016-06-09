@@ -1,0 +1,58 @@
+/* Noticias
+-------------------------------------------------------------- */
+/*figure
+{
+	border: 0;
+	font: inherit;
+	font-size: 100%;
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
+} */
+/*
+figure img {
+	width: 100%;
+	height: auto;
+}
+*/
+
+.wrap {
+	margin: auto;
+	margin: 1px 0px; 
+	max-width: 100%; 
+	padding: 0 0px; 
+
+}
+/* Main Content
+-------------------------------------------------------------- */
+.main-content2 {
+	float: left;
+	margin-bottom: 40px;
+/*	width: 65.57377049180327%;  */
+}
+
+
+/* Home Slider
+-------------------------------------------------------------- */
+
+.slides figure {
+	position: relative;
+}
+
+.slides figcaption {
+	background: rgba(0,0,0,0.3);
+	color: #fff;
+	padding: 15px;
+	position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+	text-shadow: 1px 1px 0 rgba(0,0,0,0.5);
+}
+
+.slides figcaption h4 {
+/*	font-size: 1.50em; */
+	font-weight: bold;
+	margin-bottom:35px;
+}
+

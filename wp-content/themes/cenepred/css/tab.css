@@ -1,0 +1,173 @@
+
+   
+.image-informe{
+    display: inline-block;
+    width: 41px;
+    height: 54px;
+}
+   
+.image-informe img {
+	width: 100%;
+	height: auto;
+}
+
+.txt-informe {
+    display: inline-block;
+    line-height: 1.2em;
+    float: right;
+    width: 84%;
+}
+
+.txt-informe h3 a:link,
+.txt-informe h3 a:visited {
+	color: #1a7891;
+	/** font-weight: bold; **/
+}
+
+.txt-informe p {
+	color: #999;
+	font-size: 0.875em;
+}
+
+
+.tit-seccion {
+    border-right: 6px solid #197A8D;
+    border-bottom: 5px solid #197A8D;
+    background: #1a7891;
+    border-radius: 5px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    color: #FFF;
+    font-size: 1.125em;    
+    height: auto;
+    margin-bottom: 18px;
+    min-height: 47px;
+    padding: 16px 6px 10px 28px;
+    width: 100%;
+}
+
+
+.bot-vermas{
+    background: #1a7891;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 0.813em;
+    display: block; 
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 29%;
+    -webkit-transition: all 0.3s ease; 
+    -moz-transition: all 0.3s ease; 
+    -o-transition: all 0.3s ease; 
+    transition: all 0.3s ease;       
+}
+
+.bot-vermas:hover{
+    background: #3999b2;
+} 
+
+.bot-descarga{
+    float: right;
+ /*   background: #aadbe9 url(./img/sprites.png) left bottom no-repeat; */
+    padding: 10px 10px 10px 10px;
+    width: 30%;
+    -webkit-transition: all 0.3s ease; 
+    -moz-transition: all 0.3s ease; 
+    -o-transition: all 0.3s ease; 
+    transition: all 0.3s ease;   
+}
+
+
+/**Para tabs**/
+
+ul.tabs {
+    margin: 0;  
+    padding: 0;  
+    float: left;  
+    list-style: none;  
+    height: auto;  
+    margin-bottom: 8px;
+    width: 100%;
+}
+
+ul.tabs li{
+    background: #1a7891;
+    float: left;  
+    margin-left: 0px;  
+    padding: 0; 
+    overflow: hidden; 
+    position: relative; 
+}
+
+ul.tabs li{
+    width: 25%;
+    line-height: 40px;
+    text-align: center; 
+}
+
+ul.tabs .enfen-tab {
+    line-height: 20px;    
+    word-break: break-word;    
+}
+
+.contenedor .contenido {
+	display: none;
+}
+
+
+
+ul.tabs li:last-child{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+ul.tabs li:first-child{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}    
+
+ul.tabs li a:link,
+ul.tabs li a:visited {
+    text-decoration: none; 
+    color: #fff; 
+    display: block; 
+    font-size: 0.88em; 
+    /** font-weight:bold; **/
+    height: 40px;
+    -webkit-transition: all 0.3s ease; 
+    -moz-transition: all 0.3s ease; 
+    -o-transition: all 0.3s ease; 
+    transition: all 0.3s ease;
+}
+
+ul.tabs li a:hover {
+    background: #3999b2;
+}
+
+ul.tabs li.active, 
+html ul.tabs li.active a:hover {
+    background: #3999b2;
+}
+
+.contenedor{
+  clear: both;
+  padding-top: 20px;
+  background: #eeeeee; 
+} 
+
+.contenedor li{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+/* Main Content
+-------------------------------------------------------------- */
+.main-sidebar {
+	float: center;
+	width: 100%;
+	margin: auto;
+	margin: 35px 0px;
+}
+

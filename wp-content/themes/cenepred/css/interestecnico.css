@@ -1,0 +1,77 @@
+
+/* Main Content
+-------------------------------------------------------------- */
+.main-sidebar3 {
+	float: left;
+	width: 25%;	
+	margin: auto;
+	margin: -15px 40px;
+}
+
+/*
+==========================================
+/** Entidades**/
+
+#entidades3 .tit-seccion {
+	margin-bottom: 40px;	
+}
+
+.destacados3 li {
+    
+    background-position: 195px -22px;
+    -webkit-border-radius:  4px;
+    -moz-border-radius: 	4px;
+    border-radius: 			4px;
+    -webkit-box-sizing:  border-box;
+    -moz-box-sizing: 	 border-box;
+    box-sizing: 		 border-box;
+    display: block;
+    float: left;
+   /* margin: 0 3.278688524590164% 3.278688524590164% 0; */
+    padding: 20px 115px; 
+    padding-bottom: 1;
+    width: 32%; 
+    vertical-align: top;
+    text-align: center;
+}
+/*
+.destacados3 li:hover {
+	background-color: #e2e2e2;
+	background-position: 195px -279px;
+}
+*/
+
+.destacados3 li:nth-child(3n) {
+	margin-right: 0;
+}
+
+/* Efectos imagen */
+.ex3 img {
+width: 220px;
+height: 120px;
+border: 5px solid #eee;
+-webkit-box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+-moz-box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+-webkit-transition: all 0.5s ease-out;
+-moz-transition: all 0.5s ease;
+-ms-transition: all 0.5s ease;
+}
+/*
+.ex3 img {
+margin: 20px;
+border: 5px solid #eee;
+-webkit-box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+-moz-box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+-webkit-transition: all 0.5s ease-out;
+-moz-transition: all 0.5s ease;
+-ms-transition: all 0.5s ease;
+}
+.ex3 img:hover {
+-webkit-transform: rotate(-7deg);
+-moz-transform: rotate(-7deg);
+-ms-transform: rotate(-7deg);
+transform: rotate(-7deg);
+}
+*/

@@ -1,0 +1,150 @@
+
+/* MENU
+-------------------------------------------------------------- */
+ol, ul {
+	margin: 0; 
+ 	padding: 0; 
+	list-style: none;
+}
+
+/* Main Navigation
+-------------------------------------------------------------- */
+
+#nav2 {
+    background: #1a7891;
+    border-bottom: 5px solid #5db2c8;
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: -1px;
+    position: relative;	
+}
+
+
+.navfirstlevel2 > li {
+    display: inline-block;
+    position: relative;
+	font-size:15.5px;   /** Tamaño letra menu **/
+}
+
+.navfirstlevel2 > li:after {
+    background: #1a7891;
+    content: "";
+    position: absolute;
+    right: -2px;
+    width: 1px;
+    height: 31px;
+    top: 11px;
+}
+
+.navfirstlevel2 > li:last-child:after{
+    background: none;
+    width: 0;
+}
+
+.navfirstlevel2 > li > a {
+    color: #FFF;
+    font-size: 1em;
+    font-weight: bold;
+    line-height: 50px;
+    display: block;
+    padding: 0 6px;                            /** reduced from 0 10px; **/
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.15);
+    text-transform: uppercase;
+    -webkit-transition: all 0.3s ease; 
+    -moz-transition: all 0.3s ease; 
+    -o-transition: all 0.3s ease; 
+    transition: all 0.3s ease;   
+}
+
+.navfirstlevel2 > li:hover > a,
+.navfirstlevel2 > li.hover > a {
+     /*background: #1A7891;*/
+    background: #025A72;
+    color: #FFF;
+}
+
+.navfirstlevel2 > li > a[href*='transparencia']:before {
+	background: url(../img/lupa.png);
+	content: '';
+	display: inline-block;
+	margin-right: 6px;
+	width: 12px;
+	height: 12px; 
+}
+
+/* Dropdown - Nivel 2 */
+
+.navfirstlevel2 li ul {
+	background-color: #1a7891;
+	box-shadow: 1px 1px 5px rgba(0,0,0,0.2);
+	display: none;
+	position: absolute;
+		top: 	55px;
+		left: 	0;
+	width: 200px;
+	z-index: 999;	 
+}
+
+.navfirstlevel2 li ul a:link,
+.navfirstlevel2 li ul a:visited {
+	background: #5db2c8; 
+	border-bottom: 1px solid #1a7891;
+	color: #fff;
+	display: block;
+	font-size: 0.938em;
+	padding: 9px 15px;
+	text-decoration: none;
+}
+
+
+.navfirstlevel2 li ul li:last-child a:link,
+.navfirstlevel2 li ul li:last-child a:visited {
+	border-bottom: none;
+}
+
+.navfirstlevel2 li ul a:hover {
+	background-color: #1a7891;
+}
+
+.navfirstlevel2 ul ul {
+	left: 208px;
+	top: 0;
+}
+
+.navfirstlevel2 ul ul:before {
+	border-left: none;
+	border-right: 5px solid #5db2c8;
+	border-top: 5px solid transparent;
+	border-bottom: 5px solid transparent;
+	content: '';
+	position: absolute;
+		top: 50%;
+		left: -5px;
+}
+
+#nav-toggle2 {
+	background: #1a7891;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: 	border-box;
+	box-sizing: 		border-box;
+	color: #fff;
+	display: none;
+	font-size: 1em;
+	font-weight: bold;
+	line-height: 50px;
+	height: 50px;
+	padding-left: 35px;
+	position: relative;
+	text-decoration: none;
+	width: 100%;
+}
+
+#nav-toggle2 span {
+	background: url(img/nav.png);
+	display: block;
+	position: absolute;
+		top: 19px;
+		left: 10px;
+	width: 14px;
+	height: 14px;
+}

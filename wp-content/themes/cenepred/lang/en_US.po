@@ -1,0 +1,827 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PaginasWeb.pe\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-11-06 16:10-0500\n"
+"PO-Revision-Date: 2013-11-06 16:50-0500\n"
+"Last-Translator: Harold Coronado <harold@blakzr.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;_x;_n;_ex\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: Spanish\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../archive-servicios.php:67
+#: ../archive-servicios.php:112
+msgid "There's no entries available yet."
+msgstr ""
+
+#: ../archive-servicios.php:119
+#: ../single-servicios.php:52
+msgid "contactanos"
+msgstr "contact us"
+
+#: ../archive.php:19
+#, php-format
+msgid "Categoría: %s"
+msgstr "Category: %s"
+
+#: ../archive.php:22
+#, php-format
+msgid "Etiqueta: %s"
+msgstr "Tag: %s"
+
+#: ../archive.php:29
+#, php-format
+msgid "Entradas por %s"
+msgstr "Posts by %s"
+
+#: ../archive.php:39
+#, php-format
+msgid "Archivos Diarios: %s"
+msgstr "Daily Archives: %s"
+
+#: ../archive.php:42
+#, php-format
+msgid "Archivos Mensuales: %s"
+msgstr "Monthly Archives: %s"
+
+#: ../archive.php:45
+#, php-format
+msgid "Archivos Anuales: %s"
+msgstr "Yearly Archives: %s"
+
+#: ../archive.php:48
+msgid "Archivos"
+msgstr "Archives"
+
+#: ../archive.php:105
+#: ../index.php:57
+#: ../search.php:52
+msgid "No se encontró nada"
+msgstr "Nothing Found"
+
+#: ../archive.php:108
+#: ../index.php:60
+#: ../search.php:55
+msgid "Disculpas, pero no se han encontrado resultados para el archivo solicitado. Puede que la búsqueda le ayudará a encontrar una entrada relacionada."
+msgstr "Apologies, but no results were found for the requested archive. Perhaps searching will help you find a related post."
+
+#: ../comments.php:20
+msgid "Este post está protegido con contraseña. Ingrese la contraseña para ver los comentarios."
+msgstr "This post is password protected. Enter the password to view comments."
+
+#: ../comments.php:36
+msgid "Un Comentario"
+msgstr "One Comment"
+
+#: ../comments.php:43
+#: ../comments.php:60
+msgid "&larr; Comentarios Antiguos"
+msgstr "&larr; Older Comments"
+
+#: ../comments.php:44
+#: ../comments.php:61
+msgid "Nuevos Comentarios &rarr;"
+msgstr "Newer Comments &rarr;"
+
+#: ../comments.php:71
+msgid "Comments are closed."
+msgstr ""
+
+#: ../comments.php:79
+msgid "Deja un Comentario"
+msgstr "Leave a Comment"
+
+#: ../comments.php:79
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: ../comments.php:79
+msgid "Cencelar respuesta"
+msgstr "Cancel reply"
+
+#: ../comments.php:82
+#, php-format
+msgid "Debes estar <a href=\"%s\">logeado</a> para postear un comentario."
+msgstr "You should be <a href=\"%s\">logged in</a> to post a comment."
+
+#: ../comments.php:90
+#, php-format
+msgid "Has ingresado como <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Cerrar sesión de esta cuenta\">Log out?</a>"
+msgstr "Has ingresado como <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Cerrar sesión de esta cuenta\">Log out?</a>"
+
+#: ../comments.php:91
+msgid "Comment"
+msgstr ""
+
+#: ../comments.php:93
+#: ../comments.php:110
+msgid "Tu Comentario*"
+msgstr "Your Comment*"
+
+#: ../comments.php:96
+#: ../comments.php:112
+msgid "Publicar Comentario"
+msgstr "Publish Comment"
+
+#: ../comments.php:101
+#, php-format
+msgid "Tu dirección de correo electrónico no será publicada. Los campos requeridos están marcados con %1$s*%2$s"
+msgstr "Your email address will not be published. Required fields are marked with %1$s*%2$s"
+
+#: ../comments.php:104
+msgid "Nombre*"
+msgstr "Name*"
+
+#: ../comments.php:105
+msgid "E-mail*"
+msgstr "E-mail*"
+
+#: ../comments.php:106
+msgid "Sitio Web"
+msgstr "Website"
+
+#: ../content-blog.php:33
+msgid "Sin comentarios"
+msgstr "No comments"
+
+#: ../content-blog.php:33
+msgid "1 comentario"
+msgstr "1 comment"
+
+#: ../content-blog.php:33
+#, php-format
+msgid "% comentarios"
+msgstr "% comments"
+
+#: ../content-blog.php:44
+#: ../content.php:21
+#: ../page.php:42
+msgid "0"
+msgstr ""
+
+#: ../content-blog.php:44
+#: ../content.php:21
+#: ../page.php:42
+msgid "1"
+msgstr ""
+
+#: ../content-blog.php:44
+#: ../content.php:21
+#: ../page.php:42
+msgid "%"
+msgstr ""
+
+#: ../content-blog.php:48
+#: ../content-search.php:14
+#: ../content.php:32
+msgid "Leer más &rarr;"
+msgstr "Read more &rarr;"
+
+#: ../content.php:36
+msgid "Continuar leyendo <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Continuar leyendo <span class=\"meta-nav\">&rarr;</span>"
+
+#: ../content.php:37
+#: ../page.php:48
+#: ../single-servicios.php:45
+#: ../template-contact.php:93
+msgid "Páginas:"
+msgstr "Pages:"
+
+#: ../content.php:38
+msgid "Editar este post"
+msgstr "Edit this post"
+
+#: ../footer.php:14
+msgid "Just a Static Widget"
+msgstr ""
+
+#: ../footer.php:15
+#: ../sidebar.php:14
+msgid "This is not a real widget. Just a placeholder. You can put any other available widgets in this area. Try it, what are you waiting for?"
+msgstr ""
+
+#: ../functions.php:24
+msgid "<span class=\"meta-nav\">&larr;</span> <span>Entradas antiguas</span>"
+msgstr ""
+
+#: ../functions.php:25
+msgid "<span>Entradas recientes</span> <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../functions.php:58
+msgid "Etiquetas: "
+msgstr ""
+
+#: ../functions.php:95
+#, php-format
+msgid "Ver más posts de %s"
+msgstr "View more posts from %s"
+
+#: ../functions.php:111
+msgid "Entradas Relacionadas"
+msgstr "Related Posts"
+
+#: ../functions.php:182
+msgid "Pingback:"
+msgstr ""
+
+#: ../functions.php:182
+#: ../functions.php:205
+msgid "Editar"
+msgstr "Edit"
+
+#: ../functions.php:193
+msgid "Autor"
+msgstr "Author"
+
+#: ../functions.php:193
+msgid "en"
+msgstr "in"
+
+#: ../functions.php:198
+#, php-format
+msgid "%1$s a las %2$s"
+msgstr "%1$s at %2$s"
+
+#: ../functions.php:202
+msgid "&rarr; Tu comentario está pendiente de moderación."
+msgstr "&rarr; Your comment will be approved shortly."
+
+#: ../functions.php:206
+msgid "Reply"
+msgstr ""
+
+#: ../functions.php:276
+msgid "Opciones"
+msgstr "Opciones"
+
+#: ../functions.php:289
+msgid "Subtítulo:"
+msgstr "Subtitle:"
+
+#: ../functions.php:414
+msgid "Navegación primaria"
+msgstr "Primary navigation"
+
+#: ../functions.php:415
+msgid "Menú Servicios"
+msgstr "Services menu"
+
+#: ../header.php:34
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: ../header.php:88
+msgid "Navegación"
+msgstr "Navigation"
+
+#: ../header.php:93
+msgid "Home"
+msgstr ""
+
+#: ../page.php:47
+#: ../single-servicios.php:44
+#: ../template-contact.php:34
+msgid "Continúe leyendo <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Keep reading <span class=\"meta-nav\">&rarr;</span>"
+
+#: ../page.php:49
+#: ../single-servicios.php:46
+#: ../template-contact.php:94
+msgid "Edite esta página"
+msgstr "Edit this page"
+
+#: ../search.php:15
+#, php-format
+msgid "Resultados para: %s"
+msgstr "Results for: %s"
+
+#: ../sidebar.php:13
+msgid "Sample Widget"
+msgstr ""
+
+#: ../template-contact.php:48
+msgid "Mensaje desde "
+msgstr "Message from "
+
+#: ../template-contact.php:50
+msgid "Nombre:"
+msgstr "Name: "
+
+#: ../template-contact.php:51
+msgid "Empresa:"
+msgstr "Company: "
+
+#: ../template-contact.php:52
+msgid "Email:"
+msgstr ""
+
+#: ../template-contact.php:53
+msgid "Mensaje:"
+msgstr "Message: "
+
+#: ../template-contact.php:61
+msgid "Su consulta ha sido enviada."
+msgstr "Your request has been sent."
+
+#: ../template-contact.php:66
+msgid "Su nombre*"
+msgstr "Your name*"
+
+#: ../template-contact.php:67
+#: ../template-contact.php:86
+msgid "Este campo es obligatorio."
+msgstr "This field is required."
+
+#: ../template-contact.php:70
+msgid "Su empresa"
+msgstr "Your company"
+
+#: ../template-contact.php:73
+msgid "Email*"
+msgstr ""
+
+#: ../template-contact.php:74
+#: ../template-contact.php:82
+msgid "Ingrese una dirección de email válida."
+msgstr "Enter a valid email address."
+
+#: ../template-contact.php:85
+msgid "Su consulta"
+msgstr "Your inquiry"
+
+#: ../template-contact.php:88
+msgid "Enviar"
+msgstr "Send"
+
+#: ../template-home.php:17
+msgid "servicios"
+msgstr "services"
+
+#: ../functions/cpt-servicios.php:15
+#: ../functions/panel.php:19
+msgid "Servicios"
+msgstr "Services"
+
+#: ../functions/cpt-servicios.php:16
+msgid "Servicio"
+msgstr "Service"
+
+#: ../functions/cpt-servicios.php:17
+msgid "Añadir Nuevo"
+msgstr "Add New"
+
+#: ../functions/cpt-servicios.php:18
+msgid "Añadir Nuevo Servicio"
+msgstr "Add New Service"
+
+#: ../functions/cpt-servicios.php:19
+msgid "Editar Servicio"
+msgstr "Edit Service"
+
+#: ../functions/cpt-servicios.php:20
+msgid "Nuevo Servicio"
+msgstr "New Service"
+
+#: ../functions/cpt-servicios.php:21
+msgid "Ver Servicio"
+msgstr "View Service"
+
+#: ../functions/cpt-servicios.php:22
+msgid "Buscar Servicios"
+msgstr "Search Services"
+
+#: ../functions/cpt-servicios.php:23
+msgid "No se encontraron Servicios"
+msgstr "Services not found"
+
+#: ../functions/cpt-servicios.php:24
+msgid "No se encontraron Servicio en la papelera"
+msgstr "Service not found in the trash"
+
+#: ../functions/cpt-servicios.php:52
+msgid "Opciones de Servicio"
+msgstr "Service Options"
+
+#: ../functions/cpt-servicios.php:67
+msgid "Subtítulo"
+msgstr "Subtitle"
+
+#: ../functions/cpt-servicios.php:72
+msgid "Subtítulo del servicio"
+msgstr "Service's Subtitle"
+
+#: ../functions/cpt-servicios.php:77
+msgid "Título para listado"
+msgstr "Title for listing"
+
+#: ../functions/cpt-servicios.php:82
+msgid "Título listado"
+msgstr "Listing Title"
+
+#: ../functions/cpt-servicios.php:87
+msgid "Subtítulo para listado"
+msgstr "Subtitle for listing"
+
+#: ../functions/cpt-servicios.php:92
+msgid "Subtítulo listado"
+msgstr "Listing Subtitle"
+
+#: ../functions/cpt-servicios.php:97
+msgid "URL Personalizada"
+msgstr "Custom URL"
+
+#: ../functions/cpt-servicios.php:102
+msgid "URL de redirección"
+msgstr "Redirection URL"
+
+#: ../functions/cpt-servicios.php:135
+msgid "Thumbnail"
+msgstr ""
+
+#: ../functions/cpt-servicios.php:136
+msgid "Photo Title"
+msgstr ""
+
+#: ../functions/cpt-servicios.php:137
+msgid "Tags"
+msgstr ""
+
+#: ../functions/cpt-servicios.php:138
+msgid "<span><span class=\"vers\"><div title=\"Comments\" class=\"comment-grey-bubble\"></div></span></span>"
+msgstr ""
+
+#: ../functions/cpt-servicios.php:139
+msgid "Date"
+msgstr ""
+
+#: ../functions/panel.php:16
+msgid "General"
+msgstr ""
+
+#: ../functions/panel.php:17
+msgid "Diseño"
+msgstr "Design"
+
+#: ../functions/panel.php:18
+msgid "Inicio"
+msgstr "Home"
+
+#: ../functions/panel.php:20
+msgid "Blog"
+msgstr ""
+
+#: ../functions/panel.php:29
+msgid "RSS personalizado"
+msgstr ""
+
+#: ../functions/panel.php:30
+msgid "Pegue la URL de su RSS personalizado (example: una URL de FeedBurner)."
+msgstr ""
+
+#: ../functions/panel.php:38
+msgid "Favicon"
+msgstr ""
+
+#: ../functions/panel.php:39
+msgid "Pegue la URL del ícono aquí o suba uno nuevo."
+msgstr ""
+
+#: ../functions/panel.php:47
+msgid "Código de Seguimiento"
+msgstr ""
+
+#: ../functions/panel.php:48
+msgid "Pegue aquí cualquier código de seguimiento para su sitio. Este código será usado en cada página. Por ejemplo, si usted usa Google Analytics, pegue su código de Analytics aquí."
+msgstr ""
+
+#: ../functions/panel.php:55
+#: ../functions/panel.php:65
+msgid "Email de destino"
+msgstr ""
+
+#: ../functions/panel.php:56
+msgid "Ingrese la dirección de email para recebir los mensajes enviados por sus usuarios a través de la plantilla de Contacto."
+msgstr ""
+
+#: ../functions/panel.php:57
+#: ../functions/panel.php:67
+msgid "Ingrese la dirección de email"
+msgstr ""
+
+#: ../functions/panel.php:66
+msgid "Ingrese la dirección de email mostrada en la cabecera."
+msgstr ""
+
+#: ../functions/panel.php:75
+msgid "Teléfono (Lima)"
+msgstr ""
+
+#: ../functions/panel.php:76
+msgid "Número de teléfono para Lima."
+msgstr ""
+
+#: ../functions/panel.php:77
+#: ../functions/panel.php:87
+msgid "Ingrese el teléfono"
+msgstr ""
+
+#: ../functions/panel.php:85
+msgid "Teléfono (Miami)"
+msgstr ""
+
+#: ../functions/panel.php:86
+msgid "Número de teléfono para Miami."
+msgstr ""
+
+#: ../functions/panel.php:95
+msgid "Sidebar Position"
+msgstr ""
+
+#: ../functions/panel.php:96
+msgid "Choose the position for the sidebar."
+msgstr ""
+
+#: ../functions/panel.php:101
+msgid "Right"
+msgstr ""
+
+#: ../functions/panel.php:105
+msgid "Left"
+msgstr ""
+
+#: ../functions/panel.php:118
+#: ../functions/panel.php:158
+msgid "Título (H1)"
+msgstr ""
+
+#: ../functions/panel.php:119
+msgid "Título principal del Home"
+msgstr ""
+
+#: ../functions/panel.php:120
+#: ../functions/panel.php:140
+#: ../functions/panel.php:160
+#: ../functions/panel.php:180
+#: ../functions/panel.php:220
+msgid "Ingrese el título"
+msgstr ""
+
+#: ../functions/panel.php:128
+#: ../functions/panel.php:168
+msgid "Subítulo (H2)"
+msgstr ""
+
+#: ../functions/panel.php:129
+msgid "Subítulo principal del Home"
+msgstr ""
+
+#: ../functions/panel.php:130
+#: ../functions/panel.php:150
+#: ../functions/panel.php:170
+#: ../functions/panel.php:190
+#: ../functions/panel.php:230
+msgid "Ingrese el subtítulo"
+msgstr ""
+
+#: ../functions/panel.php:138
+msgid "Título Sección Clientes (H3)"
+msgstr ""
+
+#: ../functions/panel.php:139
+msgid "Título de la sección Clientes"
+msgstr ""
+
+#: ../functions/panel.php:148
+msgid "Subtítulo Sección Clientes (H4)"
+msgstr ""
+
+#: ../functions/panel.php:149
+msgid "Subítulo de la sección Clientes"
+msgstr ""
+
+#: ../functions/panel.php:159
+msgid "Título principal"
+msgstr ""
+
+#: ../functions/panel.php:169
+msgid "Subítulo principal"
+msgstr ""
+
+#: ../functions/panel.php:178
+msgid "Título para Servicios secundarios (H3)"
+msgstr ""
+
+#: ../functions/panel.php:179
+msgid "Título de la sección de Servicios secundarios"
+msgstr ""
+
+#: ../functions/panel.php:188
+msgid "Subtítulo para Servicios secundarios (H4)"
+msgstr ""
+
+#: ../functions/panel.php:189
+msgid "Subítulo de la sección de Servicios secundarios"
+msgstr ""
+
+#: ../functions/panel.php:198
+msgid "Título (Botón)"
+msgstr ""
+
+#: ../functions/panel.php:199
+msgid "Título para el botón de contacto"
+msgstr ""
+
+#: ../functions/panel.php:200
+msgid "Título"
+msgstr ""
+
+#: ../functions/panel.php:208
+msgid "Texto (Botón)"
+msgstr ""
+
+#: ../functions/panel.php:209
+msgid "Texto del botón de contacto"
+msgstr ""
+
+#: ../functions/panel.php:210
+msgid "Texto del botón"
+msgstr ""
+
+#: ../functions/panel.php:218
+msgid "Título del Blog"
+msgstr ""
+
+#: ../functions/panel.php:219
+msgid "Título principal del Blog"
+msgstr ""
+
+#: ../functions/panel.php:228
+msgid "Subtítulo del Blog"
+msgstr ""
+
+#: ../functions/panel.php:229
+msgid "Subítulo para el Blog"
+msgstr ""
+
+#: ../functions/panel.php:279
+msgid "Theme Options"
+msgstr ""
+
+#: ../functions/panel.php:279
+#: ../functions/panel.php:287
+#: ../functions/panel.php:304
+msgid "Opciones del Tema"
+msgstr ""
+
+#: ../functions/panel.php:315
+msgid "Settings saved"
+msgstr ""
+
+#: ../functions/panel.php:326
+#: ../functions/panel.php:639
+msgid "Guardar Cambios"
+msgstr ""
+
+#: ../functions/panel.php:445
+msgid "Upload"
+msgstr ""
+
+#: ../functions/panel.php:631
+msgid "Reset"
+msgstr ""
+
+#: ../functions/shortcodes.php:255
+msgid "Tab"
+msgstr ""
+
+#: ../functions/shortcodes.php:276
+msgid "Section"
+msgstr ""
+
+#: ../functions/widgets.php:11
+msgid "Sidebar Principal"
+msgstr ""
+
+#: ../functions/widgets.php:13
+msgid "Sidebar principal del sitio"
+msgstr ""
+
+#: ../functions/widgets.php:21
+msgid "Footer"
+msgstr ""
+
+#: ../functions/widgets.php:23
+msgid "Área de Widgets para el Footer"
+msgstr ""
+
+#: ../functions/widgets.php:38
+msgid "Show your Twitter stream"
+msgstr ""
+
+#: ../functions/widgets.php:44
+msgid "Latest Tweets"
+msgstr ""
+
+#: ../functions/widgets.php:77
+msgid "Tweets can't be loaded"
+msgstr ""
+
+#: ../functions/widgets.php:90
+msgid "By"
+msgstr ""
+
+#: ../functions/widgets.php:131
+#: ../functions/widgets.php:194
+#: ../functions/widgets.php:261
+#: ../functions/widgets.php:371
+msgid "Title:"
+msgstr ""
+
+#: ../functions/widgets.php:135
+msgid "Username"
+msgstr ""
+
+#: ../functions/widgets.php:139
+msgid "Number of tweets to show"
+msgstr ""
+
+#: ../functions/widgets.php:144
+msgid "Show retweets"
+msgstr ""
+
+#: ../functions/widgets.php:159
+msgid "Display a YouTube or Vimeo video"
+msgstr ""
+
+#: ../functions/widgets.php:160
+msgid "Video"
+msgstr ""
+
+#: ../functions/widgets.php:165
+msgid "Featured Video"
+msgstr ""
+
+#: ../functions/widgets.php:202
+msgid "URL:"
+msgstr ""
+
+#: ../functions/widgets.php:217
+msgid "Display a map from Google Maps"
+msgstr ""
+
+#: ../functions/widgets.php:218
+#: ../functions/widgets.php:223
+msgid "Map"
+msgstr ""
+
+#: ../functions/widgets.php:265
+msgid "Latitude:"
+msgstr ""
+
+#: ../functions/widgets.php:269
+msgid "Longitude:"
+msgstr ""
+
+#: ../functions/widgets.php:273
+msgid "Map Type:"
+msgstr ""
+
+#: ../functions/widgets.php:289
+msgid "Zoom:"
+msgstr ""
+
+#: ../functions/widgets.php:303
+msgid "Map Height:"
+msgstr ""
+
+#: ../functions/widgets.php:320
+msgid "Display your social networks. Set them on the 'Social Links' tab in the Theme Options page"
+msgstr ""
+
+#: ../functions/widgets.php:321
+msgid "Social Links"
+msgstr ""
+
+#: ../functions/widgets.php:326
+msgid "Follow us on"
+msgstr ""
+
+#: ../functions/widgets.php:349
+#: ../functions/widgets.php:351
+msgid "RSS"
+msgstr ""
+
+#: ../functions/widgets.php:375
+msgid "Description:"
+msgstr ""
+

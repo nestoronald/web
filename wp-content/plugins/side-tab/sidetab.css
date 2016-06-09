@@ -1,0 +1,65 @@
+.drawer ul{
+    margin:0px;
+}
+.drawer_content h3.widgettitle {
+    font-family:Helvetica, Arial, sans-serif;
+    color:#ffffff;
+    font-size:15px;
+    font-weight:400;
+}
+.tab {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:;
+	background:#000000;
+	position:absolute;
+	right:-24px;
+	width:24px;
+	text-align:center;
+	color:#ffffff;
+	padding:9px 0;
+	opacity:0.85;
+	-moz-border-radius-topright:10px;
+	-moz-border-radius-bottomright:10px;
+	-webkit-border-top-right-radius:10px;
+	-webkit-border-bottom-right-radius:10px;	
+}
+.tab span {
+	display:block;
+	height:12px;
+	padding:1px 0;
+	line-height:12px;
+	text-transform:uppercase;
+	font-size:12px;
+}
+.drawer {
+	padding:0;
+	z-index:5000;
+	position:fixed;
+	top:0px;
+    text-align: left;
+}
+.drawer_content {
+	opacity:0.85;
+	padding:20px;
+	background:#000000;
+	overflow:hidden;
+}
+.drawer li.widget {
+	margin-bottom:35px;
+}
+/* drawer-specific settings */
+#tab_1 {
+    top:20px;
+}
+#drawer_1 {
+	left:-203px;
+}
+#drawer_content_1 {
+	width:163px;
+	
+}
+* html #drawer_1 {
+	position: absolute; 
+	top: expression((0 + (ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop)) + 'px'); 
+	left:-203px;
+}
