@@ -63,43 +63,7 @@ cursor:pointer; cursor: hand;
                   else{ ?>
 	                 <div class="slider-info flexslider">
 	                    <ul class="slides">
-	                        <?php
-              							$home_slider = get_option( 'blakzr_slide_homepage_slider' );
-                            //var_dump($home_slider);              		
-              							foreach ( $home_slider as $slide ) :              		
-              								if ( is_numeric( $slide['url'] ) ) :
-              									$the_image = wp_get_attachment_image_src( $slide['url'], 'slide' );
-              								else:
-              									$the_image = array();
-              								endif;              								   
-              								$imagen = $the_image[0]; 
-              								  
-              							?>    
-              							<li>  
-              							   <figure> 
-                                <? 
-              								  $link = $slide['link'];                                                  
-              								  $counti = strlen($imagen);              
-              								  $extension=substr($imagen,$counti-3,3); 
-              								  $ancho=1300; 
-                                $alto=600;   
-                                $direc='wp-content/themes/cenepred/inc/redimensionar.php?imagen='.trim($imagen).'&ancho='.$ancho.'&alto='.$alto.'&ext='.$extension;
-                                $direc=$imagen;                                                
-              							   ?>   
-              							  	<a href="<?php echo $link; ?>">
-              								  <img src="<?php echo $direc; ?>" alt="<?php echo $slide['title']; ?>">
-              								  	<figcaption>
-              							          <h4><?php echo $slide['title']; ?></h4>
-              										    <?php if ( !empty( $slide['description'] ) ) : ?>
-              										    <p><?php echo $slide['description']; ?></p>
-              										<?php endif; ?>
-              									</figcaption>
-              								  </a>
-              							   </figure>
-              							</li>
-              							<?php
-              							endforeach;
-              							?>
+	                        <?php echo "slider" ?>
 	                    </ul>
 	                 </div>
                 <?php }?>         
@@ -116,6 +80,7 @@ cursor:pointer; cursor: hand;
 <?php endif; 
 ?>  
 <div class="area">
+  <h3>Direcciones de linea</h3>
   <ul>
     <li><a id="btn-dpg" href="http://192.168.2.20/web/direccion-de-fortalecimiento-y-asistencia-tecnica/">Dirección de Gestión de Procesos - DGP</a></li>
     <li><a id="btn-difat" href="http://192.168.2.20/web/direccion-de-fortalecimiento-y-asistencia-tecnica/">Dirección de Fortalecimiento y Asistencia Técnica - DIFAT</a></li>
@@ -124,105 +89,19 @@ cursor:pointer; cursor: hand;
 </div>
        
 <!-- END BLOQUE2: SECTOR DIRECCIONES -->      
-<!-- START BLOQUE3: SECTOR TEMAS DE INTERES TECNICO -->  
+<!-- START BLOQUE3: SECTOR TEMAS DE INTERES TECNICO --> 
 
-<table border="0" style="width:100%;">
-  <tr>
-   <td colspan="2">
-      <aside class="main-sidebar3">
-        <section class="sidebar-publicaciones">
-           <div class="tit-seccion">Destacados CENEPRED</div>        
-        </section>
-      </aside>     
-   </td>
-  </tr>
-  
-  <tr>     
-    <td align="center"> 
-<div class="ex3">
-
-<section id="entidades3">  
- <div>
-    <table border="0" style="width:100%">
-      <tr><td colspan="6" style="height:10px">&nbsp;</td></tr>
-      <tr>
-        <td style="width:90px;">&nbsp;</td>
-        <td><a href="<? echo site_url( '/' );?>sistema-sigrid/" onclick="">
-          <img alt="" src="<?php echo get_template_directory_uri();?>/images/logo/t_sigrid.png"
-           onmouseover="this.src='<?php echo get_template_directory_uri();?>/images/logo/t_sigridover.png'"
-           onmouseout="this.src='<?php echo get_template_directory_uri();?>/images/logo/t_sigrid.png'">
-           <p></p>        
-          </a> 
-        </td>
-        <td style="width:90px;">&nbsp;</td>
-        <td><a href="<? echo site_url( '/' );?>coordinacionyarticulacion/">
-            <img alt="" src="<?php echo get_template_directory_uri();?>/images/logo/t_coordinacion.png"            
-           onmouseover="this.src='<?php echo get_template_directory_uri();?>/images/logo/t_coordinacionover.png'"
-           onmouseout="this.src='<?php echo get_template_directory_uri();?>/images/logo/t_coordinacion.png'">
-         <p></p>         
-         </a> 
-         </td>
-         <td style="width:90px;">&nbsp;</td>
-        <td><a href="<? echo site_url( '/' );?>itse/">
-           <img alt="" src="<?php echo get_template_directory_uri();?>/images/logo/t_itse.png"            
-           onmouseover="this.src='<?php echo get_template_directory_uri();?>/images/logo/t_itseover.png'"
-           onmouseout="this.src='<?php echo get_template_directory_uri();?>/images/logo/t_itse.png'"><p></p> <!-- usemap="#MapItse" -->                 
-        </a>
-      
-      <div id="itselink1"><span><u><a onmouseover="javascript:this.style.color='#CCC';" onmouseout="javascript:this.style.color='#FFF';" target="_blank" 
-      href="http://cenepred.gob.pe/comunicados-itse/" style="color: #FFF">Comunicados</a></u><span></div>     
-      <div id="itselink2"><span><u><a onmouseover="javascript:this.style.color='#CCC';" onmouseout="javascript:this.style.color='#FFF';"  
-      target="_blank" href="http://sigrid.cenepred.gob.pe/ritsev2/" style="color: #FFF">RITSE</a></u><span></div>
-      <div id="itselink3"><span><u><a onmouseover="javascript:this.style.color='#CCC';" onmouseout="javascript:this.style.color='#FFF';"
-      target="_blank" href="http://sigrid.cenepred.gob.pe/ritsev2/busqueda.php" style="color: #FFF">B&uacute;squeda de Inspectores</a></u><span></div>   
-        
-      </td>
-      </tr>
-      <tr><td colspan="6" style="height:20px">&nbsp;</td></tr>
-      <tr>
-        <td>&nbsp;</td>
-        <td><a href="<? echo site_url( '/' );?>escenarios-de-riesgos/">
-           <img alt="" src="<?php echo get_template_directory_uri();?>/images/logo/t_escenarios.png"            
-           onmouseover="this.src='<?php echo get_template_directory_uri();?>/images/logo/t_escenariosover.png'"
-           onmouseout="this.src='<?php echo get_template_directory_uri();?>/images/logo/t_escenarios.png'">
-         <p></p>        
-        </a> </td>
-        <td>&nbsp;</td>
-        <td> <a href="<? echo site_url( '/' );?>oficina-de-cooperacion-y-relaciones-internacionales/">
-            <img alt="" src="<?php echo get_template_directory_uri();?>/images/logo/t_ocri.png"            
-           onmouseover="this.src='<?php echo get_template_directory_uri();?>/images/logo/t_ocriover.png'"
-           onmouseout="this.src='<?php echo get_template_directory_uri();?>/images/logo/t_ocri.png'">
-         <p></p>         
-         </a> </td>
-         <td>&nbsp;</td>
-        <td><a href="<? echo site_url( '/' );?>eventos/"> <!-- notas-de-prensa/  -->
-           <img alt="" src="<?php echo get_template_directory_uri();?>/images/logo/t_curso.png"            
-           onmouseover="this.src='<?php echo get_template_directory_uri();?>/images/logo/t_cursoover.png'"
-           onmouseout="this.src='<?php echo get_template_directory_uri();?>/images/logo/t_curso.png'"> <!-- usemap="#MapPrensa" -->
-           <p></p>           
-        </a> </td>
-      </tr>
-      <tr><td colspan="6" style="height:30px">&nbsp;</td></tr>
-    </table>
- 
-</div>        
-</section>
-
-<map name="MapItse" id="MapItse">
-  <area shape="rect" coords="0,85,100,45" href="<?php echo site_url( '/' );?>comunicados-itse" />
-  <area shape="rect" coords="0,100,100,40" target="_blank" href="http://sigrid.cenepred.gob.pe/ritsev2" />
-  <area shape="rect" coords="0,110,100,40" target="_blank" href="http://sigrid.cenepred.gob.pe/ritsev2/busqueda.php" />  
-</map>
-
-<map name="MapPrensa" id="MapPrensa">
-  <area shape="rect" coords="0,70,120,45" href="<?php echo site_url( '/' );?>eventos" />
-</map>
-
+<div class="aplicaciones">
+  <h3>Plataforma en linea</h3>
+  <ul>
+    <li><a id="btn-sigrid" href="#">SIGRID</a></li>
+    <li><a id="btn-siide" href="#">SIIDE</a></li>
+    <li><a id="btn-simse" href="#">SIMSE</a></li>
+    <li><a id="btn-sigrid-collet" href="#">SIGRID-COLLET</a></li>
+    <li><a id="btn-biblioteca-virtual" href="#">BIBLIOTECA-VIRTUAL</a></li>
+    <li><a id="btn-aula-virtual" href="#">AULA-VIRTUAL</a></li>
+  </ul>
 </div>
-<? //echo '<br> di: '.get_template_directory_uri(); ?>
-   </td>
-  </tr>
-</table>   
         
 <!-- END BLOQUE3: SECTOR TEMAS DE INTERES TECNICO -->  
         

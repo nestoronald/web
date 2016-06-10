@@ -49,12 +49,16 @@ header .lema {
 }
 
 /*Areas*/
-
-.area ul > li a {
+.area, .aplicaciones{
+	position: relative;
+    height: 200px;
+}
+.area ul > li a, .aplicaciones ul > li a {
 	text-indent: -9999px;
 	width: 320px;
 	height: 160px;	
-	display: block;	
+	display: block;
+	margin-left: 71px;	
 }
 .area ul > li a img {
 	width: 317px;
@@ -68,4 +72,27 @@ header .lema {
 }
 .area ul > li a#btn-dimse {
 	background: url("../img/btn-dimse.png") no-repeat;
+}
+/*Aplicaciones*/
+.aplicaciones ul > li a img {
+	width: 317px;
+	height: 159px;
+}
+.aplicaciones ul > li a#btn-sigrid {
+	background: url("../img/btn-sigrid.png") no-repeat;
+}
+.aplicaciones ul > li a#btn-siide {
+	background: url("../img/btn-siide.png") no-repeat;
+}
+.aplicaciones ul > li a#btn-simse {
+	background: url("../img/btn-simse.png") no-repeat;
+}
+.aplicaciones ul > li a#btn-sigrid-collet {
+	background: url("../img/btn-sigrid-collet.png") no-repeat;
+}
+.aplicaciones ul > li a#btn-biblioteca-virtual {
+	background: url("../img/btn-biblioteca-virtual.png") no-repeat;
+}
+.aplicaciones ul > li a#btn-aula-virtual {
+	background: url("../img/btn-aula-virtual.png") no-repeat;
 }
