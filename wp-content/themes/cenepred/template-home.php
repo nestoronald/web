@@ -50,7 +50,7 @@ font: bold 11px Helvetica;
 cursor:pointer; cursor: hand;
 }   
 </style>   
-	<div class="main wrap">
+	<div class="bg-01">
         
        <div class="group" style="margin-bottom: 40px;">
 	       <div class="main-content2">
