@@ -8,9 +8,17 @@ header.main {
 }
 
 header .logo{
-
+	margin-left: 10%;
 }
 
+header .lema {
+	background: url("../img/slogan_cenepred.png") no-repeat;
+	text-indent: -99999px;
+	display: block;	
+	width: 65%;
+    text-align: center;   
+    margin-top: 70px;
+}
 .social_media{
 	position: absolute;
     right: 15px;
@@ -20,19 +28,20 @@ header .logo{
 	float: left;
 }
 .social_media ul > li a {
-	z-index: 9999;
+	text-indent: -9999px;
 	width: 35px;
-	height: 35px;	
+	height: 35px;
+	display: block;	
 }
 .social_media ul > li a#tw {
-	background: url("../img/twtter.png")
+	background: url("../img/twitter.png") no-repeat;
 }
 .social_media ul > li a#fb {
-	background: url("../img/facebook.png")
+	background: url("../img/facebook.png") no-repeat;
 }
 .social_media ul > li a#yt {
-	background: url("../img/youtube.png")
+	background: url("../img/youtube.png") no-repeat;
 }
 .social_media ul > li a#ml {
-	background: url("../img/correo.png")
+	background: url("../img/correo.png") no-repeat;
 }

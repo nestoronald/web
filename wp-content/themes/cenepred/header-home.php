@@ -100,7 +100,7 @@
 
 <body <?php body_class(); ?>>
 
-<header class=""> 	
+<header class="main wrap"> 	
 	<div class="logo left">
 		<img src="<?php echo get_template_directory_uri();?>/images/logo/logo.png" border="0" height="170px"/>
 	</div>
@@ -115,34 +115,7 @@
 			<li><a id="yt" href="mailto:webmaster@cenepred.gob.pe">Mail</a></li>
 		</ul>
 	</div>
-</header> 
- 
- <table border="0" width="100%" bgcolor="#FFFFFF">
- <tr>
-    <td style="padding-left:15px;padding-right:5px;"><img src="<?php echo get_template_directory_uri();?>/images/logo/logo.png" border="0" height="170px"/></td>	      
-    <td  style="vertical-align:top" align="right">
-      <table border="0">
-        <tr><td><img src="<?php echo get_template_directory_uri();?>/images/logo/redes.png" border="0" usemap="#Map" height="40px" /></td></tr>
-        <tr><td height="30px">&nbsp;</td></tr>
-        <tr><td height="25px" align="right">
-        <a href="mailto:prensa@cenepred.gob.pe" style="text-decoration:none">
-        <p style="color:#666666;font-size:14px">prensa@cenepred.gob.pe</p></a></td></tr>
-        <tr><td height="25px" align="right">
-        <a href="mailto:consultas@cenepred.gob.pe" style="text-decoration:none">
-        <p style="color:#666666;font-size:14px">consultas@cenepred.gob.pe</p></a></td></tr>
-      </table>
-    </td>
-    <td style="width:20px;">&nbsp;</td>
- </tr>
-</table>
-
-
-<map name="Map" id="Map">
-  <area shape="rect" coords="15,3,90,35" target="_blank" href="https://twitter.com/CENEPRED" />
-  <area shape="rect" coords="100,3,180,33" target="_blank" href="https://www.facebook.com/cenepred/timeline/"/>
-  <area shape="rect" coords="200,4,280,34" target="_blank" href="https://www.youtube.com/channel/UCw9I7jPR0NLMqT2DmDGgMeQ" /> 
-</map>
-
+</header>  
 <link rel="stylesheet" type="text/css" media="all" href="<?php echo get_template_directory_uri();?>/css/menu.css">
   
 <nav id="nav2"> <!-- style="font-family:Arial, Helvetica, sans-serif;font-size:14px" -->
