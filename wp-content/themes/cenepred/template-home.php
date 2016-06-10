@@ -87,7 +87,7 @@ cursor:pointer; cursor: hand;
     <li><a id="btn-dimse" href="http://192.168.2.20/web/direccion-de-monitoreo-seguimiento-y-evaluacion/">Dirección de Monitoreo, Seguimiento y Evaluación - DIMSE</a></li>
   </ul>
 </div>
-       
+ <div style="clear: both;"></div>      
 <!-- END BLOQUE2: SECTOR DIRECCIONES -->      
 <!-- START BLOQUE3: SECTOR TEMAS DE INTERES TECNICO --> 
 
@@ -102,6 +102,7 @@ cursor:pointer; cursor: hand;
     <li><a id="btn-aula-virtual" href="#">AULA-VIRTUAL</a></li>
   </ul>
 </div>
+<div style="clear: both;"></div>
         
 <!-- END BLOQUE3: SECTOR TEMAS DE INTERES TECNICO -->  
         
