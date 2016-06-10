@@ -6,6 +6,9 @@ header.main {
 .left {
 	float: left;
 }
+.bg-01 {
+	background: #ccc;
+}
 
 header .logo{
 	margin-left: 10%;
