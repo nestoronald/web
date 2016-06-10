@@ -54,10 +54,55 @@ cursor:pointer; cursor: hand;
        <div class="group" style="margin-bottom: 40px;">
 	       <div class="main-content2">
 	           <div class="slide-informes">
-                  <?php if(is_active_sidebar('widget-video-slider')){
+                <?php 
+                  if(is_active_sidebar('widget-video-slider'))
+                  {
                                dynamic_sidebar('widget-video-slider');
-                         } else{ ?>
-	                 echo "hola mundo"
+                  } 
+                  else{ ?>
+	                 <div class="slider-info flexslider">
+	                    <ul class="slides">
+	                        <?php
+              							$home_slider = get_option( 'blakzr_slide_homepage_slider' );
+                            var_dump($home_slider);
+              		
+              							foreach ( $home_slider as $slide ) :
+              		
+              								if ( is_numeric( $slide['url'] ) ) :
+              									$the_image = wp_get_attachment_image_src( $slide['url'], 'slide' );
+              								else:
+              									$the_image = array();
+              								endif;              								   
+              								$imagen = $the_image[0]; 
+              								  
+              							?>    
+              							<li>  
+              							   <figure> 
+                                <? 
+              								  $link = $slide['link'];                                                  
+              								  $counti = strlen($imagen);              
+              								  $extension=substr($imagen,$counti-3,3); 
+              								  $ancho=1300; 
+                                $alto=600;   
+                                $direc='wp-content/themes/cenepred/inc/redimensionar.php?imagen='.trim($imagen).'&ancho='.$ancho.'&alto='.$alto.'&ext='.$extension;
+                                $direc=$imagen;                                                
+              							   ?>   
+              							  	<a href="<?php echo $link; ?>">
+              								  <img src="<?php echo $direc; ?>" alt="<?php echo $slide['title']; ?>">
+              								  	<figcaption>
+              							          <h4><?php echo $slide['title']; ?></h4>
+              										    <?php if ( !empty( $slide['description'] ) ) : ?>
+              										    <p><?php echo $slide['description']; ?></p>
+              										<?php endif; ?>
+              									</figcaption>
+              								  </a>
+              							   </figure>
+              							</li>
+              							<?php
+              							endforeach;
+              							?>
+	                    </ul>
+	                 </div>
                 <?php }?>         
 	            </div>
 	        </div>
