@@ -77,8 +77,8 @@ cursor:pointer; cursor: hand;
 							   <figure> 
                                <? //********** temporal **************    							     
 								  $link = $slide['link'];                                                  
-								  $counti = strlen($imagen);              // echo '<br>c  : '.$counti;
-								  $extension=substr($imagen,$counti-3,3); // echo '<br>ext: '.$extension;
+								  $counti = strlen($imagen);               echo '<br>c  : '.$counti;
+								  $extension=substr($imagen,$counti-3,3);  echo '<br>ext: '.$extension;
 								  
 								  $ancho=1300; //1300
                                   $alto=600;   //600
