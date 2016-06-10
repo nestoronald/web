@@ -128,7 +128,7 @@ cursor:pointer; cursor: hand;
 <!-- START BLOQUE2: SECTOR DIRECCIONES -->
                 
 <?php if ( has_nav_menu( 'dir' ) ) : ?>                    
-<?php // wp_nav_menu( array( 'theme_location' => 'dir', 'container' => 'div', 'menu_class' => 'direc', 'depth' => 0, 'walker' => new Description_Walker ) ); ?>
+<?php wp_nav_menu( array( 'theme_location' => 'dir', 'container' => 'div', 'menu_class' => 'direc', 'depth' => 0, 'walker' => new Description_Walker ) ); ?>
 <?php endif; 
 //echo 'URI:'.get_template_directory_uri();
 ?>               		    
