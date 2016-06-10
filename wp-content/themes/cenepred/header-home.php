@@ -100,31 +100,20 @@
 
 <body <?php body_class(); ?>>
 
-<? 
-
-?>
-
-<header>
- 	<div class="top-bar">
-        <div class="wrap group">
-	        <div class="slogan">"eslogan"</div>            
-        </div>
-    </div>
-    <div class="strap-logo wrap">   
-	    <a href="<?php echo home_url( '/' ); ?>" class="logo">
-	    	<img alt="CENEPRED" src="<?php echo get_template_directory_uri(); ?>/img/LOGO_BLANCO_FOND.TRANS.png" title="<?php echo             esc_attr( get_bloginfo( 'name', 'display' ) ); ?>">
-	    </a>
-    </div>
-   
-	<div class="wrap group">
-	        <div class="intro">
-		       intro
-	    	</div>
-	    	<div class="dir">
-		    	direciones
-	    	</div>
-	     </div>
-
+<header> 	
+	<div class="logo">
+		<img src="<?php echo get_template_directory_uri();?>/images/logo/logo.png" border="0" height="170px"/>
+	</div>
+	<div>
+		<h2 class="lema">"Promoviendo Cultura de prevención"</h2>		
+	</div>
+	<div class="social_media">
+		<ul>
+			<li><a id="tw" href="https://twitter.com/CENEPRED">Twitter</a></li>
+			<li><a id="fb" href="https://twitter.com/CENEPRED">Facebook</a></li>
+			<li><a id="yt" href="https://twitter.com/CENEPRED">Youtube</a></li>
+		</ul>
+	</div>
 </header> 
  
  <table border="0" width="100%" bgcolor="#FFFFFF">
@@ -145,19 +134,7 @@
     <td style="width:20px;">&nbsp;</td>
  </tr>
 </table>
-<div id="header">
-	<div class="logo">
-		<img src="<?php echo get_template_directory_uri();?>/images/logo/logo.png" border="0" height="170px"/>
-	</div>
-	<div>
-		<h2 class="lema">"Promoviendo Cultura de prevención"</h2>		
-	</div>
-	<ul class="social_media">
-		<li><a id="tw" href="https://twitter.com/CENEPRED">Twitter</a></li>
-		<li><a id="fb" href="https://twitter.com/CENEPRED">Facebook</a></li>
-		<li><a id="yt" href="https://twitter.com/CENEPRED">Youtube</a></li>
-	</ul>
-</div>
+
 
 <map name="Map" id="Map">
   <area shape="rect" coords="15,3,90,35" target="_blank" href="https://twitter.com/CENEPRED" />
