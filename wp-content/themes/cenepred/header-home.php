@@ -101,22 +101,13 @@
 <body <?php body_class(); ?>>
 
 <? 
-//echo '<br> AA: '.wp_nav_menu( array( 'theme_location' => 'dir', 'container' => 'div', 'menu_class' => 'direc', 'depth' => 0, 'walker' => new Description_Walker ) );
-//echo bloginfo( 'stylesheet_url' );
-//echo body_class();
+
 ?>
 
-<header style="background-image: url(http://cenepred.gob.pe/wp-content/uploads/2014/03/banner6.jpg)">
- <div class="top-bar">
+<header>
+ 	<div class="top-bar">
         <div class="wrap group">
-	        <div class="slogan">"<?php echo get_option( 'blakzr_topbar_slogan', 'A&ntilde;o56 de la inversi&oacute;n para el desarrollo rural y la seguridad alimentaria' ); ?>"</div>
-            <div class="the-date">
-            	<?php
-					setlocale( LC_ALL, 'es_PE' );
-					echo strftime( _x( '%A, %e de %B de %G,', 'Header current date format', 'blakzr' ) );
-            	?>
-            	<span class="time"></span>
-            </div>
+	        <div class="slogan">"eslogan"</div>            
         </div>
     </div>
     <div class="strap-logo wrap">   
@@ -125,18 +116,14 @@
 	    </a>
     </div>
    
-<div class="wrap group">
-        <div class="intro">
-	        <h1><?php echo get_option( 'blakzr_header_title', 'Bienvenidos a CENEPRED' ); ?></h1>
-	    	<h2><?php echo wpautop(get_option( 'blakzr_header_description', 'El CENEPRED es un organismo público ejecutor que conforma el Sistema Nacional de Gestión de Riesgo de Desastres.' )); ?></h2>
-    	</div>
-    	<div class="dir">
-	    	<h3>Direcciones de línea</h3>
-	    	<?php if ( has_nav_menu( 'dir' ) ) : ?>                    
-		          <?php wp_nav_menu( array( 'theme_location' => 'dir', 'container' => 'div', 'menu_class' => 'direc', 'depth' => 0, 'walker' => new Description_Walker ) ); ?>
-		    <?php endif; ?>
-    	</div>
-     </div>
+	<div class="wrap group">
+	        <div class="intro">
+		       intro
+	    	</div>
+	    	<div class="dir">
+		    	direciones
+	    	</div>
+	     </div>
 
 </header> 
  
