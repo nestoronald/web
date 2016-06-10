@@ -26,7 +26,7 @@ header .lema {
     right: 45px;
     top: 16px;
 }
-.social_media ul > li {
+.social_media ul > li, .area ul > li a {
 	float: left;
 }
 .social_media ul > li a {
@@ -46,4 +46,26 @@ header .lema {
 }
 .social_media ul > li a#ml {
 	background: url("../img/correo.png") no-repeat;
+}
+
+/*Areas*/
+
+.area ul > li a {
+	text-indent: -9999px;
+	width: 320px;
+	height: 160px;	
+	display: block;	
+}
+.area ul > li a img {
+	width: 317px;
+	height: 159px;
+}
+.area ul > li a#btn-dpg {
+	background: url("../img/btn-dgp.png") no-repeat;
+}
+.area ul > li a#btn-difat {
+	background: url("../img/btn-difat.png") no-repeat;
+}
+.area ul > li a#btn-dimse {
+	background: url("../img/btn-dimse.png") no-repeat;
 }

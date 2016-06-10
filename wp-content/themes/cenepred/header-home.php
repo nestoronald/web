@@ -102,17 +102,17 @@
 
 <header class="main wrap"> 	
 	<div class="logo left">
-		<img src="<?php echo get_template_directory_uri();?>/images/logo/logo.png" border="0" height="170px"/>
+		<img src="<?php echo get_template_directory_uri();?>/img/logo_cenepred.png" border="0" height="170px"/>
 	</div>
 	<div class="left">
 		<h2 class="lema">"Promoviendo Cultura de prevención"</h2>		
 	</div>
 	<div class="social_media left">
 		<ul>
-			<li><a id="tw" href="https://twitter.com/CENEPRED">Twitter</a></li>
-			<li><a id="fb" href="https://twitter.com/CENEPRED">Facebook</a></li>
-			<li><a id="yt" href="https://twitter.com/CENEPRED">Youtube</a></li>
-			<li><a id="yt" href="mailto:webmaster@cenepred.gob.pe">Mail</a></li>
+			<li><a id="tw" target="_blank" href="https://twitter.com/CENEPRED">Twitter</a></li>
+			<li><a id="fb" target="_blank" href="https://twitter.com/CENEPRED">Facebook</a></li>
+			<li><a id="yt" target="_blank" href="https://twitter.com/CENEPRED">Youtube</a></li>
+			<li><a id="ml" target="_blank" href="mailto:webmaster@cenepred.gob.pe">Mail</a></li>
 		</ul>
 	</div>
 </header>  

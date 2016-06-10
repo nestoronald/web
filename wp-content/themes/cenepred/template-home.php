@@ -65,10 +65,8 @@ cursor:pointer; cursor: hand;
 	                    <ul class="slides">
 	                        <?php
               							$home_slider = get_option( 'blakzr_slide_homepage_slider' );
-                            var_dump($home_slider);
-              		
-              							foreach ( $home_slider as $slide ) :
-              		
+                            //var_dump($home_slider);              		
+              							foreach ( $home_slider as $slide ) :              		
               								if ( is_numeric( $slide['url'] ) ) :
               									$the_image = wp_get_attachment_image_src( $slide['url'], 'slide' );
               								else:
@@ -111,67 +109,19 @@ cursor:pointer; cursor: hand;
 	        <?php // get_sidebar(); ?>
 	            
         </div>
-                
-                
 <!-- START BLOQUE2: SECTOR DIRECCIONES -->
                 
 <?php if ( has_nav_menu( 'dir' ) ) : ?>                    
 <?php //wp_nav_menu( array( 'theme_location' => 'dir', 'container' => 'div', 'menu_class' => 'direc', 'depth' => 0, 'walker' => new Description_Walker ) ); ?>
 <?php endif; 
-?>               		    
-<table border="0" style="width:100%;">         
-<tr>
-<td colspan="2">  
-  <aside class="main-sidebar2">
-    <section class="sidebar-publicaciones">
-      <div class="tit-seccion">Direcciones de L&iacute;nea</div>        
-    </section>
-  </aside>
-</td> 
-<tr>
-<tr>
- <td align="center"> 
-  <div class="ex2">
-  
-  <section id="entidades2">  
-    <div class="menu-destacados-homepage-container">
-     <ul id="menu-destacados-homepage" class="destacados2 group">
-      <li>
-        <a target="_blank" href="<? echo site_url( '/' );?>comunicados/direccion-de-gestion-de-procesos/" onclick="">
-        <img alt="" src="<?php echo get_template_directory_uri();?>/images/logo/dgp.png" width="150"
-        onmouseover="this.src='<?php echo get_template_directory_uri();?>/images/logo/dgpover.png'"
-        onmouseout="this.src='<?php echo get_template_directory_uri();?>/images/logo/dgp.png'">
-        <p><span class="nav-desc" style="font-size:15px">Direcci&oacute;n de Gesti&oacute;n de Procesos - DGP</span></p>
-        </a> 
-      </li>
-      <li>
-          <a href="<? echo site_url( '/' );?>direccion-de-fortalecimiento-y-asistencia-tecnica/">
-           <img alt="" src="<?php echo get_template_directory_uri();?>/images/logo/difat.png" width="150"
-        onmouseover="this.src='<?php echo get_template_directory_uri();?>/images/logo/difatover.png'"
-        onmouseout="this.src='<?php echo get_template_directory_uri();?>/images/logo/difat.png'">
-           <p></p>
-           <p><span class="nav-desc" style="font-size:15px">Direcci&oacute;n de Fortalecimiento y Asistencia T&eacute;cnica - DIFAT</span></p>
-          </a> 
-      </li>
-      <li>
-         <a href="<? echo site_url( '/' );?>direccion-de-monitoreo-seguimiento-y-evaluacion/">
-            <img alt="" src="<?php echo get_template_directory_uri();?>/images/logo/dimse.png" width="150"
-        onmouseover="this.src='<?php echo get_template_directory_uri();?>/images/logo/dimseover.png'"
-        onmouseout="this.src='<?php echo get_template_directory_uri();?>/images/logo/dimse.png'">
-         <p></p>
-         <p><span class="nav-desc" style="font-size:15px">Direcci&oacute;n de Monitoreo, Seguimiento y Evaluaci&oacute;n - DIMSE</span>
-         </p>
-         </a> 
-      </li>
-      
-     </ul>
-    </div>        
-  </section>
-  
-  </div>
-  </td>
-</tr>  
-</table>
+?>  
+<div class="area">
+  <ul>
+    <li><a id="btn-dpg" href="http://192.168.2.20/web/direccion-de-fortalecimiento-y-asistencia-tecnica/">Dirección de Gestión de Procesos - DGP</a></li>
+    <li><a id="btn-difat" href="http://192.168.2.20/web/direccion-de-fortalecimiento-y-asistencia-tecnica/">Dirección de Fortalecimiento y Asistencia Técnica - DIFAT</a></li>
+    <li><a id="btn-dimse" href="http://192.168.2.20/web/direccion-de-monitoreo-seguimiento-y-evaluacion/">Dirección de Monitoreo, Seguimiento y Evaluación - DIMSE</a></li>
+  </ul>
+</div>
        
 <!-- END BLOQUE2: SECTOR DIRECCIONES -->      
 <!-- START BLOQUE3: SECTOR TEMAS DE INTERES TECNICO -->  
