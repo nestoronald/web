@@ -105,7 +105,7 @@
 //echo bloginfo( 'stylesheet_url' );
 //echo body_class();
 ?>
-<!--
+
 <header style="background-image: url(http://cenepred.gob.pe/wp-content/uploads/2014/03/banner6.jpg)">
  <div class="top-bar">
         <div class="wrap group">
@@ -139,7 +139,6 @@
      </div>
 
 </header> 
--->
  
  <table border="0" width="100%" bgcolor="#FFFFFF">
  <tr>
@@ -159,13 +158,21 @@
     <td style="width:20px;">&nbsp;</td>
  </tr>
 </table>
+<div id="header">
+	<div class="logo">
+		<img src="<?php echo get_template_directory_uri();?>/images/logo/logo.png" border="0" height="170px"/>
+	</div>
+	<div>
+		<h2 class="lema">"Promoviendo Cultura de prevención"</h2>		
+	</div>
+	<ul class="social_media">
+		<li><a id="tw" href="https://twitter.com/CENEPRED">Twitter</a></li>
+		<li><a id="fb" href="https://twitter.com/CENEPRED">Facebook</a></li>
+		<li><a id="yt" href="https://twitter.com/CENEPRED">Youtube</a></li>
+	</ul>
+</div>
 
 <map name="Map" id="Map">
-<ul class="social_media">
-	<li><a id="tw" href="https://twitter.com/CENEPRED">Twitter</a></li>
-	<li><a id="fb" href="https://twitter.com/CENEPRED">Facebook</a></li>
-	<li><a id="yt" href="https://twitter.com/CENEPRED"></a>Youtube</li>
-</ul>
   <area shape="rect" coords="15,3,90,35" target="_blank" href="https://twitter.com/CENEPRED" />
   <area shape="rect" coords="100,3,180,33" target="_blank" href="https://www.facebook.com/cenepred/timeline/"/>
   <area shape="rect" coords="200,4,280,34" target="_blank" href="https://www.youtube.com/channel/UCw9I7jPR0NLMqT2DmDGgMeQ" /> 
