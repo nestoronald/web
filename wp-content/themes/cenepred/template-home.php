@@ -76,18 +76,7 @@ cursor:pointer; cursor: hand;
 							<li>  
 							   <figure> 
                                <? //********** temporal **************    							     
-								  $link = $slide['link'];                                                   // echo '<br>'.$slide['link'];
-						//		  $link = str_replace('cenepred.gob.pe', 'localhost/web_cenepred', $link);  // echo '<br>'.$link;
-						//		  $imagen = str_replace('http://localhost/', '../../../../../', $imagen);   // echo '<br>'.$imagen;
-						//        $link = str_replace('cenepred.gob.pe', 'aulavirtual.cenepred.gob.pe:8085/intranet/web_cenepred', $link); // echo '<br>'.$link;
-					  	//	      $imagen = str_replace('http://aulavirtual.cenepred.gob.pe:8085/intranet/', '../../../../../', $imagen);  // echo '<br>'.$imagen;
-					  			  //**********************************
-								  //********** produccion **************
-								  
-							      //$imagen = str_replace('http://cenepred.gob.pe/', '../../../../../', $imagen);  // echo '<br>'.$imagen;
-								  								  
-								  //**********************************
-								  //-- extension --
+								  $link = $slide['link'];                                                  
 								  $counti = strlen($imagen);              // echo '<br>c  : '.$counti;
 								  $extension=substr($imagen,$counti-3,3); // echo '<br>ext: '.$extension;
 								  
