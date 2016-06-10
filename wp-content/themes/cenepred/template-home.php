@@ -130,7 +130,7 @@ cursor:pointer; cursor: hand;
 <?php if ( has_nav_menu( 'dir' ) ) : ?>                    
 <?php wp_nav_menu( array( 'theme_location' => 'dir', 'container' => 'div', 'menu_class' => 'direc', 'depth' => 0, 'walker' => new Description_Walker ) ); ?>
 <?php endif; 
-//echo 'URI:'.get_template_directory_uri();
+echo 'URI:'.get_template_directory_uri();
 ?>               		    
 <table border="0" style="width:100%;">         
 <tr>
@@ -448,67 +448,3 @@ cursor:pointer; cursor: hand;
 
 
 
-<!--
-
-<section id="entidades">
-            <div class="tit-seccion">Destacados CENEPRED</div>
-            <div class="menu-destacados-homepage-container">
-            	<ul id="menu-destacados-homepage" class="destacados group">
-            		<li id="menu-item-212" class="menu-item menu-item-type-custom menu-item-object-custom">
-				<a target="_self" href="http://cenepred.gob.pe/sistema-sigrid/">
-            				<h3>SIGRID</h3>
-            			</a>
-            			<p><span class="nav-desc">Sistema de información para la gestión del riesgo de desastres.</span></p>
-
-<!-- <span class="nav-desc">Video <a href="https://www.youtube.com/watch?v=zb7PVZt4FR4"><img src="http://cenepred.gob.pe/wp-content/uploads/2014/05/sigrid-video-imagen-2.png"></a></span>
-
-            		</li>
-            		<li id="menu-item-213" class="menu-item menu-item-type-post_type menu-item-object-page">
-            			<a href="http://cenepred.gob.pe/coordinacionyarticulacion/">
-            				<h3>Coordinación y Articulación</h3>
-            			</a>
-            			<p></p>
-            		</li>
-            		<li id="menu-item-219" class="menu-item menu-item-type-custom menu-item-object-custom">
-            			<a href="http://cenepred.gob.pe/itse/">
-            				<h3>ITSE</h3>
-            			</a>
-            			
-				<p><span class="nav-desc">Inspecciones Técnicas de Seguridad en Edificaciones</span></p>
-
-				<p></p>
-				<p style="margin-bottom: 15px;"></p>
-				<p><span class="nav-desc">- <a href="http://cenepred.gob.pe/comunicados-itse">Comunicados</a> 
-                <p></p>
-				<p><span class="nav-desc">- <a href=" http://app.cenepred.gob.pe/ritsev2">RITSE</a> 
-                <img src="/wp-content/uploads/2014/09/nnuevo.gif">
-				<p></p>
-				<p><span class="nav-desc">- <a href=" http://app.cenepred.gob.pe/ritsev2/busqueda.php">Búsqueda de Inspectores</a> 
-                <img src="/wp-content/uploads/2014/09/nnuevo.gif">
-				<p></p>
-				</li>
-                
-            		<li id="menu-item-215" class="menu-item menu-item-type-custom menu-item-object-custom">
-            			<a href="http://cenepred.gob.pe/escenarios-de-riesgos">
-            				<h3>Escenarios de Riesgos</h3>
-            			</a>
-            			<p></p>
-            		</li>
-                    
-            		<li id="menu-item-216" class="menu-item menu-item-type-post_type menu-item-object-page">
-            			<a href="http://cenepred.gob.pe/oficina-de-cooperacion-y-relaciones-internacionales/">
-            			<h3>Cooperación y Relaciones Internacionales</h3>
-            			</a>
-            			<p><span class="nav-desc"></span></p>
-            		</li>
-                    
-            		<li id="menu-item-217" class="menu-item menu-item-type-custom menu-item-object-custom">
-            			<a href="http://cenepred.gob.pe/notas-de-prensa/">
-            				<h3>Prensa</h3>
-            			</a>
-            			<p><span class="nav-desc">Noticias, boletines, galería y <a href="http://cenepred.gob.pe/eventos/">agenda de eventos</a>.</span></p>   
-                	</li>
-                    
-          	</ul>
-      </div>
-</section>
