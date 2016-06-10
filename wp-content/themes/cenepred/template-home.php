@@ -62,7 +62,7 @@ cursor:pointer; cursor: hand;
 	                        <?php
 							$home_slider = get_option( 'blakzr_slide_homepage_slider' );
 		
-							foreach ( $home_slider as $slide ) :
+							foreach ( (array)$home_slider as $slide ) :
 		
 								if ( is_numeric( $slide['url'] ) ) :
 									$the_image = wp_get_attachment_image_src( $slide['url'], 'slide' );
@@ -128,9 +128,8 @@ cursor:pointer; cursor: hand;
 <!-- START BLOQUE2: SECTOR DIRECCIONES -->
                 
 <?php if ( has_nav_menu( 'dir' ) ) : ?>                    
-<?php wp_nav_menu( array( 'theme_location' => 'dir', 'container' => 'div', 'menu_class' => 'direc', 'depth' => 0, 'walker' => new Description_Walker ) ); ?>
+<?php //wp_nav_menu( array( 'theme_location' => 'dir', 'container' => 'div', 'menu_class' => 'direc', 'depth' => 0, 'walker' => new Description_Walker ) ); ?>
 <?php endif; 
-echo 'URI:'.get_template_directory_uri();
 ?>               		    
 <table border="0" style="width:100%;">         
 <tr>
