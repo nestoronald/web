@@ -1,0 +1,38 @@
+header.main {
+	position: relative;
+    display: block;
+    overflow: hidden;
+}
+.left {
+	float: left;
+}
+
+header .logo{
+
+}
+
+.social_media{
+	position: absolute;
+    right: 15px;
+    top: 16px;
+}
+.social_media ul > li {
+	float: left;
+}
+.social_media ul > li a {
+	z-index: 9999;
+	width: 35px;
+	height: 35px;	
+}
+.social_media ul > li a#tw {
+	background: url("../img/twtter.png")
+}
+.social_media ul > li a#fb {
+	background: url("../img/facebook.png")
+}
+.social_media ul > li a#yt {
+	background: url("../img/youtube.png")
+}
+.social_media ul > li a#ml {
+	background: url("../img/correo.png")
+}
