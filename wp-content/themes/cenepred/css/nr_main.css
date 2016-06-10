@@ -14,14 +14,16 @@ header .logo{
 header .lema {
 	background: url("../img/slogan_cenepred.png") no-repeat;
 	text-indent: -99999px;
-	display: block;	
-	width: 65%;
-    text-align: center;   
+    display: block;
+    width: 680px;
+    text-align: center;
     margin-top: 70px;
+    height: 41px;
+    margin-left: 81px;
 }
 .social_media{
 	position: absolute;
-    right: 15px;
+    right: 45px;
     top: 16px;
 }
 .social_media ul > li {
