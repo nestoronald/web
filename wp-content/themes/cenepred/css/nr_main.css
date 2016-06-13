@@ -161,6 +161,15 @@ header .lema {
 .none {
 	display: none;
 }
-#footer .col-2-6 {
+#slider-entidades .col-2-6 {
 	width: 19.333333%;
+}
+#slider-entidades .small {
+	width: 100px;
+}
+#slider-entidades .medium-2 {
+	width: 280px;
+}
+#slider-entidades .large {
+	width: 440px;
 }
