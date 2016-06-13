@@ -78,12 +78,14 @@ header .lema {
     text-transform: uppercase;
     font-weight: 500;
 }
-.area ul > li a, .aplicaciones ul > li a {
+.area ul > li a, .aplicaciones ul > li a, .desta ul > li a {
 	text-indent: -9999px;
 	width: 320px;
 	height: 160px;	
-	display: block;
-	margin-left: 71px;	
+	display: block;		
+}
+.area ul > li a, .aplicaciones ul > li a{
+	margin-left: 71px;
 }
 .area ul > li a img, .aplicaciones ul > li a img, .desta ul > li a img {
 	width: 317px;
