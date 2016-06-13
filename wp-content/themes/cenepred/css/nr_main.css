@@ -1,7 +1,6 @@
-@media (min-width: 1200px)
+
 [class*="sidebar"] {
-    float: left;
-    min-height: 1px;    
+    float: left;    
 }
 
 header.main {
@@ -83,6 +82,9 @@ header .lema {
 	width: 320px;
 	height: 160px;	
 	display: block;		
+}
+.aplicaciones ul > li a, .desta ul > li a {		
+	height: 105px;		
 }
 .area ul > li a, .aplicaciones ul > li a{
 	margin-left: 71px;
