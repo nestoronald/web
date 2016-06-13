@@ -15,88 +15,59 @@
         <ul id="slider_carrusel">
             <li class="itemposts"><div class="items grises">
             <a href="http://www.pcm.gob.pe/" target="_blank" title="Presidencia del Consejo de Ministros" >
-            <img alt="Presidencia del Consejo de Ministros" src="<?php echo get_template_directory_uri(); ?>/img/entidades/pcm.jpg" /></a></div>
+            <img alt="Presidencia del Consejo de Ministros" src="<?php echo get_template_directory_uri(); ?>/img/instituciones/pcm.png" /></a></div>
             </li>
             
             <li class="itemposts"><div class="items grises">
             <a href="http://sgrd.pcm.gob.pe/" target="_blank" title="Secretaria de Gestion del Riesgo de Desastres" >
-            <img alt="Secretaria de Gestion del Riesgo de Desastres" src="<?php echo get_template_directory_uri(); ?>/img/entidades/sgrd.jpg" /></a></div>
+            <img alt="Secretaria de Gestion del Riesgo de Desastres" src="<?php echo get_template_directory_uri(); ?>/img/instituciones/sec-ges-riesgos-desastres.png" /></a></div>
             </li>
             
             <li class="itemposts"><div class="items grises">
             <a href="http://www.minam.gob.pe/" title="Ministerio del Ambiente" >
-            <img alt="Ministerio del Ambiente" src="<?php echo get_template_directory_uri(); ?>/img/entidades/logo-mambiente.jpg" /></a></div>
+            <img alt="Ministerio del Ambiente" src="<?php echo get_template_directory_uri(); ?>/img/instituciones/logo-mambiente.png" /></a></div>
             </li>
             
             <li class="itemposts"><div class="items grises">
             <a href="http://www.vivienda.gob.pe/" title="Ministerio de Vivienda, Construcción y Saneamiento" >
-            <img alt="Ministerio de Vivienda, Construcción y Saneamiento" src="<?php echo get_template_directory_uri(); ?>/img/entidades/logo-vivienda.jpg" /></a></div>
+            <img alt="Ministerio de Vivienda, Construcción y Saneamiento" src="<?php echo get_template_directory_uri(); ?>/img/instituciones/min-vivienda.png" /></a></div>
             </li>
             
             <li class="itemposts"><div class="items grises">
-            <a href="http://www.mtc.gob.pe/portal/inicio.html" title="Ministerio de Transportes y Comunicaciones" ><img alt="Ministerio de Transportes y Comunicaciones" src="<?php echo get_template_directory_uri(); ?>/img/entidades/logo-trans.jpg" /></a></div>
+            <a href="http://www.mtc.gob.pe/portal/inicio.html" title="Ministerio de Transportes y Comunicaciones" ><img alt="Ministerio de Transportes y Comunicaciones" src="<?php echo get_template_directory_uri(); ?>/img/instituciones/min-transportes.png" /></a></div>
             </li>
             
             <li class="itemposts"><div class="items grises">
             <a href="http://minagri.gob.pe/portal/" title="Ministerio de Agricultura y Riego" >
-            <img alt="Ministerio de Agricultura y Riego" src="<?php echo get_template_directory_uri(); ?>/img/entidades/logo-agri.jpg" /></a></div>
-            </li>
+            <img alt="Ministerio de Agricultura y Riego" src="<?php echo get_template_directory_uri(); ?>/img/instituciones/min-agricultura.png" /></a></div>
+            </li>           
             
-            <li class="itemposts"><div class="items grises">
-            <a href="http://www.comunidadandina.org/predecan/predecan.html" title="PREDECAN" >
-            <img alt="PREDECAN" src="<?php echo get_template_directory_uri(); ?>/img/entidades/predecam.jpg" />
-            </a></div>
-            </li>
             
-            <li class="itemposts"><div class="items grises"><a href="http://www.senamhi.gob.pe/" title="SENAHMI" ><img alt="SENAHMI" src="<?php echo get_template_directory_uri(); ?>/img/entidades/senamhi.jpg" />
+            <li class="itemposts"><div class="items grises"><a href="http://www.senamhi.gob.pe/" title="SENAHMI" ><img alt="SENAHMI" src="<?php echo get_template_directory_uri(); ?>/img/instituciones/senamhi.png" />
             </a></div>
-            </li>
-            
-            <li class="itemposts"><div class="items grises">
-            <a href="http://www.imarpe.pe/imarpe/" title="IMARPE" >
-            <img alt="IMARPE" src="<?php echo get_template_directory_uri(); ?>/img/entidades/logo-trans.jpg" />
-            </a></div>
-            </li>
+            </li>  
             
             <li class="itemposts"><div class="items grises">
             <a href="http://www.igp.gob.pe/" title="IGP" >
-            <img alt="IGP" src="<?php echo get_template_directory_uri(); ?>/img/entidades/igp.jpg" />
+            <img alt="IGP" src="<?php echo get_template_directory_uri(); ?>/img/instituciones/igp.png" />
             </a></div>            
-            </li>
-            
-            <li class="itemposts"><div class="items grises">
-            <a href="http://www.dhn.mil.pe/" title="DHN" >
-            <img alt="DHN" width="95" height="86" src="<?php echo get_template_directory_uri(); ?>/img/entidades/logo_dhn.gif" />
-            </a></div>           
-            </li>
+            </li>      
             
             <li class="itemposts"><div class="items grises">
             <a href="http://senamhi.gob.pe/?p=0805" title="ENFEN" >
-            <img alt="ENFEN" width="95" height="86" src="<?php echo get_template_directory_uri(); ?>/img/entidades/logo-enfen.png" />
+            <img alt="ENFEN" width="95" height="86" src="<?php echo get_template_directory_uri(); ?>/img/instituciones/logo-enfen.png" />
             </a></div>
             </li>
             
             <li class="itemposts"><div class="items grises">
-            <a href="http://www.unasursg.org/" target="_blank" title="UNASUR" >
-            <img alt="UNASUR" src="<?php echo get_template_directory_uri(); ?>/img/entidades/unasur.jpg" />
+            <a href="#" target="_blank" title="Autoridad Nacional del Agua" >
+            <img alt="ANA" src="<?php echo get_template_directory_uri(); ?>/img/instituciones/ana.png" />
             </a></div>
             </li>
             
             <li class="itemposts"><div class="items grises">
-            <a href="http://www.ingemmet.gob.pe/form/Inicio.aspx" target="_blank" title="Instituto Geológico Minero y Metalúrgico" >
-            <img alt="INGEMMET" src="<?php echo get_template_directory_uri(); ?>/img/entidades/logo-ingemmet-2014.jpg" />
-            </a></div>
-            </li>
-            
-            <li class="itemposts"><div class="items grises">
-            <a href="http://www.sni.org.pe/" target="_blank" title="Sociedad Nacional de Industrias" >
-            <img alt="SNI" src="<?php echo get_template_directory_uri(); ?>/img/entidades/Logotipo-SNI1.jpg" />
-            </a></div>
-            </li>
-            
-            <li class="itemposts"><div class="items grises">
-            <a href="http://mimp.gob.pe/adultomayor/" target="_blank" title="Personas Adultas Mayores" >
-            <img alt="PAM" src="<?php echo get_template_directory_uri(); ?>/img/entidades/adultomayor.jpg" />
+            <a href="#" target="_blank" title="Cilegio de Ingenieros del Perú" >
+            <img alt="PAM" src="<?php echo get_template_directory_uri(); ?>/img/instituciones/colegio-ing-peru.j" />
             </a></div>
             </li>
             
