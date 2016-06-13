@@ -109,7 +109,7 @@
 </div>
 <footer id="footer"> 
     <div class="container">
-        <div class="pad-content">
+        <div>
         
         			<ul class="sidebar group">
         			 	<?php if ( ! dynamic_sidebar( 'Footer' ) ) : ?>
