@@ -189,7 +189,7 @@ cursor:pointer; cursor: hand;
 	<div class=" col-2">
 		<div class="videos">
 			<h3>Videos Institucionales</h3>
-			<iframe width="395" height="270" src="https://www.youtube.com/embed/zb7PVZt4FR4" frameborder="0" allowfullscreen></iframe>
+			<iframe width="320" height="230" src="https://www.youtube.com/embed/zb7PVZt4FR4" frameborder="0" allowfullscreen></iframe>
 		</div>
 	</div>
 </div>	

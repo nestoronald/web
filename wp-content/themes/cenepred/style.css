@@ -2255,25 +2255,22 @@ p > iframe{
 
 /* Footer
 -------------------------------------------------------------- */
-
-#footer{
-    background: #E2E2E2;
-    border-bottom: 5px solid #888;
-    border-top: 5px solid #888;
+#footer {
+    background: #4999b0;
     height: auto;
     padding-top: 37px;
     min-height: 295px;
 }
 
 #footer h4 {
-    color: #1a7891;
+    color: #fbfbfb;
     border-bottom: 1px solid #ADADAD;
     font-weight: bold;
     padding-bottom: 12px;
 }
 
 #footer a {
-    color: #878787;
+    color: #fbfbfb;
     font-size: 0.95em;                          /** 0.875em **/
     line-height: 1.6em;
 }
