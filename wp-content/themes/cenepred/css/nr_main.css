@@ -165,11 +165,11 @@ header .lema {
 	width: 19.333333%;
 }
 #slider-entidades .small {
-	width: 100px;
+	width: 100px !important;
 }
 #slider-entidades .medium-2 {
-	width: 280px;
+	width: 280px !important;
 }
 #slider-entidades .large {
-	width: 440px;
+	width: 440px !important;
 }
