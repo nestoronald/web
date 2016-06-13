@@ -125,7 +125,7 @@ cursor:pointer; cursor: hand;
 			
 			       $show_posts = new WP_Query( $args ); 
 				?>				
-					<?php if ( $show_posts->have_posts() ) :   var_dump($show_posts->have_posts()) ; ?>
+					<?php if ( $show_posts->have_posts() ) :   var_dump($show_posts->the_post()) ; ?>
 
 						<?php /* Start the Loop */ ?>
 						<?php while ( $show_posts->have_posts() ) : $show_posts->the_post(); ?>
