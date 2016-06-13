@@ -142,3 +142,6 @@ header .lema {
 .desta ul > li a#btn-cal {
 	background: url("../img/btn-cal.png") no-repeat;
 }
+#menu-principal {
+	text-align: center;
+}

@@ -102,18 +102,8 @@ cursor:pointer; cursor: hand;
     <li><a id="btn-aula-virtual" href="#">AULA-VIRTUAL</a></li>
   </ul>
 </div>
-<div style="clear: both;"></div>
-        
-<!-- END BLOQUE3: SECTOR TEMAS DE INTERES TECNICO -->  
-        
-  <!--      
-<?php if ( has_nav_menu( 'destacados' ) ) : ?>  
-        <section id="entidades">
-            <div class="tit-seccion">Destacados CENEPRED</div>
-            <?php wp_nav_menu( array( 'theme_location' => 'destacados', 'container' => 'div', 'menu_class' => 'destacados group', 'depth' => 0, 'walker' => new Description_Walker_destacados ) ); ?>
-        </section>
-<?php endif; ?>
--->  
+<div style="clear: both;"></div>       
+
       
 <!-- START BLOQUE4: SECTOR NOTICIAS && INTERES VIDEO   style="vertical-align:top"-->
 <div class="row">
@@ -131,14 +121,12 @@ cursor:pointer; cursor: hand;
 			         	'post_status' 		=> 'publish',
 	        			'year'  			=> '2016'
 			            );
-					
-			       // echo '<br>HOLA'.$_GET['year'];
 			
 			       $show_posts = new WP_Query( $args ); 
 				?>				
 					<?php if ( $show_posts->have_posts() ) :   //echo 'h:'.$show_posts->have_posts(); ?>
 
-						<?php /* Start the Loop */ ?>
+						<?php var_dump($show_posts->have_posts();)/* Start the Loop */ ?>
 						<?php while ( $show_posts->have_posts() ) : $show_posts->the_post(); ?>
 		
 							<?php
