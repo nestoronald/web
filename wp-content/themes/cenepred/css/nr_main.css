@@ -148,3 +148,13 @@ header .lema {
 .noticias {
 	padding-left: 64px;
 }
+#footer {
+	color: #fbfbfb;
+}
+
+#footer h4, #footer.textwidget {
+	text-align: center;
+}
+#footer.textwidget {
+	line-height: 1.3;
+}
