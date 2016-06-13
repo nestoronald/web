@@ -117,29 +117,10 @@ cursor:pointer; cursor: hand;
       
 <!-- START BLOQUE4: SECTOR NOTICIAS && INTERES VIDEO   style="vertical-align:top"-->
 <div class="row">
-	<div class="noticias col-10">
+	<div class="col-10">
 		<div class="noticias">
 			<h3>Noticias</h3>
-			<div class="mainn-content col-8-12">
-				<?php
-					
-					$args = array(
-						'type'				=> 'yearly',
-						'format'			=> 'html', 
-						'before'			=> '',
-						'after'				=> '',
-						'show_post_count'	=> false,
-						'echo'				=> 1,
-						'order'				=> 'DESC',
-						'post_type'			=> 'notas_prensa'
-					);
-					
-				?>
-				
-				<ul class="date-navigation group" data-url="<?php echo get_template_directory_uri(); ?>" data-type="prensa">
-					<?php wp_get_archives( $args ); ?>
-	                <input type="hidden" id="short_noticia" name="short_noticia" value="1" /> <!-- Mostrar solo 5 noticias ver js/code.js -->
-				</ul>
+			<div>				
 	            
 	            <?php 
 				  $args = array(
@@ -154,9 +135,7 @@ cursor:pointer; cursor: hand;
 			       // echo '<br>HOLA'.$_GET['year'];
 			
 			       $show_posts = new WP_Query( $args ); 
-				?>
-				
-				<div class="archive-updater"> 
+				?>				
 					<?php if ( $show_posts->have_posts() ) :   //echo 'h:'.$show_posts->have_posts(); ?>
 
 						<?php /* Start the Loop */ ?>
@@ -186,7 +165,7 @@ cursor:pointer; cursor: hand;
 					</article><!-- #post-0 -->
 		
 					<?php endif; ?>
-				</div>									            
+												            
 			</div><!-- .main-content -->			
 		</div>
 	</div>       
