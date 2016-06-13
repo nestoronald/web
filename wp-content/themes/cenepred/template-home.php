@@ -102,7 +102,8 @@ cursor:pointer; cursor: hand;
     <li><a id="btn-aula-virtual" href="#">AULA-VIRTUAL</a></li>
   </ul>
 </div>
-<div style="clear: both;"></div>       
+<div style="clear: both;"></div>
+        
 
       
 <!-- START BLOQUE4: SECTOR NOTICIAS && INTERES VIDEO   style="vertical-align:top"-->
@@ -126,7 +127,7 @@ cursor:pointer; cursor: hand;
 				?>				
 					<?php if ( $show_posts->have_posts() ) :   //echo 'h:'.$show_posts->have_posts(); ?>
 
-						<?php var_dump($show_posts->have_posts();)/* Start the Loop */ ?>
+						<?php /* Start the Loop */ ?>
 						<?php while ( $show_posts->have_posts() ) : $show_posts->the_post(); ?>
 		
 							<?php
