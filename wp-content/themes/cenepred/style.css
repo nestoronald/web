@@ -2608,7 +2608,7 @@ article.blog-list + article.blog-list {
 }
 
 #slider-entidades .caroufredsel_wrapper ul .itemposts {
-    width: 183px !important;
+    /*width: 183px !important;*/
     height: 87px;
     list-style: none; 
     margin-right: 14px; 
