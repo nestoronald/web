@@ -79,7 +79,7 @@ cursor:pointer; cursor: hand;
 <?php //wp_nav_menu( array( 'theme_location' => 'dir', 'container' => 'div', 'menu_class' => 'direc', 'depth' => 0, 'walker' => new Description_Walker ) ); ?>
 <?php endif; 
 ?>  
-<div class="area">
+<div class="area row">
   <h3>Direcciones de linea</h3>
   <ul>
     <li><a id="btn-dpg" href="http://192.168.2.20/web/direccion-de-fortalecimiento-y-asistencia-tecnica/">Dirección de Gestión de Procesos - DGP</a></li>
@@ -91,8 +91,8 @@ cursor:pointer; cursor: hand;
 <!-- END BLOQUE2: SECTOR DIRECCIONES -->      
 <!-- START BLOQUE3: SECTOR TEMAS DE INTERES TECNICO --> 
 
-<div class="aplicaciones">
-  <h3>Plataforma en linea</h3>
+<div class="aplicaciones row">
+  <h3>Plataformas en linea</h3>
   <ul>
     <li><a id="btn-sigrid" href="#">SIGRID</a></li>
     <li><a id="btn-siide" href="#">SIIDE</a></li>
@@ -116,11 +116,103 @@ cursor:pointer; cursor: hand;
 -->  
       
 <!-- START BLOQUE4: SECTOR NOTICIAS && INTERES VIDEO   style="vertical-align:top"-->
-<div class="main-sidebar5">
-	Noticias ...
-</div>       
-<div class="main-sidebar4">
-	Videos ...
+<div class="row">
+	<div class="noticias sidebar-10">
+		<div class="noticias">
+			<h3>Noticias</h3>
+			<div class="mainn-content col-8-12">
+				<?php
+					
+					$args = array(
+						'type'				=> 'yearly',
+						'format'			=> 'html', 
+						'before'			=> '',
+						'after'				=> '',
+						'show_post_count'	=> false,
+						'echo'				=> 1,
+						'order'				=> 'DESC',
+						'post_type'			=> 'notas_prensa'
+					);
+					
+				?>
+				
+				<ul class="date-navigation group" data-url="<?php echo get_template_directory_uri(); ?>" data-type="prensa">
+					<?php wp_get_archives( $args ); ?>
+	                <input type="hidden" id="short_noticia" name="short_noticia" value="1" /> <!-- Mostrar solo 5 noticias ver js/code.js -->
+				</ul>
+	            
+	            <?php 
+				  $args = array(
+				        'posts_per_page' 	=> 6,
+	         			'order'				=> 'DESC',
+			        	'orderby'	 		=> 'date',
+	         			'post_type' 		=> 'notas_prensa',
+			         	'post_status' 		=> 'publish',
+	        			'year'  			=> '2016'
+			            );
+					
+			       // echo '<br>HOLA'.$_GET['year'];
+			
+			       $show_posts = new WP_Query( $args ); 
+				?>
+				
+				<div class="archive-updater"> 
+					<?php if ( $show_posts->have_posts() ) :   //echo 'h:'.$show_posts->have_posts(); ?>
+
+						<?php /* Start the Loop */ ?>
+						<?php while ( $show_posts->have_posts() ) : $show_posts->the_post(); ?>
+		
+							<?php
+							$format = get_post_format();
+							if ( false === $format )
+								$format = 'standard';
+							?>
+		
+							<?php get_template_part( 'content', 'nota' ); ?>
+		
+						<?php endwhile; ?>
+		
+						<?php blakzr_content_nav( 'nav-below' ); ?>
+		
+					<?php else : ?>
+		
+					<article id="post-0" class="post no-results not-found">
+						<h1 class="entry-title"><?php _e( 'No se encontro nada', 'blakzr' ); ?></h1>
+						
+						<div class="entry-content">
+							<p><?php _e( 'Disculpas, pero no se han encontrado resultados para el archivo solicitado. Puede que la busqueda le ayudara a encontrar una entrada relacionada.', 'blakzr' ); ?></p>
+							<?php get_search_form(); ?>
+						</div><!-- .entry-content -->
+					</article><!-- #post-0 -->
+		
+					<?php endif; ?>
+				</div>									            
+			</div><!-- .main-content -->			
+		</div>
+	</div>       
+	<div class="destacados sidebar-2">
+		<h3>Destacados</h3>
+		<ul>
+			<li><a id="btn-esc-riesgo" href="#">Escenario de Riesgo</a></li>
+			<li><a id="btn-inspec-tec" href="#">Inspecciones técnicas</a></li>
+			<li><a id="btn-convenios" href="#">Convenios</a></li>
+			<li><a id="btn-cal" href="#">Calendario de actividades</a></li>
+		</ul>
+	</div>
+</div>
+<div class="row">
+	<div class="sidebar-10">
+		<div class="publicaciones">
+		<h3>Publicaciones</h3>
+			---
+		</div>
+	</div>       
+	<div class=" sidebar-2">
+		<div class="videos">
+			<h3>Videos Institucionales</h3>
+			<iframe width="395" height="270" src="https://www.youtube.com/embed/zb7PVZt4FR4" frameborder="0" allowfullscreen></iframe>
+		</div>
+	</div>
 </div>	
 <table border="0" width="100%">
 <tr>

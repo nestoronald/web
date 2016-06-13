@@ -1,3 +1,9 @@
+@media (min-width: 1200px)
+[class*="sidebar"] {
+    float: left;
+    min-height: 1px;    
+}
+
 header.main {
 	position: relative;
     display: block;
@@ -24,6 +30,7 @@ header .lema {
     height: 41px;
     margin-left: 81px;
 }
+/*Social media*/
 .social_media{
 	position: absolute;
     right: 45px;
@@ -50,6 +57,11 @@ header .lema {
 .social_media ul > li a#ml {
 	background: url("../img/correo.png") no-repeat;
 }
+/*Filas*/
+.row{}
+.row:after {
+	clear: both;
+}
 
 /*Areas*/
 .area, .aplicaciones{
@@ -57,10 +69,12 @@ header .lema {
     height: 200px;
 }
 .area h3, .aplicaciones h3{
+	 margin-left: 71px;
+}
+.area h3, .aplicaciones h3,[class*="sidebar"] h3{
 	color: #0096ad;
     font-size: 15px;
-    padding: 7px 5px;
-    margin-left: 71px;
+    padding: 7px 5px;   
     text-transform: uppercase;
     font-weight: 500;
 }
@@ -71,7 +85,7 @@ header .lema {
 	display: block;
 	margin-left: 71px;	
 }
-.area ul > li a img {
+.area ul > li a img, .aplicaciones ul > li a img, .destacados ul > li a img {
 	width: 317px;
 	height: 159px;
 }
@@ -85,10 +99,6 @@ header .lema {
 	background: url("../img/btn-dimse.png") no-repeat;
 }
 /*Aplicaciones*/
-.aplicaciones ul > li a img {
-	width: 317px;
-	height: 159px;
-}
 .aplicaciones ul > li a#btn-sigrid {
 	background: url("../img/btn-sigrid.png") no-repeat;
 }
@@ -106,4 +116,25 @@ header .lema {
 }
 .aplicaciones ul > li a#btn-aula-virtual {
 	background: url("../img/btn-aula-virtual.png") no-repeat;
+}
+/*Noticias y videos*/
+.sidebar-10 {	
+	width: 70%;
+}
+.sidebar-2 {
+	width: 20%;
+}
+/*Destacados*/
+
+.destacados ul > li a#btn-esc-riesgo {
+	background: url("../img/btn-esc-riesgo.png") no-repeat;
+}
+.destacados ul > li a#btn-inspec-tec {
+	background: url("../img/btn-inspec-tec.png") no-repeat;
+}
+.destacados ul > li a#btn-convenios {
+	background: url("../img/btn-convenios.png") no-repeat;
+}
+.destacados ul > li a#btn-cal {
+	background: url("../img/btn-cal.png") no-repeat;
 }
