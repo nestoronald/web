@@ -85,7 +85,7 @@ header .lema {
 	display: block;
 	margin-left: 71px;	
 }
-.area ul > li a img, .aplicaciones ul > li a img, .destacados ul > li a img {
+.area ul > li a img, .aplicaciones ul > li a img, .desta ul > li a img {
 	width: 317px;
 	height: 159px;
 }
@@ -126,15 +126,15 @@ header .lema {
 }
 /*Destacados*/
 
-.destacados ul > li a#btn-esc-riesgo {
+.desta ul > li a#btn-esc-riesgo {
 	background: url("../img/btn-esc-riesgo.png") no-repeat;
 }
-.destacados ul > li a#btn-inspec-tec {
+.desta ul > li a#btn-inspec-tec {
 	background: url("../img/btn-inspec-tec.png") no-repeat;
 }
-.destacados ul > li a#btn-convenios {
+.desta ul > li a#btn-convenios {
 	background: url("../img/btn-convenios.png") no-repeat;
 }
-.destacados ul > li a#btn-cal {
+.desta ul > li a#btn-cal {
 	background: url("../img/btn-cal.png") no-repeat;
 }

@@ -190,7 +190,7 @@ cursor:pointer; cursor: hand;
 			</div><!-- .main-content -->			
 		</div>
 	</div>       
-	<div class="destacados sidebar-2">
+	<div class="desta sidebar-2">
 		<h3>Destacados</h3>
 		<ul>
 			<li><a id="btn-esc-riesgo" href="#">Escenario de Riesgo</a></li>
