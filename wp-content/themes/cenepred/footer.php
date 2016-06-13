@@ -24,11 +24,6 @@
             </li>
             
             <li class="itemposts"><div class="items grises">
-            <a href="http://www.minam.gob.pe/" title="Ministerio del Ambiente" >
-            <img alt="Ministerio del Ambiente" src="<?php echo get_template_directory_uri(); ?>/img/instituciones/logo-mambiente.png" /></a></div>
-            </li>
-            
-            <li class="itemposts"><div class="items grises">
             <a href="http://www.vivienda.gob.pe/" title="Ministerio de Vivienda, Construcción y Saneamiento" >
             <img alt="Ministerio de Vivienda, Construcción y Saneamiento" src="<?php echo get_template_directory_uri(); ?>/img/instituciones/min-vivienda.png" /></a></div>
             </li>
@@ -73,8 +68,8 @@
             
         </ul> 
         
-        <a title="Siguiente" id="nextfeatured-properties" href="#" class="next btn_next2 animationAll z2">NEXT<span></span></a>
-	    <a title="Anterior" id="prevfeatured-properties" href="#" class="prev btn_prev2 animationAll z2">PREV<span></span></a>
+        <a title="Siguiente" id="nextfeatured-properties" href="#" class="next btn_next2 animationAll z2">Siguiente<span></span></a>
+	    <a title="Anterior" id="prevfeatured-properties" href="#" class="prev btn_prev2 animationAll z2">Anterior<span></span></a>
     </div>
 </section>
 </div>
