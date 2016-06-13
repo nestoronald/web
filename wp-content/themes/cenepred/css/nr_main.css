@@ -152,9 +152,9 @@ header .lema {
 	color: #fbfbfb;
 }
 
-#footer h4, #footer.textwidget {
+#footer h4, #footer .textwidget {
 	text-align: center;
 }
-#footer.textwidget {
+#footer .textwidget {
 	line-height: 1.3;
 }
