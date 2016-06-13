@@ -63,21 +63,7 @@ cursor:pointer; cursor: hand;
                   else{ ?>
 	                 <div class="slider-info flexslider">
 	                    <ul class="slides">
-	                        <?php $test = array(
-'a' => 'b',
-'c' => 'd',
-'e' => 'f',
-);
-
-add_option('something', "$test");  // I've done the  	register_setting    bit earlier on
-
-$result = get_option("$test"); 
-
-print_r ($result);  // The output is     Array
-
-echo '<br />';
-
-echo $result ['e'];  // The output is  f ?>
+	                        <?php $home_slider =get_option( 'blakzr_slide_homepage_slider' ); var_dump($home_slider); ?>
 	                    </ul>
 
 	                 </div>
