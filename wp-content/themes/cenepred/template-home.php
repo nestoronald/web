@@ -115,7 +115,13 @@ cursor:pointer; cursor: hand;
 <?php endif; ?>
 -->  
       
-<!-- START BLOQUE4: SECTOR NOTICIAS && INTERES VIDEO   style="vertical-align:top"-->       
+<!-- START BLOQUE4: SECTOR NOTICIAS && INTERES VIDEO   style="vertical-align:top"-->
+<div class="main-sidebar5">
+	Noticias ...
+</div>       
+<div class="main-sidebar4">
+	Videos ...
+</div>	
 <table border="0" width="100%">
 <tr>
    <td>
