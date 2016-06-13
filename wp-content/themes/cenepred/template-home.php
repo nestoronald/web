@@ -117,7 +117,7 @@ cursor:pointer; cursor: hand;
       
 <!-- START BLOQUE4: SECTOR NOTICIAS && INTERES VIDEO   style="vertical-align:top"-->
 <div class="row">
-	<div class="noticias sidebar-10">
+	<div class="noticias col-10">
 		<div class="noticias">
 			<h3>Noticias</h3>
 			<div class="mainn-content col-8-12">
@@ -190,7 +190,7 @@ cursor:pointer; cursor: hand;
 			</div><!-- .main-content -->			
 		</div>
 	</div>       
-	<div class="desta sidebar-2">
+	<div class="desta col-2">
 		<h3>Destacados</h3>
 		<ul>
 			<li><a id="btn-esc-riesgo" href="#">Escenario de Riesgo</a></li>
@@ -201,161 +201,20 @@ cursor:pointer; cursor: hand;
 	</div>
 </div>
 <div class="row">
-	<div class="sidebar-10">
+	<div class="col-10">
 		<div class="publicaciones">
 		<h3>Publicaciones</h3>
 			---
 		</div>
 	</div>       
-	<div class=" sidebar-2">
+	<div class=" col-2">
 		<div class="videos">
 			<h3>Videos Institucionales</h3>
 			<iframe width="395" height="270" src="https://www.youtube.com/embed/zb7PVZt4FR4" frameborder="0" allowfullscreen></iframe>
 		</div>
 	</div>
 </div>	
-<table border="0" width="100%">
-<tr>
-   <td>
-      <aside class="main-sidebar5">
-        <section class="sidebar-publicaciones">
-           <div class="tit-seccion">Noticias</div>        
-        </section>
-      </aside>     
-   </td>
-   <td style="width:5%">&nbsp;</td>
-   <td valign="top">
-    <aside class="main-sidebar4">
-     <section class="sidebar-publicaciones">  
-        <div class="tit-seccion">Videos Institucionales</div>
-          <p><span class="nav-desc"></span></p>
-      </section>      
-    </aside>    
-   </td>
-   <td style="width:40px">&nbsp;</td>
-</tr>
-<tr>
- <td valign="top" width="60%" style="vertical-align:top">   
   
-  <div class="mainn wrap grid">
-
-		<div class="mainn-content col-8-12">
-		
-		<!--	<nav class="breadcrumbs">
-				<?php
-				// Code to display breadcrumbs from the plugin 'Breadcrumbs NavXT'
-				if ( function_exists( 'bcn_display' ) ) :
-				//	bcn_display(); // echo 'AA';
-				endif;
-				?>
-			</nav> 
-        -->
-		
-		<!--	<div class="site-location">
-				<h1 class="location-title">
-				  <a href="<? //echo site_url( '/' );?>notas-de-prensa/">	
-				  <?php // _e('Notas de Prensa', 'blakzr'); ?>
-                  Noticias
-                  </a>
-				</h1>
-			</div> -->
-        	
-			<?php
-				
-				$args = array(
-					'type'				=> 'yearly',
-					'format'			=> 'html', 
-					'before'			=> '',
-					'after'				=> '',
-					'show_post_count'	=> false,
-					'echo'				=> 1,
-					'order'				=> 'DESC',
-					'post_type'			=> 'notas_prensa'
-				);
-				
-			?>
-			
-			<ul class="date-navigation group" data-url="<?php echo get_template_directory_uri(); ?>" data-type="prensa">
-				<?php wp_get_archives( $args ); ?>
-                <input type="hidden" id="short_noticia" name="short_noticia" value="1" /> <!-- Mostrar solo 5 noticias ver js/code.js -->
-			</ul>
-            
-            <?php 
-			  $args = array(
-			        'posts_per_page' 	=> 6,
-         			'order'				=> 'DESC',
-		        	'orderby'	 		=> 'date',
-         			'post_type' 		=> 'notas_prensa',
-		         	'post_status' 		=> 'publish',
-        			'year'  			=> '2016'
-		            );
-				
-		       // echo '<br>HOLA'.$_GET['year'];
-		
-		       $show_posts = new WP_Query( $args ); 
-			?>
-			
-			<div class="archive-updater"> 
-				<?php if ( $show_posts->have_posts() ) :   //echo 'h:'.$show_posts->have_posts(); ?>
-
-					<?php /* Start the Loop */ ?>
-					<?php while ( $show_posts->have_posts() ) : $show_posts->the_post(); ?>
-	
-						<?php
-						$format = get_post_format();
-						if ( false === $format )
-							$format = 'standard';
-						?>
-	
-						<?php get_template_part( 'content', 'nota' ); ?>
-	
-					<?php endwhile; ?>
-	
-					<?php blakzr_content_nav( 'nav-below' ); ?>
-	
-				<?php else : ?>
-	
-				<article id="post-0" class="post no-results not-found">
-					<h1 class="entry-title"><?php _e( 'No se encontro nada', 'blakzr' ); ?></h1>
-					
-					<div class="entry-content">
-						<p><?php _e( 'Disculpas, pero no se han encontrado resultados para el archivo solicitado. Puede que la busqueda le ayudara a encontrar una entrada relacionada.', 'blakzr' ); ?></p>
-						<?php get_search_form(); ?>
-					</div><!-- .entry-content -->
-				</article><!-- #post-0 -->
-	
-				<?php endif; ?>
-			</div>
-			
-			<nav id="nav-below" class="page-navigation group">        
-              <div class="nav-previous"><a href="<? echo site_url( '/' );?>notas-de-prensa/" ><span class="meta-nav">>></span> <span>Ver m&aacute;s noticias</span></a></div>
-            </nav>
-            
-		</div><!-- .main-content -->
-    
- </td>
- <td style="width:5%">&nbsp;</td>
- <td valign="top">
-      
-           <table>
-           <tr><td>
-           
-           <iframe width="395" height="270" src="https://www.youtube.com/embed/zb7PVZt4FR4" frameborder="0" allowfullscreen></iframe>
-           
-           </td>
-           </tr>
-           <tr>
-           <td><div style="margin: auto; margin: -40px 0px;">
-              <?php get_sidebar(); ?>  
-              </div>
-           </td>
-           </tr>
-           </table>    
-   
-   </td>
- <td style="width:40px">&nbsp;</td>
-</tr>
-</table>     
 <!-- END BLOQUE4: SECTOR NOTICIAS && INTERES VIDEO -->          
         
 

@@ -1,5 +1,5 @@
 
-[class*="sidebar"] {
+[class*="col"] {
     float: left;    
 }
 
@@ -70,7 +70,7 @@ header .lema {
 .area h3, .aplicaciones h3{
 	 margin-left: 71px;
 }
-.area h3, .aplicaciones h3,[class*="sidebar"] h3{
+.area h3, .aplicaciones h3,[class*="col"] h3{
 	color: #0096ad;
     font-size: 15px;
     padding: 7px 5px;   
@@ -122,10 +122,10 @@ header .lema {
 	background: url("../img/btn-aula-virtual.png") no-repeat;
 }
 /*Noticias y videos*/
-.sidebar-10 {	
+.col-10 {	
 	width: 70%;
 }
-.sidebar-2 {
+.col-2 {
 	width: 20%;
 }
 /*Destacados*/
