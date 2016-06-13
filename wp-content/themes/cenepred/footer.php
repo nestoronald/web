@@ -49,20 +49,14 @@
             </li>      
             
             <li class="itemposts"><div class="items grises">
-            <a href="http://senamhi.gob.pe/?p=0805" title="ENFEN" >
-            <img alt="ENFEN" width="95" height="86" src="<?php echo get_template_directory_uri(); ?>/img/instituciones/logo-enfen.png" />
-            </a></div>
-            </li>
-            
-            <li class="itemposts"><div class="items grises">
             <a href="#" target="_blank" title="Autoridad Nacional del Agua" >
             <img alt="ANA" src="<?php echo get_template_directory_uri(); ?>/img/instituciones/ana.png" />
             </a></div>
             </li>
             
             <li class="itemposts"><div class="items grises">
-            <a href="#" target="_blank" title="Cilegio de Ingenieros del Perú" >
-            <img alt="PAM" src="<?php echo get_template_directory_uri(); ?>/img/instituciones/colegio-ing-peru.j" />
+            <a href="#" target="_blank" title="Colegio de Ingenieros del Perú" >
+            <img alt="CIP" src="<?php echo get_template_directory_uri(); ?>/img/instituciones/colegio-ing-peru.png" />
             </a></div>
             </li>
             
