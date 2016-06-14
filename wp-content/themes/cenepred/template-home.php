@@ -228,11 +228,7 @@ cursor:pointer; cursor: hand;
 		            <li class="itemposts last"><div class="items  ">
 		            <a href="http://192.168.2.20/web/mapa-de-evaluacion-de-riesgo-2016/" target="_blank" title="Publicación 2" >
 		            <img alt="Secretaria de Gestion del Riesgo de Desastres" src="<?php echo get_template_directory_uri(); ?>/img/publicaciones/pub-2.png" /></a></div>
-		            </li>
-		             <li class="itemposts"><div class="items  ">
-		            <a href="http://192.168.2.20/web/mapa-de-evaluacion-de-riesgo-2016/" target="_blank" title="Publicación 1" >
-		            <img alt="Presidencia del Consejo de Ministros" src="<?php echo get_template_directory_uri(); ?>/img/publicaciones/pub-1.png" /></a></div>
-		            </li>		           
+		            </li>		             		           
 		    </ul>
 		</div>
 	</div>       
