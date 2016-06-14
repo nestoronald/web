@@ -195,3 +195,9 @@ a.more-link {
     padding-bottom: 20px;
     border-bottom: 1px solid #d2cdc9;
 }
+.slide-pub li {
+	float: left;
+}
+.slide-pub li a:hover {
+	zoom:1.3;
+}

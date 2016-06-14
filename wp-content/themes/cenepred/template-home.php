@@ -212,24 +212,20 @@ cursor:pointer; cursor: hand;
 	<div class="col-10">
 		<div class="publicaciones">
 		<h3>Publicaciones</h3>
-			 <div class="slide-pub">
-		        <ul>
+			<ul class="slide-pub">
 		            <li class="itemposts large"><div class="items  ">
-		            <a href="http://www.pcm.gob.pe/" target="_blank" title="Presidencia del Consejo de Ministros" >
-		            <img alt="Presidencia del Consejo de Ministros" src="<?php echo get_template_directory_uri(); ?>/img/instituciones/pcm.png" /></a></div>
+		            <a href="#" target="_blank" title="Publicación 1" >
+		            <img alt="Presidencia del Consejo de Ministros" src="<?php echo get_template_directory_uri(); ?>/img/publicaciones/pub-1.png" /></a></div>
 		            </li>
-		            
 		            <li class="itemposts large"><div class="items  ">
-		            <a href="http://sgrd.pcm.gob.pe/" target="_blank" title="Secretaria de Gestion del Riesgo de Desastres" >
-		            <img alt="Secretaria de Gestion del Riesgo de Desastres" src="<?php echo get_template_directory_uri(); ?>/img/instituciones/sec-ges-riesgos-desastres.png" /></a></div>
+		            <a href="#" target="_blank" title="Publicación 2" >
+		            <img alt="Secretaria de Gestion del Riesgo de Desastres" src="<?php echo get_template_directory_uri(); ?>/img/publicaciones/pub-2.png" /></a></div>
 		            </li>
-		            
 		            <li class="itemposts medium-1"><div class="items   ">
-		            <a href="http://www.vivienda.gob.pe/" title="Ministerio de Vivienda, Construcción y Saneamiento" >
-		            <img alt="Ministerio de Vivienda, Construcción y Saneamiento" src="<?php echo get_template_directory_uri(); ?>/img/instituciones/min-vivienda.png" /></a></div>
+		            <a href="#" title="Publicación 3" >
+		            <img alt="Ministerio de Vivienda, Construcción y Saneamiento" src="<?php echo get_template_directory_uri(); ?>/img/publicaciones/pub-3.png" /></a></div>
 		            </li>
-		        </ul>
-            </div>
+		    </ul>
 		</div>
 	</div>       
 	<div class=" col-2">
