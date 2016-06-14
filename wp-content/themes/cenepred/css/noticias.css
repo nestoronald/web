@@ -40,14 +40,16 @@ figure img {
 }
 
 .slides figcaption {
-	background: rgba(0,0,0,0.3);
-	color: #fff;
-	padding: 15px;
-	position: absolute;
-		bottom: 0;
-		left: 0;
-		right: 0;
-	text-shadow: 1px 1px 0 rgba(0,0,0,0.5);
+  background: rgba(73, 153, 176, 0.75);
+  color: #fff;
+  padding: 15px;
+  position: absolute;
+  bottom: 15px;
+  right: 0;
+  text-shadow: 1px 1px 0 rgba(0,0,0,0.5);
+  width: 75%;
+  left: 15%;
+  text-align: center;
 }
 
 .slides figcaption h4 {

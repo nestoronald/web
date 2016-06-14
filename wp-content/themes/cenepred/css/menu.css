@@ -11,7 +11,7 @@ ol, ul {
 -------------------------------------------------------------- */
 
 #nav2 {
-    background: #1a7891;
+    background: #4999b0;
     border-bottom: 5px solid #5db2c8;
     height: 50px;
     font-family: Arial, Helvetica, sans-serif;
@@ -27,7 +27,7 @@ ol, ul {
 }
 
 .navfirstlevel2 > li:after {
-    background: #1a7891;
+    background: #4999b0;
     content: "";
     position: absolute;
     right: -2px;

@@ -173,3 +173,12 @@ header .lema {
 #slider-entidades .large {
 	width: 440px !important;
 }
+span.fecha {
+  position: absolute;
+  left: 0;
+  color: rgb(0, 154, 177);
+  text-align: center;
+}
+span.dia {
+  display: block;
+}

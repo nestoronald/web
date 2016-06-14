@@ -62,9 +62,42 @@ cursor:pointer; cursor: hand;
                   } 
                   else{ ?>
 	                 <div class="slider-info flexslider">
-	                    <ul class="slides">
-	                        <?php var_dump(get_option( 'blakzr_slide_homepage_slider') ) ?>
+	                    <ul class="slides">	                        
+	                       
+							<li>
+								<figure>
+									<a href="#">
+										<img src="http://localhost/web/wp-content/uploads/2016/06/slider1.jpg" alt="">
+										<figcaption>
+											<h4>primer titulo</h4>
+										</figcaption>
+									</a>
+								</figure>
+							</li>
+							<li>
+								<figure>
+									<a href="#">
+										<img src="http://localhost/web/wp-content/uploads/2016/06/slider4.jpg" alt="">
+										<figcaption>
+											<h4>segundo titulo</h4>
+											
+										</figcaption>
+									</a>
+								</figure>
+							</li>
+							<li>
+								<figure>
+									<a href="#">
+										<img src="http://localhost/web/wp-content/uploads/2016/06/slider2.jpg" alt="">
+										<figcaption>
+											<h4>tercero titulo</h4>
+											
+										</figcaption>
+									</a>
+								</figure>
+							</li>
 	                    </ul>
+
 
 	                 </div>
                 <?php }?>         

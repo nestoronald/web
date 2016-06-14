@@ -53,6 +53,7 @@ figure img {
 	border-radius: 			6px;
 	margin-bottom: 5px;
 	padding: 10px;
+	position: relative;
 }
 
 .archive-prensa figure {

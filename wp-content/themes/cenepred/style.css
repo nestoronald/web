@@ -1682,8 +1682,11 @@ p > iframe{
 	width: 23.076923076923077%;
 }
 
-.archive-prensa .nota-details {
+/*.archive-prensa .nota-details {
 	margin-left: 26.923076923076923%;
+}*/
+.archive-prensa .nota-details {
+	margin-left: 5%;
 }
 
 .archive-prensa .nota-title {

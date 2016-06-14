@@ -15,6 +15,8 @@
 /***/
 
 jQuery(document).ready(function(){
+
+	jQuery( ".nota-details" ).prepend( "<span class='fecha'> <span class='dia'>14</span> <span class='mes'>JUNIO</span> </span>" );
 	
 	
 	/* Main Navigation Drop-downs
