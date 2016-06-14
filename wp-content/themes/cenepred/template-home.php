@@ -52,7 +52,7 @@ cursor:pointer; cursor: hand;
 </style>   
 	<div class="bg-01">
         
-       <div class="group" style="margin-bottom: 40px;">
+       <div class="group">
 	       <div class="main-content2">
 	           <div class="slide-informes">
                 <?php 
