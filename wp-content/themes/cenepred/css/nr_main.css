@@ -4,8 +4,9 @@
 }
 
 header.main {
-	position: relative;
-    display: block;
+	border-top: 10px solid #4999b0;
+	display: block;
+	position: relative;    
     overflow: hidden;
 }
 .left {
