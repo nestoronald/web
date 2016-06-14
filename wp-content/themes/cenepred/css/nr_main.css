@@ -205,3 +205,7 @@ a.more-link {
 .slide-pub li a:hover {
 	zoom:1.2;
 }
+
+#footer li.col-2-6 {
+    width: 19.333333%;
+}
