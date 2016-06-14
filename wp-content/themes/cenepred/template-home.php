@@ -67,9 +67,11 @@ cursor:pointer; cursor: hand;
 							<li>
 								<figure>
 									<a href="#">
-										<img src="http://localhost/web/wp-content/uploads/2016/06/slider1.jpg" alt="">
+										<img src="http://192.168.2.20/web/wp-content/uploads/2016/06/slider1.jpg" alt="">
 										<figcaption>
-											<h4>primer titulo</h4>
+											<h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+											tempor incididunt ut labore et dolore magna aliqua. 
+											</h4>
 										</figcaption>
 									</a>
 								</figure>
@@ -77,10 +79,10 @@ cursor:pointer; cursor: hand;
 							<li>
 								<figure>
 									<a href="#">
-										<img src="http://localhost/web/wp-content/uploads/2016/06/slider4.jpg" alt="">
+										<img src="http://192.168.2.20/web/wp-content/uploads/2016/06/slider4.jpg" alt="">
 										<figcaption>
-											<h4>segundo titulo</h4>
-											
+											<h4>Ut enim ad minim veniam,
+											quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</h4>											
 										</figcaption>
 									</a>
 								</figure>
@@ -88,10 +90,10 @@ cursor:pointer; cursor: hand;
 							<li>
 								<figure>
 									<a href="#">
-										<img src="http://localhost/web/wp-content/uploads/2016/06/slider2.jpg" alt="">
+										<img src="http://192.168.2.20/web/wp-content/uploads/2016/06/slider2.jpg" alt="">
 										<figcaption>
-											<h4>tercero titulo</h4>
-											
+											<h4>Consectetur adipisicing
+											quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</h4>											
 										</figcaption>
 									</a>
 								</figure>
