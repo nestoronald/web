@@ -130,10 +130,10 @@ cursor:pointer; cursor: hand;
 <div class="aplicaciones row">
   <h3>Plataformas en linea</h3>
   <ul>
-    <li><a id="btn-sigrid" href="#">SIGRID</a></li>
-    <li><a id="btn-siide" href="#">SIIDE</a></li>
-    <li><a id="btn-simse" href="#">SIMSE</a></li>
-    <li><a id="btn-sigrid-collet" href="#">SIGRID-COLLET</a></li>
+    <li><a id="btn-sigrid" href="http://192.168.2.20/web/sistema-sigrid/">SIGRID</a></li>
+    <li><a id="btn-siide" href="http://dgp.cenepred.gob.pe/">SIIDE</a></li>
+    <li><a id="btn-simse" href="http://servicios.cenepred.gob.pe/cenepred">SIMSE</a></li>
+    <li><a id="btn-sigrid-collet" href="https://play.google.com/store/apps/details?id=gob.cenepred.sigrid.collect&hl=es">SIGRID-COLLET</a></li>
     <li><a id="btn-biblioteca-virtual" href="#">BIBLIOTECA-VIRTUAL</a></li>
     <li><a id="btn-aula-virtual" href="#">AULA-VIRTUAL</a></li>
   </ul>
@@ -201,10 +201,10 @@ cursor:pointer; cursor: hand;
 	<div class="desta col-2">
 		<h3>Destacados</h3>
 		<ul>
-			<li><a id="btn-esc-riesgo" href="#">Escenario de Riesgo</a></li>
-			<li><a id="btn-inspec-tec" href="#">Inspecciones técnicas</a></li>
-			<li><a id="btn-convenios" href="#">Convenios</a></li>
-			<li><a id="btn-cal" href="#">Calendario de actividades</a></li>
+			<li><a id="btn-esc-riesgo" href="http://192.168.2.20/web/escenarios-de-riesgos/">Escenario de Riesgo</a></li>
+			<li><a id="btn-inspec-tec" href="http://dgp.cenepred.gob.pe/itse/registro_nacional">Inspecciones técnicas</a></li>
+			<li><a id="btn-convenios" href="http://192.168.2.20/web/oficina-de-cooperacion-y-relaciones-internacionales/">Convenios</a></li>
+			<li><a id="btn-cal" href="http://192.168.2.20/web/eventos/">Calendario de actividades</a></li>
 		</ul>
 	</div>
 </div>
