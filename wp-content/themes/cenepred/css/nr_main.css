@@ -197,7 +197,10 @@ a.more-link {
 }
 .slide-pub li {
 	float: left;
-	margin-right: 25px;
+	margin-right: 15px;
+}
+.slide-pub li.last {	
+	margin-right: 0;
 }
 .slide-pub li a:hover {
 	zoom:1.2;
