@@ -173,7 +173,7 @@ cursor:pointer; cursor: hand;
 							?>
 							
 							<?php
-							if ($init<4) {
+							if ($init<5) {
 								get_template_part( 'content', 'nota' );
 							}
 							?>
