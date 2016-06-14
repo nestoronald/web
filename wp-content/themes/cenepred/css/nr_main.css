@@ -197,7 +197,8 @@ a.more-link {
 }
 .slide-pub li {
 	float: left;
+	margin-right: 25px;
 }
 .slide-pub li a:hover {
-	zoom:1.3;
+	zoom:1.2;
 }
