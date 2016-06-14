@@ -145,7 +145,7 @@ header .lema {
 #menu-principal {
 	text-align: center;
 }
-.noticias {
+.noticias, .publicaciones {
 	padding-left: 64px;
 }
 #footer {
