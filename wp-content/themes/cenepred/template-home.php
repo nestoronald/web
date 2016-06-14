@@ -203,7 +203,7 @@ cursor:pointer; cursor: hand;
 		<ul>
 			<li><a id="btn-esc-riesgo" href="http://192.168.2.20/web/escenarios-de-riesgos/">Escenario de Riesgo</a></li>
 			<li><a id="btn-inspec-tec" href="http://dgp.cenepred.gob.pe/itse/registro_nacional">Inspecciones técnicas</a></li>
-			<li><a id="btn-convenios" href="http://192.168.2.20/web/oficina-de-cooperacion-y-relaciones-internacionales/">Convenios</a></li>
+			<li><a id="btn-sigrid-collect" href="https://play.google.com/store/apps/details?id=gob.cenepred.sigrid.collect&hl=es">Sigrid Collect</a></li>
 			<li><a id="btn-cal" href="http://192.168.2.20/web/eventos/">Calendario de actividades</a></li>
 		</ul>
 	</div>
