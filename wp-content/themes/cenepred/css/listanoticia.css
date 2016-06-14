@@ -46,19 +46,16 @@ figure img {
 
 
 /* Notas de Prensa */
-.archive-prensa {
-	background: #f1f1f1;
-	-webkit-border-radius: 	6px;
-	-moz-border-radius: 	6px;
-	border-radius: 			6px;
-	margin-bottom: 5px;
-	padding: 10px;
-	position: relative;
+.archive-prensa {	
+	margin-bottom: 10px;
+    padding: 10px 10px 3px;
+    position: relative;
+    border-bottom: 1px solid #d2cdc9;
 }
 
 .archive-prensa figure {
 	float: right;
-	width: 23%;
+	width: 18%;
 }
 
 /*.archive-prensa .nota-details {

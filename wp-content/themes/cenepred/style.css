@@ -1668,8 +1668,7 @@ p > iframe{
 -------------------------------------------------------------- */
 
 /* Notas de Prensa */
-.archive-prensa {
-	background: #f1f1f1;
+.archive-prensa {	
 	-webkit-border-radius: 	6px;
 	-moz-border-radius: 	6px;
 	border-radius: 			6px;
