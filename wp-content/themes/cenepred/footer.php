@@ -13,7 +13,7 @@
           <!--  <div class="tit-seccion">Organismos públicos, Entidades cooperantes y ONG</div> -->
     <div class="slide-entid">
         <ul id="slider_carrusel">
-            <li class="itemposts large"><div class="items   ">
+            <li class="itemposts large"><div class="items  ">
             <a href="http://www.pcm.gob.pe/" target="_blank" title="Presidencia del Consejo de Ministros" >
             <img alt="Presidencia del Consejo de Ministros" src="<?php echo get_template_directory_uri(); ?>/img/instituciones/pcm.png" /></a></div>
             </li>
