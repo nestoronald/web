@@ -172,8 +172,25 @@ cursor:pointer; cursor: hand;
 <div class="row">
 	<div class="col-10">
 		<div class="publicaciones">
-		<h3>Publicaciones</h3>
-			---
+			<div class="slide-entid">
+				<h3>Publicaciones</h3>
+				<ul id="slider_carrusel">
+		            <li class="itemposts large"><div class="items">
+		            <a href="#" target="_blank" title="Publicaciones" >
+		            <img alt="#" src="<?php echo get_template_directory_uri(); ?>/img/publicaciones/pub-1.png" /></a></div>
+		            </li>
+		            
+		            <li class="itemposts large"><div class="items">
+		            <a href="#" target="_blank" title="Publicaciones" >
+		            <img alt="#" src="<?php echo get_template_directory_uri(); ?>/img/publicaciones/pub-2.png" /></a></div>
+		            </li>
+		            
+		            <li class="itemposts medium-1"><div class="items">
+		            <a href="#" title="Publicaciones" >
+		            <img alt="#" src="<?php echo get_template_directory_uri(); ?>/img/publicaciones/pub-3.png" /></a></div>
+		            </li>
+	            </ul>
+            </div>
 		</div>
 	</div>       
 	<div class=" col-2">
