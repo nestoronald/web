@@ -63,7 +63,7 @@ cursor:pointer; cursor: hand;
                   else{ ?>
 	                 <div class="slider-info flexslider">
 	                    <ul class="slides">
-	                        <?php var_dump(get_option( 'blakzr_slide_homepage_slider' ) echo "slider" ?>
+	                        <?php var_dump(get_option( 'blakzr_slide_homepage_slider' ) ?>
 	                    </ul>
 
 	                 </div>
