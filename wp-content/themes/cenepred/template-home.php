@@ -163,7 +163,7 @@ cursor:pointer; cursor: hand;
 				?>				
 					<?php if ( $show_posts->have_posts() ) :   var_dump($show_posts->the_post()) ; ?>
 
-						<?php /* Start the Loop */ ?>
+						<?php /* Start the Loop */ $init=1;?>
 						<?php while ( $show_posts->have_posts() ) : $show_posts->the_post(); ?>
 		
 							<?php
@@ -171,10 +171,14 @@ cursor:pointer; cursor: hand;
 							if ( false === $format )
 								$format = 'standard';
 							?>
+							
+							<?php
+							if ($init<4) {
+								get_template_part( 'content', 'nota' );
+							}
+							?>
 		
-							<?php get_template_part( 'content', 'nota' ); ?>
-		
-						<?php endwhile; ?>
+						<?php $init++; endwhile; ?>
 		
 						<?php blakzr_content_nav( 'nav-below' ); ?>
 		
