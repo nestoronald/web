@@ -212,8 +212,8 @@ cursor:pointer; cursor: hand;
 	<div class="col-10">
 		<div class="publicaciones">
 		<h3>Publicaciones</h3>
-			 <div class="slide-entid">
-		        <ul id="slider_carrusel">
+			 <div class="slide-pub">
+		        <ul>
 		            <li class="itemposts large"><div class="items  ">
 		            <a href="http://www.pcm.gob.pe/" target="_blank" title="Presidencia del Consejo de Ministros" >
 		            <img alt="Presidencia del Consejo de Ministros" src="<?php echo get_template_directory_uri(); ?>/img/instituciones/pcm.png" /></a></div>
