@@ -78,7 +78,7 @@ header .lema {
     text-transform: uppercase;
     font-weight: bold;
 }
-.noticias h3, .aplicaciones h3, .videos h3, .publicaciones h3 {
+.noticias h3, .aplicaciones h3, .videos h3, .publicaciones h3, .destacados h3 {
 	letter-spacing: -1px;
     color: #67a6b7;
 }

@@ -117,11 +117,11 @@ html[xmlns] .slides {
 }
 
 .flex-control-nav {
-    width: 100%; 
-    position: absolute; 
-    bottom: 13px; 
-    text-align: right; 
-    z-index: 9; 
+    width: 100%;
+    position: absolute;
+    bottom: 23px;
+    text-align: center;
+    z-index: 9;
     right: 10px;
 }
 
