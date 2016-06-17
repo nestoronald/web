@@ -133,6 +133,9 @@ header .lema {
 .col-10 {	
 	width: 64%;
 }
+.col-5 {	
+	width: 31%;
+}
 .col-2 {
 	width: 25%;
     margin-left: 2.5%;
