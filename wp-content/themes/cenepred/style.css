@@ -1503,12 +1503,6 @@ article .edit-link {
 }
 
 /* Objects */
-iframe,
-object,
-object embed,
-.fluid-width-video-wrapper {
-	margin-bottom: 1.5em;
-}
 
 p > iframe{
 	margin-bottom: 0;
@@ -2257,8 +2251,7 @@ p > iframe{
 #footer {
     background: #4999b0;
     height: auto;
-    padding-top: 37px;
-    min-height: 295px;
+    padding: 30px 0;    
 }
 
 #footer h4 {
