@@ -133,7 +133,7 @@ cursor:pointer; cursor: hand;
     <li><a id="btn-sigrid" href="http://192.168.2.20/web/sistema-sigrid/">SIGRID</a></li>
     <li><a id="btn-siide" href="http://dgp.cenepred.gob.pe/">SIIDE</a></li>
     <li><a id="btn-simse" href="http://servicios.cenepred.gob.pe/cenepred">SIMSE</a></li>
-    <li><a id="btn-0" href="https://play.google.com/store/apps/details?id=gob.cenepred.sigrid.collect&hl=es">SIGRID-COLLET</a></li>
+    <li><a id="btn-0" href="#">SIGRID-COLLET</a></li>
     <li><a id="btn-biblioteca-virtual" href="#">BIBLIOTECA-VIRTUAL</a></li>
     <li><a id="btn-aula-virtual" href="#">AULA-VIRTUAL</a></li>
   </ul>

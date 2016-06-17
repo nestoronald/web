@@ -72,11 +72,11 @@ header .lema {
 	 margin-left: 71px;
 }
 .area h3, .aplicaciones h3,[class*="col"] h3{
-	color: #0096ad;
-    font-size: 15px;
-    padding: 7px 5px;   
+	color: #00587a;
+    font-size: 18px;
+    padding: 7px 5px;
     text-transform: uppercase;
-    font-weight: 500;
+    font-weight: bold;
 }
 .area ul > li a, .aplicaciones ul > li a, .desta ul > li a {
 	text-indent: -9999px;
