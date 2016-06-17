@@ -69,18 +69,14 @@
 </div>
 <footer id="footer"> 
     <div class="container">
-        <div>
-        
-        			<ul class="sidebar group">
-        			 	<?php if ( ! dynamic_sidebar( 'Footer' ) ) : ?>
-        			 	<li class="widget">
-        					<h3 class="widgettitle"><?php _e('Just a Static Widget', 'blakzr'); ?></h3>
-        					<p><?php  _e('This is not a real widget. Just a placeholder. You can put any other available widgets in this area. Try it, what are you waiting for?', 'blakzr'); ?></p>
-        				</li>
-        			 	<?php endif; ?>
-        			</ul>
-        
-        </div>
+        <ul class="sidebar group">
+        	<?php if ( ! dynamic_sidebar( 'Footer' ) ) : ?>
+        	<li class="widget">
+        		<h3 class="widgettitle"><?php _e('Just a Static Widget', 'blakzr'); ?></h3>
+        		<p><?php  _e('This is not a real widget. Just a placeholder. You can put any other available widgets in this area. Try it, what are you waiting for?', 'blakzr'); ?></p>
+        	</li>
+        	 	<?php endif; ?>
+        </ul>
     </div>
 </footer>
 	<?php if ( '' != get_option( 'blakzr_tracking_code', '' ) ) :

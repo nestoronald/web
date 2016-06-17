@@ -215,7 +215,8 @@ a.more-link {
 }
 
 #footer li.col-2-6 {
-    width: 19.333333%;
+   width: 19.5%;
+   padding: 0 8px;
 }
 .fecha .mes{
 	text-transform: uppercase;
