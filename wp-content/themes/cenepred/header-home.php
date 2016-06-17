@@ -110,8 +110,8 @@
 	<div class="social_media left">
 		<ul>
 			<li><a id="tw" target="_blank" href="https://twitter.com/CENEPRED">Twitter</a></li>
-			<li><a id="fb" target="_blank" href="https://twitter.com/CENEPRED">Facebook</a></li>
-			<li><a id="yt" target="_blank" href="https://twitter.com/CENEPRED">Youtube</a></li>
+			<li><a id="fb" target="_blank" href="https://www.facebook.com/cenepred/timeline/">Facebook</a></li>
+			<li><a id="yt" target="_blank" href="https://www.youtube.com/channel/UCw9I7jPR0NLMqT2DmDGgMeQ">Youtube</a></li>
 			<li><a id="ml" target="_blank" href="mailto:webmaster@cenepred.gob.pe">Mail</a></li>
 		</ul>
 	</div>
