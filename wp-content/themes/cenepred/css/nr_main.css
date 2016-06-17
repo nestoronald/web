@@ -116,6 +116,9 @@ header .lema {
 .aplicaciones ul > li a#btn-sigrid-collet {
 	background: url("../img/btn-sigrid-collet.png") no-repeat;
 }
+.aplicaciones ul > li a#btn-0 {
+	background: url("../img/btn-0.png") no-repeat;
+}
 .aplicaciones ul > li a#btn-biblioteca-virtual {
 	background: url("../img/btn-biblioteca-virtual.png") no-repeat;
 }
