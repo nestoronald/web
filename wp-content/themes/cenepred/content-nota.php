@@ -21,10 +21,10 @@
 			<!--div class="entry-meta">
 			<?php //the_time('d/m/y'); ?>
 			</div-->
-			<div class="date">
+			<span class="fecha">
 				<span class="dia"><?php the_time('j') ?></span>
 				<span class="mes"><?php the_time('F') ?></span>
-			</div>
+			</span>
 	
 			<div class="nota-excerpt">
 				<p><?php echo trim( substr( get_the_excerpt(), 0, 160 ) ).'.'; ?> <a href="<?php the_permalink(); ?>" class="more-link"><?php _e( 'Ver m&aacute;s', 'blakzr' ); ?></a></p>
