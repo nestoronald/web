@@ -78,7 +78,7 @@ header .lema {
     text-transform: uppercase;
     font-weight: bold;
 }
-.noticias h3, .aplicaciones h3, .videos h3, .publicaciones h3, .destacados h3 {
+.noticias h3, .aplicaciones h3, .videos h3, .publicaciones h3, .desta h3 {
 	letter-spacing: -1px;
     color: #67a6b7;
 }
@@ -131,10 +131,11 @@ header .lema {
 }
 /*Noticias y videos*/
 .col-10 {	
-	width: 67%;
+	width: 64%;
 }
 .col-2 {
-	width: 20%;
+	width: 25%;
+    margin-left: 2.5%;
 }
 /*Destacados*/
 
