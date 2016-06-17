@@ -78,6 +78,10 @@ header .lema {
     text-transform: uppercase;
     font-weight: bold;
 }
+.noticias h3, .aplicaciones h3, .videos h3, .publicaciones h3 {
+	letter-spacing: -1px;
+    color: #67a6b7;
+}
 .area ul > li a, .aplicaciones ul > li a, .desta ul > li a {
 	text-indent: -9999px;
 	width: 320px;
