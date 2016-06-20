@@ -223,7 +223,7 @@ a.more-link {
 	width: 135px;
     height: 191px;
 }
-li.items.last {	
+li.itemposts.last {	
 	margin-right: 0;
 }
 .slide-pub li a:hover {
@@ -237,6 +237,13 @@ li.items.last {
 .fecha .mes{
 	text-transform: uppercase;
 }
+.col-10 .publicaciones {
+	width: 55%;
+}
+.col-10 .educativos {
+	width: 45%;
+}
+
 .publicaciones li {
 	margin-right: 25px;
 }

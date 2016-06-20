@@ -235,8 +235,7 @@ cursor:pointer; cursor: hand;
 	</div>
 </div>
 <div class="row">
-	<div class="col-10">
-		<div class="col-6">
+	<div class="col-10">		
 			<div class="publicaciones">
 			<h3>Publicaciones</h3>
 				<ul class="slide-pub">
@@ -249,9 +248,7 @@ cursor:pointer; cursor: hand;
 			            <img alt="Secretaria de Gestion del Riesgo de Desastres" src="<?php echo get_template_directory_uri(); ?>/img/publicaciones/pub-2.png" /></a></div>
 			            </li>		           		             		           
 			    </ul>
-			</div>
-		</div>
-		<div class="col-4">
+			</div>		
 			<div class="educativos">
 				<h3>Educativos</h3>
 				<ul>
@@ -259,13 +256,12 @@ cursor:pointer; cursor: hand;
 			            <a href="#" target="_blank" title="Publicación 1" >
 			            <img alt="#" src="<?php echo get_template_directory_uri(); ?>/img/educativos/pub-3.png" /></a></div>
 			        </li>
-			        <li class="itemposts"><div class="items last">
+			        <li class="itemposts last"><div class="items">
 			            <a href="#" target="_blank" title="Publicación 1" >
 			            <img alt="#" src="<?php echo get_template_directory_uri(); ?>/img/educativos/pub-3.png" /></a></div>
 			        </li>		        
 				</ul>
-			</div>
-		</div> 
+			</div>		
 	</div>
 	<div class=" col-2">
 		<div class="videos">
