@@ -61,10 +61,38 @@ cursor:pointer; cursor: hand;
                                dynamic_sidebar('widget-video-slider');
                   } 
                   else{ ?>
+
 	                 <div class="slider-info flexslider">
 	                    <ul class="slides">	                        
-	                       
+	                       <?php
+							$home_slider = get_option( 'blakzr_slide_homepage_slider' );
+		
+							foreach ( $home_slider as $slide ) :
+		
+								if ( is_numeric( $slide['url'] ) ) :
+									$the_image = wp_get_attachment_image_src( $slide['url'], 'slide' );
+								else:
+									$the_image = array();
+								endif;
+							?>
 							<li>
+								<figure>
+									<a href="<?php echo $slide['link']; ?>">
+										<img src="<?php echo $the_image[0]; ?>" width="690" height="300" alt="<?php echo $slide['title']; ?>">
+										<figcaption>
+											<h4><?php echo $slide['title']; ?></h4>
+											<?php if ( !empty( $slide['description'] ) ) : ?>
+											<p><?php echo $slide['description']; ?></p>
+											<?php endif; ?>
+										</figcaption>
+									</a>
+								</figure>
+							</li>
+							<?php
+							endforeach;
+							?>
+
+							<!--li>
 								<figure>
 									<a href="#">
 										<img src="http://192.168.2.20/web/wp-content/uploads/2016/06/slider1.jpg" alt="">
@@ -97,10 +125,8 @@ cursor:pointer; cursor: hand;
 										</figcaption>
 									</a>
 								</figure>
-							</li>
+							</li-->
 	                    </ul>
-
-
 	                 </div>
                 <?php }?>         
 	            </div>
