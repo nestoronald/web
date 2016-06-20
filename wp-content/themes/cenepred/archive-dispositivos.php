@@ -9,7 +9,7 @@
  */
 
 
-get_header(); ?>
+get_header('home'); ?>
 
 	<div class="main wrap grid">
 

@@ -16,6 +16,7 @@
 <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0">
 <meta name="google-site-verification" content="SfcUhkXb9Ktr7ZtoDTwQJqxWdWJtHNbr8PZd6bJ3cJw" />
 <meta name="msvalidate.01" content="2A07E60E80C2E81C9322AE31A77E1E46" />
+<link rel="stylesheet" type="text/css" media="all" href="<?php echo get_template_directory_uri();?>/css/nr_main.css">
 <title><?php
 	/*
 	 * Print the <title> tag based on what is being viewed.

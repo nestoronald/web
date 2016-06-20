@@ -7,7 +7,7 @@
  * @since BlakzrFramework 0.1
  */
 
-get_header(); 
+get_header('home'); 
 //Ruta Conexion BD Solicitud Información
 //require_once("includes/define.php");
 //Funtion to Validate sql-injection

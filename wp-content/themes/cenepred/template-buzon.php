@@ -6,7 +6,7 @@
  * @subpackage BlakzrFramework
  * @since BlakzrFramework 0.1
  */
-get_header(); 
+get_header('home'); 
 //Funtion to Validate sql-injection
 function noInjection($query) {
 	$data = explode("\\",$query);

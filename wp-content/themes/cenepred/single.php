@@ -7,7 +7,7 @@
  * @since BlakzrFramework 0.1
  */
 
-get_header(); ?>
+get_header('home'); ?>
 
 	<div class="main wrap grid">
 	
