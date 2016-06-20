@@ -265,12 +265,12 @@ cursor:pointer; cursor: hand;
 			        </li>		        
 				</ul>
 			</div>
-		</div>       
-		<div class=" col-2">
-			<div class="videos">
+		</div> 
+	</div>
+	<div class=" col-2">
+		<div class="videos">
 				<h3>Videos Institucionales</h3>
 				<iframe width="320" height="230" src="https://www.youtube.com/embed/zb7PVZt4FR4" frameborder="0" allowfullscreen></iframe>
-			</div>
 		</div>
 	</div>
 </div>	
