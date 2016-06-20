@@ -240,10 +240,12 @@ li.itemposts.last {
 .col-10 .publicaciones {
 	width: 55%;
 }
+.col-10 .publicaciones, .col-10 .educativos {
+	float: left;
+}
 .col-10 .educativos {
 	width: 45%;
 }
-
 .publicaciones li {
 	margin-right: 25px;
 }
