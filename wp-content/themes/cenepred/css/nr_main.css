@@ -188,11 +188,33 @@ header .lema {
 #slider-entidades .small {
 	width: 100px !important;
 }
+#slider-entidades .small-1 {
+	width: 120px !important;
+}
+#slider-entidades .small-2 {
+	width: 150px !important;
+}
+#slider-entidades .small-3 {
+	width: 190px !important;
+}
+#slider-entidades .medium {
+	width: 220px !important;
+}
+#slider-entidades .medium-1 {
+	width: 250px !important;
+}
 #slider-entidades .medium-2 {
 	width: 280px !important;
 }
+#slider-entidades .medium-3 {
+	width: 315px !important;
+}
 #slider-entidades .large {
-	width: 440px !important;
+	width: 400px !important;
+}#slider-entidades .large-1 {
+	width: 430px !important;
+}#slider-entidades .large-2 {
+	width: 465px !important;
 }
 span.fecha {
 	position: absolute;
