@@ -40,7 +40,7 @@
 
             <li class="itemposts small"><div class="items">
             <a href="http://www.igp.gob.pe/" title="Marina de Guerra Dirección de Hidrografía" >
-            <img alt="Marina de Guerra Dirección de Hidrografía" src="<?php echo get_template_directory_uri(); ?>/img/instituciones/marina-guerra.png" />
+            <img alt="Marina de Guerra Dirección de Hidrografía" src="<?php echo get_template_directory_uri(); ?>/img/instituciones/marina-guerra.jpg" />
             </a></div>            
             </li>
 
