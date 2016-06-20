@@ -223,7 +223,7 @@ a.more-link {
 	width: 135px;
     height: 191px;
 }
-li.last {	
+li.items.last {	
 	margin-right: 0;
 }
 .slide-pub li a:hover {
