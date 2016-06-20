@@ -78,7 +78,7 @@ header .lema {
     text-transform: uppercase;
     font-weight: bold;
 }
-.noticias h3, .aplicaciones h3, .videos h3, .publicaciones h3, .desta h3 {
+.noticias h3, .aplicaciones h3, .videos h3, .publicaciones h3, .desta h3, .educativos h3 {
 	letter-spacing: -1px;
     color: #67a6b7;
 }
@@ -134,7 +134,7 @@ header .lema {
 	width: 64%;
 }
 .col-5 {	
-	width: 32%;
+	width: 45%;
 }
 .col-2 {
 	width: 25%;
