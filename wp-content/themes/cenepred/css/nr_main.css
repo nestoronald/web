@@ -140,6 +140,9 @@ header .lema {
 	width: 25%;
     margin-left: 2.5%;
 }
+.row .col-5 {
+	margin-left: 0;
+}
 /*Destacados*/
 
 .desta ul > li a#btn-esc-riesgo {
