@@ -12,7 +12,8 @@
  * @since BlakzrFramework 0.1
  */
 
-get_header(); ?>
+get_header('home'); ?>
+<link rel="stylesheet" type="text/css" media="all" href="<?php echo get_template_directory_uri();?>/css/nr_main.css">
 
 	<div class="main wrap grid">
 
