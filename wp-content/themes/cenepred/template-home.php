@@ -256,7 +256,11 @@ cursor:pointer; cursor: hand;
 			<ul>
 				<li class="itemposts"><div class="items">
 		            <a href="#" target="_blank" title="Publicación 1" >
-		            <img alt="Presidencia del Consejo de Ministros" src="<?php echo get_template_directory_uri(); ?>/img/educativos/pub-3.png" /></a></div>
+		            <img alt="#" src="<?php echo get_template_directory_uri(); ?>/img/educativos/pub-3.png" /></a></div>
+		        </li>
+		        <li class="itemposts"><div class="items">
+		            <a href="#" target="_blank" title="Publicación 1" >
+		            <img alt="#" src="<?php echo get_template_directory_uri(); ?>/img/educativos/pub-3.png" /></a></div>
 		        </li>		        
 			</ul>
 		</div>
