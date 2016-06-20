@@ -61,7 +61,7 @@
             </li>
             
             <li class="itemposts midium-1"><div class="items">
-            <a href="http://www.mtc.gob.pe/portal/inicio.html" title="Ministerio de Transportes y Comunicaciones" ><img alt="Ministerio de Transportes y Comunicaciones" src="<?php echo get_template_directory_uri(); ?>/img/instituciones/min-transportes.png" /></a></div>
+            <a href="http://www.mtc.gob.pe/portal/inicio.html" title="Ministerio de Transportes y Comunicaciones" ><img alt="Ministerio de Transportes y Comunicaciones" src="<?php echo get_template_directory_uri(); ?>/img/instituciones/min-transportes.jpg" /></a></div>
             </li>
             
             <li class="itemposts small"><div class="items">
