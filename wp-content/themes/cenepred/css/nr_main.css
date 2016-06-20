@@ -12,7 +12,7 @@ header.main {
 .left {
 	float: left;
 }
-.bg-01 {
+.bg-01, .main.grid {
 	background: #f3eeea;
 }
 
@@ -245,4 +245,7 @@ li.itemposts.last {
 }
 .col-10 .educativos {
 	width: 42%;
+}
+.main.wrap {
+	padding: 0;
 }
