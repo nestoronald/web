@@ -258,7 +258,7 @@ cursor:pointer; cursor: hand;
 		            <a href="#" target="_blank" title="Publicación 1" >
 		            <img alt="#" src="<?php echo get_template_directory_uri(); ?>/img/educativos/pub-3.png" /></a></div>
 		        </li>
-		        <li class="itemposts"><div class="items">
+		        <li class="itemposts"><div class="items last">
 		            <a href="#" target="_blank" title="Publicación 1" >
 		            <img alt="#" src="<?php echo get_template_directory_uri(); ?>/img/educativos/pub-3.png" /></a></div>
 		        </li>		        

@@ -206,11 +206,15 @@ a.more-link {
     padding-bottom: 20px;
     border-bottom: 1px solid #d2cdc9;
 }
-.slide-pub li {
+.slide-pub li, .educativos ul li {
 	float: left;
 	margin-right: 20px;
 }
-.slide-pub li.last {	
+.slide-pub li img, .educativos ul li img {
+	width: 135px;
+    height: 191px;
+}
+li.last {	
 	margin-right: 0;
 }
 .slide-pub li a:hover {
