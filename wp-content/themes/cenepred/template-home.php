@@ -253,11 +253,11 @@ cursor:pointer; cursor: hand;
 				<h3>Educativos</h3>
 				<ul>
 					<li class="itemposts"><div class="items">
-			            <a href="#" target="_blank" title="Publicación 1" >
+			            <a href="http://192.168.2.20/web/mapa-de-heladas-y-friajes/" target="_blank" title="Publicación 1" >
 			            <img alt="#" src="<?php echo get_template_directory_uri(); ?>/img/educativos/pub-3.png" /></a></div>
 			        </li>
 			        <li class="itemposts last"><div class="items">
-			            <a href="#" target="_blank" title="Publicación 1" >
+			            <a href=" http://192.168.2.20/web/cenepred/" target="_blank" title="Publicación 1" >
 			            <img alt="#" src="<?php echo get_template_directory_uri(); ?>/img/educativos/estimacion-prevencion-reconstruccion-small.jpg" /></a></div>
 			        </li>		        
 				</ul>
