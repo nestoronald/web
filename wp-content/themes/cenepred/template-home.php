@@ -66,7 +66,7 @@ cursor:pointer; cursor: hand;
 	                    <ul class="slides">	                        
 	                       <?php
 							$home_slider = get_option( 'blakzr_slide_homepage_slider' );
-		
+							var_dump($home_slider);
 							foreach ( $home_slider as $slide ) :
 		
 								if ( is_numeric( $slide['url'] ) ) :
