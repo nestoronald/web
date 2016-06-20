@@ -89,41 +89,7 @@ cursor:pointer; cursor: hand;
 							<?php
 							endforeach;
 							?>
-
-							<!--li>
-								<figure>
-									<a href="#">
-										<img src="http://192.168.2.20/web/wp-content/uploads/2016/06/slider1.jpg" alt="">
-										<figcaption>
-											<h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-											tempor incididunt ut labore et dolore magna aliqua. 
-											</h4>
-										</figcaption>
-									</a>
-								</figure>
-							</li>
-							<li>
-								<figure>
-									<a href="#">
-										<img src="http://192.168.2.20/web/wp-content/uploads/2016/06/slider4.jpg" alt="">
-										<figcaption>
-											<h4>Ut enim ad minim veniam,
-											quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</h4>											
-										</figcaption>
-									</a>
-								</figure>
-							</li>
-							<li>
-								<figure>
-									<a href="#">
-										<img src="http://192.168.2.20/web/wp-content/uploads/2016/06/slider2.jpg" alt="">
-										<figcaption>
-											<h4>Consectetur adipisicing
-											quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</h4>											
-										</figcaption>
-									</a>
-								</figure>
-							</li-->
+							
 	                    </ul>
 	                 </div>
                 <?php }?>         
