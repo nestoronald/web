@@ -235,40 +235,42 @@ cursor:pointer; cursor: hand;
 	</div>
 </div>
 <div class="row">
-	<div class="col-5">
-		<div class="publicaciones">
-		<h3>Publicaciones</h3>
-			<ul class="slide-pub">
-		            <li class="itemposts"><div class="items">
-		            <a href="http://192.168.2.20/web/escenarios-riesgos/" target="_blank" title="Publicación 1" >
-		            <img alt="Presidencia del Consejo de Ministros" src="<?php echo get_template_directory_uri(); ?>/img/publicaciones/pub-1.png" /></a></div>
-		            </li>
-		            <li class="itemposts"><div class="items">
-		            <a href="http://192.168.2.20/web/boletin-sigrid" target="_blank" title="Publicación 2" >
-		            <img alt="Secretaria de Gestion del Riesgo de Desastres" src="<?php echo get_template_directory_uri(); ?>/img/publicaciones/pub-2.png" /></a></div>
-		            </li>		           		             		           
-		    </ul>
+	<div class="col-10">
+		<div class="col-5">
+			<div class="publicaciones">
+			<h3>Publicaciones</h3>
+				<ul class="slide-pub">
+			            <li class="itemposts"><div class="items">
+			            <a href="http://192.168.2.20/web/escenarios-riesgos/" target="_blank" title="Publicación 1" >
+			            <img alt="Presidencia del Consejo de Ministros" src="<?php echo get_template_directory_uri(); ?>/img/publicaciones/pub-1.png" /></a></div>
+			            </li>
+			            <li class="itemposts"><div class="items">
+			            <a href="http://192.168.2.20/web/boletin-sigrid" target="_blank" title="Publicación 2" >
+			            <img alt="Secretaria de Gestion del Riesgo de Desastres" src="<?php echo get_template_directory_uri(); ?>/img/publicaciones/pub-2.png" /></a></div>
+			            </li>		           		             		           
+			    </ul>
+			</div>
 		</div>
-	</div>
-	<div class="col-5">
-		<div class="educativos">
-			<h3>Educativos</h3>
-			<ul>
-				<li class="itemposts"><div class="items">
-		            <a href="#" target="_blank" title="Publicación 1" >
-		            <img alt="#" src="<?php echo get_template_directory_uri(); ?>/img/educativos/pub-3.png" /></a></div>
-		        </li>
-		        <li class="itemposts"><div class="items last">
-		            <a href="#" target="_blank" title="Publicación 1" >
-		            <img alt="#" src="<?php echo get_template_directory_uri(); ?>/img/educativos/pub-3.png" /></a></div>
-		        </li>		        
-			</ul>
-		</div>
-	</div>       
-	<div class=" col-2">
-		<div class="videos">
-			<h3>Videos Institucionales</h3>
-			<iframe width="320" height="230" src="https://www.youtube.com/embed/zb7PVZt4FR4" frameborder="0" allowfullscreen></iframe>
+		<div class="col-5">
+			<div class="educativos">
+				<h3>Educativos</h3>
+				<ul>
+					<li class="itemposts"><div class="items">
+			            <a href="#" target="_blank" title="Publicación 1" >
+			            <img alt="#" src="<?php echo get_template_directory_uri(); ?>/img/educativos/pub-3.png" /></a></div>
+			        </li>
+			        <li class="itemposts"><div class="items last">
+			            <a href="#" target="_blank" title="Publicación 1" >
+			            <img alt="#" src="<?php echo get_template_directory_uri(); ?>/img/educativos/pub-3.png" /></a></div>
+			        </li>		        
+				</ul>
+			</div>
+		</div>       
+		<div class=" col-2">
+			<div class="videos">
+				<h3>Videos Institucionales</h3>
+				<iframe width="320" height="230" src="https://www.youtube.com/embed/zb7PVZt4FR4" frameborder="0" allowfullscreen></iframe>
+			</div>
 		</div>
 	</div>
 </div>	
