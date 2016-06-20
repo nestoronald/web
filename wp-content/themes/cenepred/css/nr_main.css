@@ -130,18 +130,24 @@ header .lema {
 	background: url("../img/btn-aula-virtual.png") no-repeat;
 }
 /*Noticias y videos*/
-.col-10 {	
-	width: 64%;
-}
-.col-5 {	
-	width: 50%;
-}
 .col-2 {
 	width: 25%;
     margin-left: 2.5%;
 }
+.col-4 {
+	width: 40%;    
+}
+.col-5 {	
+	width: 50%;
+}
+.col-6 {	
+	width: 60%;
+}
 .row .col-5 {
 	padding: 0;
+}
+.col-10 {	
+	width: 64%;
 }
 /*Destacados*/
 
@@ -230,4 +236,7 @@ li.last {
 }
 .fecha .mes{
 	text-transform: uppercase;
+}
+.publicaciones li {
+	margin-right: 25px;
 }

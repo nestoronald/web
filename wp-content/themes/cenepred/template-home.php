@@ -236,7 +236,7 @@ cursor:pointer; cursor: hand;
 </div>
 <div class="row">
 	<div class="col-10">
-		<div class="col-5">
+		<div class="col-6">
 			<div class="publicaciones">
 			<h3>Publicaciones</h3>
 				<ul class="slide-pub">
@@ -251,7 +251,7 @@ cursor:pointer; cursor: hand;
 			    </ul>
 			</div>
 		</div>
-		<div class="col-5">
+		<div class="col-4">
 			<div class="educativos">
 				<h3>Educativos</h3>
 				<ul>
