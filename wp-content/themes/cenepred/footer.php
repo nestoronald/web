@@ -18,7 +18,7 @@
             <img alt="Presidencia del Consejo de Ministros" src="<?php echo get_template_directory_uri(); ?>/img/instituciones/pcm.png" /></a></div>
             </li>
             
-            <li class="itemposts large-1"><div class="items">
+            <li class="itemposts large-2"><div class="items">
             <a href="http://sgrd.pcm.gob.pe/" target="_blank" title="Secretaria de Gestion del Riesgo de Desastres" >
             <img alt="Secretaria de Gestion del Riesgo de Desastres" src="<?php echo get_template_directory_uri(); ?>/img/instituciones/sec-ges-riesgos-desastres.png" /></a></div>
             </li>

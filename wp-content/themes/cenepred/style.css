@@ -2647,7 +2647,8 @@ article.blog-list + article.blog-list {
 .prev, 
 .next {
 	position: absolute;
-	top: 20px;
+	/*top: 20px;*/
+	top: 36%;
 	width: 17px;
 	height:29px;
 	cursor: pointer;

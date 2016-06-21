@@ -211,11 +211,21 @@ header .lema {
 }
 #slider-entidades .large {
 	width: 400px !important;
-}#slider-entidades .large-1 {
-	width: 430px !important;
-}#slider-entidades .large-2 {
-	width: 465px !important;
 }
+#slider-entidades .large-1 {
+	width: 430px !important;
+}
+#slider-entidades .large-2 {
+	width: 300px !important;
+}
+.itemposts.large-2 div.items {
+	margin-top: 15px;
+}
+#slider-entidades .large-2 img{
+	width: 300px;
+}
+
+
 span.fecha {
 	position: absolute;
     left: 0;
