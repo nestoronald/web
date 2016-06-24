@@ -66,7 +66,7 @@ header .lema {
 /*Areas*/
 .area, .aplicaciones{
 	position: relative;
-    height: 200px;
+    /*height: 200px;*/
 }
 .area h3, .aplicaciones h3{
 	 margin-left: 71px;
@@ -278,4 +278,7 @@ li.itemposts.last {
 }
 header.main {
 	padding: 0;
+}
+.aplicaciones {
+	margin-top: 20px;
 }
