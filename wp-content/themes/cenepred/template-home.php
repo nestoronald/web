@@ -48,7 +48,10 @@ font: bold 11px Helvetica;
 /*padding: 10px;*/
 cursor:pointer; cursor: hand;
 }   
-</style>   
+</style>
+	<?php 	
+		$url_base='http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
+	?>   
 	<div class="bg-01">
         
        <div class="group">
@@ -108,9 +111,9 @@ cursor:pointer; cursor: hand;
 <div class="area row">
   <h3>Direcciones de linea</h3>
   <ul>
-    <li><a id="btn-dpg" href="http://192.168.2.20/web/direccion-de-fortalecimiento-y-asistencia-tecnica/">Dirección de Gestión de Procesos - DGP</a></li>
-    <li><a id="btn-difat" href="http://192.168.2.20/web/direccion-de-fortalecimiento-y-asistencia-tecnica/">Dirección de Fortalecimiento y Asistencia Técnica - DIFAT</a></li>
-    <li><a id="btn-dimse" href="http://192.168.2.20/web/direccion-de-monitoreo-seguimiento-y-evaluacion/">Dirección de Monitoreo, Seguimiento y Evaluación - DIMSE</a></li>
+    <li><a id="btn-dpg" href=<?php 	echo $url_base ?>"direccion-de-fortalecimiento-y-asistencia-tecnica/">Dirección de Gestión de Procesos - DGP</a></li>
+    <li><a id="btn-difat" href=<?php echo $url_base ?>"direccion-de-fortalecimiento-y-asistencia-tecnica/">Dirección de Fortalecimiento y Asistencia Técnica - DIFAT</a></li>
+    <li><a id="btn-dimse" href=<?php echo $url_base ?>"direccion-de-monitoreo-seguimiento-y-evaluacion/">Dirección de Monitoreo, Seguimiento y Evaluación - DIMSE</a></li>
   </ul>
 </div>
  <div style="clear: both;"></div>      
