@@ -123,9 +123,9 @@ cursor:pointer; cursor: hand;
 <div class="aplicaciones row">
   <h3>Plataformas en linea</h3>
   <ul>
-    <li><a id="btn-sigrid" href="<?php echo $url_base ?>sistema-sigrid/">SIGRID</a></li>
-    <li><a id="btn-siide" href="http://dgp.cenepred.gob.pe/">SIIDE</a></li>
-    <li><a id="btn-simse" href="http://servicios.cenepred.gob.pe/cenepred">SIMSE</a></li>    
+    <li><a id="btn-sigrid" target="_blank" href="<?php echo $url_base ?>sistema-sigrid/">SIGRID</a></li>
+    <li><a id="btn-siide" target="_blank" href="http://dgp.cenepred.gob.pe/">SIIDE</a></li>
+    <li><a id="btn-simse" target="_blank" href="http://servicios.cenepred.gob.pe/cenepred">SIMSE</a></li>    
     <!-- <li><a id="btn-biblioteca-virtual" href="#">BIBLIOTECA-VIRTUAL</a></li>
     <li><a id="btn-aula-virtual" href="#">AULA-VIRTUAL</a></li>
     <li><a id="btn-0" href="#">SIGRID-COLLET</a></li> -->
@@ -196,7 +196,7 @@ cursor:pointer; cursor: hand;
 		<ul>
 			<li><a id="btn-esc-riesgo" href="<?php echo $url_base ?>web/escenarios-de-riesgos/">Escenario de Riesgo</a></li>
 			<li><a id="btn-inspec-tec" href="http://dgp.cenepred.gob.pe/itse/registro_nacional">Inspecciones técnicas</a></li>
-			<li><a id="btn-sigrid-collet" href="https://play.google.com/store/apps/details?id=gob.cenepred.sigrid.collect&hl=es">Sigrid Collect</a></li>
+			<li><a id="btn-sigrid-collet" target="_blank" href="https://play.google.com/store/apps/details?id=gob.cenepred.sigrid.collect&hl=es">Sigrid Collect</a></li>
 			<li><a id="btn-cal" href="<?php echo $url_base ?>eventos/">Calendario de actividades</a></li>
 		</ul>
 	</div>
@@ -207,11 +207,11 @@ cursor:pointer; cursor: hand;
 			<h3>Publicaciones</h3>
 				<ul class="slide-pub">
 			            <li class="itemposts"><div class="items">
-			            <a href="<?php echo $url_base ?>escenarios-riesgos/" title="Publicación 1" >
+			            <a href="<?php echo $url_base ?>escenarios-riesgos/"  title="Publicación 1" >
 			            <img alt="Presidencia del Consejo de Ministros" src="<?php echo get_template_directory_uri(); ?>/img/publicaciones/pub-1.png" /></a></div>
 			            </li>
 			            <li class="itemposts"><div class="items">
-			            <a href="<?php echo $url_base ?>boletin-sigrid" title="Publicación 2" >
+			            <a href="<?php echo $url_base ?>boletin-sigrid"  title="Publicación 2" >
 			            <img alt="Secretaria de Gestion del Riesgo de Desastres" src="<?php echo get_template_directory_uri(); ?>/img/publicaciones/pub-2.png" /></a></div>
 			            </li>		           		             		           
 			    </ul>
@@ -220,7 +220,7 @@ cursor:pointer; cursor: hand;
 				<h3>Educativos</h3>
 				<ul>
 					<li class="itemposts"><div class="items">
-			            <a href="<?php echo $url_base ?>mapa-de-heladas-y-friajes/" title="Publicación 1" >
+			            <a href="<?php echo $url_base ?>mapa-de-heladas-y-friajes/"  title="Publicación 1" >
 			            <img alt="#" src="<?php echo get_template_directory_uri(); ?>/img/educativos/pub-3.png" /></a></div>
 			        </li>
 			        <li class="itemposts last"><div class="items">
