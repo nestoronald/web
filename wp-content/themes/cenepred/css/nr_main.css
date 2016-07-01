@@ -288,3 +288,7 @@ header.main {
 a#btn-sigrid, a#btn-dpg{
 	margin-left: 71px;
 }
+.nota-title, .nota-excerpt{
+	padding-right: 112px;
+    text-align: justify;
+}
