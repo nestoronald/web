@@ -70,7 +70,7 @@ header .lema {
 	position: relative;    
 }
 .area h3, .aplicaciones h3,[class*="col"] h3{
-	color: #00587a;
+	color: #007d82;
     font-size: 18px;
     padding: 7px 0;
     text-transform: uppercase;
@@ -78,7 +78,7 @@ header .lema {
 }
 .noticias h3, .aplicaciones h3, .videos h3, .publicaciones h3, .desta h3, .educativos h3 {
 	letter-spacing: -1px;
-    color: #67a6b7;
+    color: #007d82;
 }
 .publicaciones h3, .educativos h3 {
 	border-bottom: 2px solid #67a6b7;
