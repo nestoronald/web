@@ -195,7 +195,7 @@ cursor:pointer; cursor: hand;
 		<h3>Destacados</h3>
 		<ul>
 			<li><a id="btn-esc-riesgo" href="<?php echo $url_base ?>web/escenarios-de-riesgos/">Escenario de Riesgo</a></li>
-			<li><a id="btn-inspec-tec" href="http://dgp.cenepred.gob.pe/itse/registro_nacional">Inspecciones técnicas</a></li>
+			<li><a id="btn-inspec-tec" href="<?php echo $url_base ?>web/itse/">Inspecciones técnicas</a></li>
 			<li><a id="btn-sigrid-collet" target="_blank" href="https://play.google.com/store/apps/details?id=gob.cenepred.sigrid.collect&hl=es">Sigrid Collect</a></li>
 			<li><a id="btn-cal" href="<?php echo $url_base ?>eventos/">Calendario de actividades</a></li>
 		</ul>
