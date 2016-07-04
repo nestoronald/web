@@ -252,6 +252,7 @@ a.more-link {
 }
 li.itemposts.last {	
 	margin-right: 0;
+	float: right;
 }
 .slide-pub li a:hover {
 	zoom:1;
