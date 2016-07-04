@@ -245,8 +245,8 @@ a.more-link {
     border-bottom: 1px solid #d2cdc9;
 }
 .slide-pub li, .educativos ul li {
-	float: left;	
-	margin-right: 65.4px;
+	float: left;
+    margin-right: 67.4px;
 }
 .slide-pub li img, .educativos ul li img {
 	width: 135px;
@@ -268,13 +268,14 @@ li.itemposts.last {
 	text-transform: uppercase;
 }
 .col-10 .publicaciones {
-	width: 54%;
+	width: 46%;
+    margin-right: 60px;
 }
 .col-10 .publicaciones, .col-10 .educativos {
 	float: left;
 }
 .col-10 .educativos {
-	width: 46%;
+	width: 45.9%;
 }
 header.main {
 	padding: 0;

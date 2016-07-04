@@ -210,7 +210,7 @@ cursor:pointer; cursor: hand;
 			            <a href="<?php echo $url_base ?>escenarios-riesgos/"  title="Publicación 1" >
 			            <img alt="Presidencia del Consejo de Ministros" src="<?php echo get_template_directory_uri(); ?>/img/publicaciones/pub-1.png" /></a></div>
 			            </li>
-			            <li class="itemposts"><div class="items">
+			            <li class="itemposts last"><div class="items">
 			            <a href="<?php echo $url_base ?>boletin-sigrid"  title="Publicación 2" >
 			            <img alt="Secretaria de Gestion del Riesgo de Desastres" src="<?php echo get_template_directory_uri(); ?>/img/publicaciones/pub-2.png" /></a></div>
 			            </li>		           		             		           
