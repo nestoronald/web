@@ -58,7 +58,9 @@ header .lema {
 	background: url("../img/correo.png") no-repeat;
 }
 /*Filas*/
-.row{}
+.row {
+    padding: 0 45px;
+}
 .row:after {
 	clear: both;
 }
