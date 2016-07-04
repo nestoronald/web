@@ -65,22 +65,22 @@ header .lema {
 
 /*Areas*/
 .area, .aplicaciones{
-	position: relative;
-    /*height: 200px;*/
-}
-.area h3, .aplicaciones h3{
-	 margin-left: 71px;
+	position: relative;    
 }
 .area h3, .aplicaciones h3,[class*="col"] h3{
 	color: #00587a;
     font-size: 18px;
-    padding: 7px 5px;
+    padding: 7px 0;
     text-transform: uppercase;
     font-weight: bold;
 }
 .noticias h3, .aplicaciones h3, .videos h3, .publicaciones h3, .desta h3, .educativos h3 {
 	letter-spacing: -1px;
     color: #67a6b7;
+}
+.publicaciones h3, .educativos h3 {
+	border-bottom: 2px solid #67a6b7;
+    margin-bottom: 10px;
 }
 .area ul > li a, .aplicaciones ul > li a, .desta ul > li a {
 	text-indent: -9999px;
@@ -92,7 +92,7 @@ header .lema {
 	height: 105px;		
 }
 .area ul > li a, .aplicaciones ul > li a{
-	margin-left: 92px; /*71px*/
+	margin-left: 100px; /*71px*/
 }
 .area ul > li a img, .aplicaciones ul > li a img, .desta ul > li a img {
 	width: 317px;
@@ -165,9 +165,6 @@ header .lema {
 }
 #menu-principal {
 	text-align: center;
-}
-.noticias, .publicaciones {
-	padding-left: 64px;
 }
 #footer {
 	color: #fbfbfb;
@@ -246,8 +243,8 @@ a.more-link {
     border-bottom: 1px solid #d2cdc9;
 }
 .slide-pub li, .educativos ul li {
-	float: left;
-	margin-right: 65px;
+	float: left;	
+	margin-right: 65.4px;
 }
 .slide-pub li img, .educativos ul li img {
 	width: 135px;
@@ -268,13 +265,13 @@ li.itemposts.last {
 	text-transform: uppercase;
 }
 .col-10 .publicaciones {
-	width: 50%;
+	width: 54%;
 }
 .col-10 .publicaciones, .col-10 .educativos {
 	float: left;
 }
 .col-10 .educativos {
-	width: 42%;
+	width: 46%;
 }
 header.main {
 	padding: 0;
@@ -286,7 +283,7 @@ header.main {
 	margin-top: 15px;
 }
 a#btn-sigrid, a#btn-dpg{
-	margin-left: 71px;
+	margin-left: 0;
 }
 .nota-title, .nota-excerpt{
 	padding-right: 112px;
