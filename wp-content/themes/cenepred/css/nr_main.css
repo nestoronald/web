@@ -293,3 +293,19 @@ a#btn-sigrid, a#btn-dpg{
 	padding-right: 112px;
     text-align: justify;
 }
+/*iconos pie de pagina*/
+span#dir:before {
+	background: url("../img/direccion.png") no-repeat;
+}
+span#tel:before {
+	background: url("../img/contacto.png") no-repeat;
+}
+span.hora:before {
+	background: url("../img/horario.png") no-repeat;
+}
+span#opor:before {
+	background: url("../img/oportunidades.png") no-repeat;
+}
+span.enreg:before {
+	background: url("../img/enlaces.png") no-repeat;
+}
