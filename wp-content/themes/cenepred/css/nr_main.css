@@ -303,7 +303,7 @@ span#tel:before {
 span.hora:before {
 	content: url("../img/horario.png");
 }
-a#opor:before {
+a.opor:before {
 	content: url("../img/oportunidades.png");
 }
 a.enreg:before {
