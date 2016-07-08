@@ -303,9 +303,9 @@ span#tel:before {
 span.hora:before {
 	content: url("../img/horario.png");
 }
-span#opor:before {
+a#opor:before {
 	content: url("../img/oportunidades.png");
 }
-span.enreg:before {
+a.enreg:before {
 	content: url("../img/enlaces.png");
 }
