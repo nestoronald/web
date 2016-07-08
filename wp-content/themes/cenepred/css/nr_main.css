@@ -295,17 +295,17 @@ a#btn-sigrid, a#btn-dpg{
 }
 /*iconos pie de pagina*/
 span#dir:before {
-	background: url("../img/direccion.png") no-repeat;
+	content: url("../img/direccion.png");
 }
 span#tel:before {
-	background: url("../img/contacto.png") no-repeat;
+	content: url("../img/contacto.png");
 }
 span.hora:before {
-	background: url("../img/horario.png") no-repeat;
+	content: url("../img/horario.png");
 }
 span#opor:before {
-	background: url("../img/oportunidades.png") no-repeat;
+	content: url("../img/oportunidades.png");
 }
 span.enreg:before {
-	background: url("../img/enlaces.png") no-repeat;
+	content: url("../img/enlaces.png");
 }
