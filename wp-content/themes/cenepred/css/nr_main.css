@@ -176,7 +176,7 @@ header .lema {
 	text-align: center;
 }
 #footer .textwidget {
-	line-height: 1.8;
+	line-height: 2;
 }
 .none {
 	display: none;
@@ -319,6 +319,6 @@ span#dir:before, span#tel:before, span.hora:before, a.opor:before, a.enreg:befor
 span#dir:before{	
     left: -15px;    
 }
-span.hora:before{	
-    left: -22px;    
+span.hora:before, span#tel:before{	
+    left: -20px;    
 }
