@@ -314,6 +314,11 @@ a.enreg:before {
 }
 span#dir:before, span#tel:before, span.hora:before, a.opor:before, a.enreg:before{
 	position: absolute;
-    left: -17px;
-    top: -4px;
+    left: -17px;    
+}
+span#dir:before{	
+    left: -15px;    
+}
+span.hora:before{	
+    left: -22px;    
 }
