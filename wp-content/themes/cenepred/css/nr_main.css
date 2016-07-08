@@ -294,6 +294,9 @@ a#btn-sigrid, a#btn-dpg{
     text-align: justify;
 }
 /*iconos pie de pagina*/
+.textwidget span, .textwidget a {
+	position: relative;
+}
 span#dir:before {
 	content: url("../img/direccion.png");
 }
@@ -308,4 +311,9 @@ a.opor:before {
 }
 a.enreg:before {
 	content: url("../img/enlaces.png");
+}
+span#dir:before, span#tel:before, span.hora:before, a.opor:before, a.enreg:before{
+	position: absolute;
+    left: -17px;
+    top: -4px;
 }
