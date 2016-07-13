@@ -341,13 +341,16 @@ span.hora:before, span#tel:before{
 	background-position:-32px 0;
 	left: 34px;
 }
-.icon span.hora {
+.icon span.opor {
 	background-position:-64px 0;
 }
 .icon span.enreg {
-	background-position:-86px 0;
+	background-position: 0 -34px;
 	top: 10px;
+	width: 46px;
+	height: 46px;	
+	left: 15px;
 }
-.icon span.opor {
+.icon span.hora {
 	background-position:-108px 0;
 }
