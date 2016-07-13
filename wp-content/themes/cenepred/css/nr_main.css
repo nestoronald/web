@@ -322,9 +322,11 @@ span#dir:before{
 span.hora:before, span#tel:before{	
     left: -20px;    
 }
-
+.icon {
+	position: relative;
+}
 .icon span {    
-    width: 32px;
+    width: 30px;
     height: 32px;    
     background: url(../img/icons.png) no-repeat;
 }
@@ -332,5 +334,5 @@ span.hora:before, span#tel:before{
 	background-position:0 0;
 }
 .icon span#tel {
-	background-position:36px 0;
+	background-position:32px 0;
 }
