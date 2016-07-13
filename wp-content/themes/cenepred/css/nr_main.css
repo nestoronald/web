@@ -329,6 +329,7 @@ span.hora:before, span#tel:before{
     width: 30px;
     height: 32px;    
     background: url(../img/icons.png) no-repeat;
+    display: inline-block;
 }
 .icon span#dir {
 	background-position:0 0;
