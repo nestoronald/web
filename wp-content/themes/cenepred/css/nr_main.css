@@ -335,5 +335,8 @@ span.hora:before, span#tel:before{
 	background-position:0 0;
 }
 .icon span#tel {
-	background-position:32px 0;
+	background-position:-32px 0;
+}
+.icon span.hora {
+	background-position:-64px 0;
 }
