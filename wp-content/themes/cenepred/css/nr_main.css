@@ -330,13 +330,24 @@ span.hora:before, span#tel:before{
     height: 32px;    
     background: url(../img/icons.png) no-repeat;
     display: inline-block;
+    float: left;
+	left: 22px;
+	top: 5px;
 }
 .icon span#dir {
 	background-position:0 0;
 }
 .icon span#tel {
 	background-position:-32px 0;
+	left: 34px;
 }
 .icon span.hora {
 	background-position:-64px 0;
+}
+.icon span.enreg {
+	background-position:-86px 0;
+	top: 10px;
+}
+.icon span.opor {
+	background-position:-108px 0;
 }
