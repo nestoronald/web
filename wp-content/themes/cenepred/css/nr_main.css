@@ -323,7 +323,14 @@ span.hora:before, span#tel:before{
     left: -20px;    
 }
 
-#dir {
-    padding-left: 20px;
-    background: url(../img/icons.png) no-repeat 0 0;
+.icon span {    
+    width: 32px;
+    height: 32px;    
+    background: url(../img/icons.png) no-repeat;
+}
+.icon span#dir {
+	background-position:0 0;
+}
+.icon span#tel {
+	background-position:36px 0;
 }
