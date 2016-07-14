@@ -221,11 +221,11 @@ cursor:pointer; cursor: hand;
 				<ul>
 					<li class="itemposts"><div class="items">
 			            <a href="<?php echo $url_base ?>mapa-de-heladas-y-friajes/"  title="Publicación 1" >
-			            <img alt="#" src="<?php echo get_template_directory_uri(); ?>/img/educativos/pub-3.png" /></a></div>
+			            <img alt="#" src="<?php echo get_template_directory_uri(); ?>/img/educativos/cenepred.jpg" /></a></div>
 			        </li>
 			        <li class="itemposts last"><div class="items">
 			            <a href="<?php echo $url_base ?>cenepred/" title="Publicación 1" >
-			            <img alt="#" src="<?php echo get_template_directory_uri(); ?>/img/educativos/estimacion-prevencion-reconstruccion-small.jpg" /></a></div>
+			            <img alt="#" src="<?php echo get_template_directory_uri(); ?>/img/educativos/marco-normativo.jpg" /></a></div>
 			        </li>		        
 				</ul>
 			</div>		
