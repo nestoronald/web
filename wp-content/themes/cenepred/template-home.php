@@ -207,24 +207,24 @@ cursor:pointer; cursor: hand;
 			<h3>Publicaciones</h3>
 				<ul class="slide-pub">
 			            <li class="itemposts"><div class="items">
-			            <a href="<?php echo $url_base ?>escenarios-riesgos/"  title="Publicación 1" >
+			            <a href="<?php echo $url_base ?>escenarios-riesgos/"  title="Escenarios de Riesgos Bajas Temperaturas 2015" >
 			            <img alt="Presidencia del Consejo de Ministros" src="<?php echo get_template_directory_uri(); ?>/img/publicaciones/pub-1.png" /></a></div>
 			            </li>
 			            <li class="itemposts last"><div class="items">
-			            <a href="<?php echo $url_base ?>boletin-sigrid"  title="Publicación 2" >
+			            <a href="<?php echo $url_base ?>boletin-sigrid"  title="Boletin SIGRID" >
 			            <img alt="Secretaria de Gestion del Riesgo de Desastres" src="<?php echo get_template_directory_uri(); ?>/img/publicaciones/pub-2.png" /></a></div>
 			            </li>		           		             		           
 			    </ul>
-			</div>		
+			</div>					
 			<div class="educativos">
 				<h3>Educativos</h3>
 				<ul>
 					<li class="itemposts"><div class="items">
-			            <a href="<?php echo $url_base ?>mapa-de-heladas-y-friajes/"  title="Publicación 1" >
+			            <a href="<?php echo $url_base ?>mapa-de-heladas-y-friajes/"  title="Que es el CENEPRED" >
 			            <img alt="#" src="<?php echo get_template_directory_uri(); ?>/img/educativos/cenepred.jpg" /></a></div>
 			        </li>
 			        <li class="itemposts last"><div class="items">
-			            <a href="<?php echo $url_base ?>cenepred/" title="Publicación 1" >
+			            <a href="<?php echo $url_base ?>cenepred/" title="Marco Normativo del CENEPRED" >
 			            <img alt="#" src="<?php echo get_template_directory_uri(); ?>/img/educativos/marco-normativo.jpg" /></a></div>
 			        </li>		        
 				</ul>
