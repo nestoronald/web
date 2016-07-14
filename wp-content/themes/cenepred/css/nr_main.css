@@ -360,6 +360,6 @@ span.hora:before, span#tel:before{
 	margin-bottom: 20px;
 	margin-top: 20px;
 }
-b {
+#footer b {
 	font-weight: bold;
 }
