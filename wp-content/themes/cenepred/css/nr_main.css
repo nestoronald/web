@@ -328,8 +328,8 @@ span.hora:before, span#tel:before{
 	padding-left: 27px;
 }
 .icon span {    
-    width: 30px;
-    height: 32px;    
+    width: 32px;
+    height: 34px;    
     background: url(../img/icons.png) no-repeat;
     display: inline-block;
     float: left;
