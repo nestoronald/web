@@ -220,11 +220,11 @@ cursor:pointer; cursor: hand;
 				<h3>Educativos</h3>
 				<ul>
 					<li class="itemposts"><div class="items">
-			            <a href="<?php echo $url_base ?>mapa-de-heladas-y-friajes/"  title="Que es el CENEPRED" >
+			            <a href="<?php echo $url_base ?>que-es-cenepred/"  title="Que es el CENEPRED" >
 			            <img alt="#" src="<?php echo get_template_directory_uri(); ?>/img/educativos/cenepred.jpg" /></a></div>
 			        </li>
 			        <li class="itemposts last"><div class="items">
-			            <a href="<?php echo $url_base ?>cenepred/" title="Marco Normativo del CENEPRED" >
+			            <a href="<?php echo $url_base ?>marco-normativo-cenepred/" title="Marco Normativo del CENEPRED" >
 			            <img alt="#" src="<?php echo get_template_directory_uri(); ?>/img/educativos/marco-normativo.jpg" /></a></div>
 			        </li>		        
 				</ul>
