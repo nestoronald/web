@@ -111,7 +111,7 @@ cursor:pointer; cursor: hand;
 <div class="area row">
   <h3>Direcciones de linea</h3>
   <ul>
-    <li><a id="btn-dpg" href="<?php echo $url_base?>direccion-de-fortalecimiento-y-asistencia-tecnica/">Dirección de Gestión de Procesos - DGP</a></li>
+    <li><a id="btn-dpg" href="<?php echo $url_base?>dgp/">Dirección de Gestión de Procesos - DGP</a></li>
     <li><a id="btn-difat" href="<?php echo $url_base?>direccion-de-fortalecimiento-y-asistencia-tecnica/">Dirección de Fortalecimiento y Asistencia Técnica - DIFAT</a></li>
     <li><a id="btn-dimse" href="<?php echo $url_base?>direccion-de-monitoreo-seguimiento-y-evaluacion/">Dirección de Monitoreo, Seguimiento y Evaluación - DIMSE</a></li>
   </ul>
