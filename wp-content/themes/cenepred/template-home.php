@@ -13,7 +13,6 @@ get_header( 'home' );
 <link rel="stylesheet" type="text/css" media="all" href="<?php echo get_template_directory_uri();?>/css/noticias.css">
 <link rel="stylesheet" type="text/css" media="all" href="<?php echo get_template_directory_uri();?>/css/interestecnico.css">
 <link rel="stylesheet" type="text/css" media="all" href="<?php echo get_template_directory_uri();?>/css/tab.css">
-<link rel="stylesheet" type="text/css" media="all" href="<?php echo get_template_directory_uri();?>/css/listanoticia.css">
  <style type="text/css"> 
   
 #itselink1 {
@@ -139,7 +138,7 @@ cursor:pointer; cursor: hand;
 <div class="row">
 	<div class="col-10">
 		<div class="noticias">
-			<h3>Noticias</h3>
+			<a href="<?php echo $url_base ?>notas-de-prensa/"><h3>Noticias</h3></a>
 			<div>				
 	            
 	            <?php 
@@ -187,7 +186,7 @@ cursor:pointer; cursor: hand;
 					</article><!-- #post-0 -->
 		
 					<?php endif; ?>
-												            
+				<a class="more-news" href="<?php echo $url_base ?>notas-de-prensa/">Ver más noticias</a>								            
 			</div><!-- .main-content -->			
 		</div>
 	</div>       
@@ -242,6 +241,3 @@ cursor:pointer; cursor: hand;
         
 
 <?php  get_footer(); ?>
-
-
-

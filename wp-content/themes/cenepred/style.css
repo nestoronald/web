@@ -3,7 +3,7 @@ Theme Name: CENEPRED_NUEVO
 Theme URI: http://www.paginasweb.pe
 Description: Diseño modificado del Framework PW
 Version: 0.1
-Author: Davis Gereda
+Author: CENEPRED
 Author URI: http://www.cenepred.gob.pe
 License: GNU General Public License
 License URI: license.txt
@@ -3487,4 +3487,14 @@ article.blog-list + article.blog-list {
 
 @media only screen and (max-width: 400px){
     
+}
+a.more-news{
+	color: rgb(50, 154, 186);
+	margin-bottom: 20px;
+	display: block;
+}
+
+.aplicaciones h3 {
+    border-bottom: 7px solid #007d82;
+    margin-bottom: 15px;
 }
